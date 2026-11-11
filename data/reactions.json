@@ -1,0 +1,457 @@
+{
+ "_meta": {
+  "version": "0.1",
+  "count": 12,
+  "note": "反应不是配方步骤，是「在什么条件下会发生什么」。条件用区间表示，是阈值不是开关。",
+  "updated": "2026-11-11"
+ },
+ "rateZh": {
+  "instant": "瞬时",
+  "minutes": "分钟",
+  "hours": "小时",
+  "days": "天",
+  "weeks": "周"
+ },
+ "verdictZh": {
+  "desired": "想要",
+  "contextual": "看场合",
+  "avoid": "要避免"
+ },
+ "reactions": [
+  {
+   "id": "r1-esterification",
+   "no": "R1",
+   "zh": "酯化",
+   "en": "Esterification",
+   "mode": "chemical",
+   "condText": "酸催化 · ≥80℃ 或数周",
+   "rate": "days",
+   "reversible": true,
+   "verdict": "desired",
+   "reactants": [
+    "class:carboxylic-acid",
+    "class:alcohol"
+   ],
+   "products": [
+    {
+     "match": "class:ester",
+     "sensoryDelta": "生青 → 果香"
+    }
+   ],
+   "conditions": {
+    "ph": [
+     2,
+     4
+    ],
+    "tempC": [
+     80,
+     120
+    ],
+    "timeH": [
+     24,
+     672
+    ]
+   },
+   "mechanism": "羧酸与醇在酸催化下脱一分子水成酯；常温几乎不动，要热或要时间。",
+   "teaching": "摇壶里不会发生酯化——酒里的酯来自发酵与陈年。想马上要果香，用浸渍或蒸馏，不要等反应。",
+   "avoid": "",
+   "evidence": "literature"
+  },
+  {
+   "id": "r2-hydrolysis",
+   "no": "R2",
+   "zh": "酯水解",
+   "en": "Ester hydrolysis",
+   "mode": "chemical",
+   "condText": "pH > 8 · 或高温久放",
+   "rate": "hours",
+   "reversible": true,
+   "verdict": "avoid",
+   "reactants": [
+    "class:ester",
+    "compound:water"
+   ],
+   "products": [
+    {
+     "match": "class:carboxylic-acid",
+     "sensoryDelta": "果香消失"
+    },
+    {
+     "match": "class:alcohol",
+     "sensoryDelta": "出现肥皂感"
+    }
+   ],
+   "conditions": {
+    "ph": [
+     8,
+     14
+    ],
+    "tempC": [
+     20,
+     100
+    ],
+    "timeH": [
+     1,
+     168
+    ]
+   },
+   "mechanism": "酯被碱水解回酸和醇，果香消失，留下的酸带来酸败、肥皂感。",
+   "teaching": "开瓶后放冰箱的道理就在这：酒精度降、温度升、pH 高，酯掉得最快。",
+   "avoid": "低温、避光、别加碱性的苦精或苏打放隔夜。",
+   "evidence": "literature"
+  },
+  {
+   "id": "r3-maillard",
+   "no": "R3",
+   "zh": "美拉德",
+   "en": "Maillard reaction",
+   "mode": "chemical",
+   "condText": "≥120℃ · 表面要干",
+   "rate": "minutes",
+   "reversible": false,
+   "verdict": "contextual",
+   "reactants": [
+    "class:reducing-sugar",
+    "class:amino-acid"
+   ],
+   "products": [
+    {
+     "match": "class:pyrazine",
+     "sensoryDelta": "烤面包 / 坚果"
+    },
+    {
+     "match": "compound:furaneol",
+     "sensoryDelta": "焦糖"
+    }
+   ],
+   "conditions": {
+    "tempC": [
+     120,
+     200
+    ],
+    "waterPct": [
+     0,
+     20
+    ]
+   },
+   "mechanism": "羰基与氨基缩合，经 Amadori 重排裂解，生成吡嗪、呋喃与 Strecker 醛。",
+   "teaching": "水煮永远到不了 120℃——所以要「先煎后泡」。这也是烤菠萝比生菠萝更像甜点的原因。",
+   "avoid": "",
+   "evidence": "literature"
+  },
+  {
+   "id": "r4-caramelization",
+   "no": "R4",
+   "zh": "焦糖化",
+   "en": "Caramelization",
+   "mode": "chemical",
+   "condText": "≥160℃ · 无氨基酸参与",
+   "rate": "minutes",
+   "reversible": false,
+   "verdict": "contextual",
+   "reactants": [
+    "class:sugar"
+   ],
+   "products": [
+    {
+     "match": "compound:maltol",
+     "sensoryDelta": "焦糖 / 奶油"
+    },
+    {
+     "match": "compound:diacetyl",
+     "sensoryDelta": "黄油"
+    }
+   ],
+   "conditions": {
+    "tempC": [
+     160,
+     200
+    ]
+   },
+   "mechanism": "糖自身受热降解与聚合，生成呋喃类、麦芽酚与双乙酰；过 180℃ 转向苦与焦。",
+   "teaching": "熬糖浆到 110℃ 只是浓缩，160℃ 才开始变色。配方里的「糖浆 2:1」永远不会焦糖化。",
+   "avoid": "",
+   "evidence": "literature"
+  },
+  {
+   "id": "r5-terpene-oxidation",
+   "no": "R5",
+   "zh": "萜烯氧化",
+   "en": "Terpene oxidation",
+   "mode": "chemical",
+   "condText": "常温 · 有氧 · 见光",
+   "rate": "days",
+   "reversible": false,
+   "verdict": "avoid",
+   "reactants": [
+    "compound:d-limonene",
+    "compound:o2"
+   ],
+   "products": [
+    {
+     "match": "compound:carvone",
+     "sensoryDelta": "陈油 / 塑料"
+    },
+    {
+     "match": "class:terpene-peroxide",
+     "sensoryDelta": "发苦"
+    }
+   ],
+   "conditions": {
+    "tempC": [
+     15,
+     35
+    ],
+    "timeH": [
+     24,
+     336
+    ],
+    "oxygen": true,
+    "light": true
+   },
+   "mechanism": "柠檬烯在光氧下自氧化成氢过氧化物，再重排为香芹酮（留兰香、陈油味）。",
+   "teaching": "柑橘汁现榨现用不是讲究：它一小时内就在变味。皮油更耐放，但也怕光。",
+   "avoid": "冷藏、避光、减少顶空；加抗坏血酸只能减慢。",
+   "evidence": "literature"
+  },
+  {
+   "id": "r6-polyphenol-browning",
+   "no": "R6",
+   "zh": "多酚氧化褐变",
+   "en": "Polyphenol browning",
+   "mode": "chemical",
+   "condText": "常温 · 接触空气 · 切面",
+   "rate": "hours",
+   "reversible": false,
+   "verdict": "avoid",
+   "reactants": [
+    "compound:catechin",
+    "compound:o2"
+   ],
+   "products": [
+    {
+     "match": "class:quinone-polymer",
+     "sensoryDelta": "变褐 / 涩感增强"
+    }
+   ],
+   "conditions": {
+    "tempC": [
+     15,
+     35
+    ],
+    "timeH": [
+     0.25,
+     24
+    ],
+    "oxygen": true,
+    "enzyme": "polyphenol oxidase"
+   },
+   "mechanism": "多酚氧化酶把酚氧化成醌，醌再聚合成褐黑色素。",
+   "teaching": "苹果切开变色就是这个。加热到 70℃ 以上灭酶能停住，或加抗坏血酸（表 C）。",
+   "avoid": "焯水灭酶、加酸与抗坏血酸、减少切面暴露。",
+   "evidence": "literature"
+  },
+  {
+   "id": "r7-anthocyanin-ph",
+   "no": "R7",
+   "zh": "花青素 pH 平衡",
+   "en": "Anthocyanin pH equilibrium",
+   "mode": "equilibrium",
+   "condText": "pH 1–14 全区间",
+   "rate": "instant",
+   "reversible": true,
+   "verdict": "desired",
+   "reactants": [
+    "compound:anthocyanin"
+   ],
+   "products": [
+    {
+     "match": "compound:anthocyanin-red",
+     "sensoryDelta": "pH3 红"
+    },
+    {
+     "match": "compound:anthocyanin-blue",
+     "sensoryDelta": "pH7 蓝"
+    },
+    {
+     "match": "compound:anthocyanin-green",
+     "sensoryDelta": "pH10 绿"
+    }
+   ],
+   "conditions": {
+    "ph": [
+     1,
+     14
+    ]
+   },
+   "mechanism": "不同 pH 下共轭结构改变，颜色红→紫→蓝→绿；是平衡移动，不是生成新物质。",
+   "teaching": "洛神花的红加苏打会变蓝绿，不是坏了。想做「会变色的酒」，这是最便宜的办法。",
+   "avoid": "",
+   "evidence": "literature"
+  },
+  {
+   "id": "r8-casein-isoelectric",
+   "no": "R8",
+   "zh": "酪蛋白等电点沉淀",
+   "en": "Casein isoelectric precipitation",
+   "mode": "physical",
+   "condText": "pH ≤ 4.6 · 加酸",
+   "rate": "instant",
+   "reversible": false,
+   "verdict": "desired",
+   "reactants": [
+    "compound:casein",
+    "class:acid"
+   ],
+   "products": [
+    {
+     "match": "class:casein-curd",
+     "sensoryDelta": "絮凝 · 澄清 · 香气变干净"
+    }
+   ],
+   "conditions": {
+    "ph": [
+     3.5,
+     4.6
+    ],
+    "tempC": [
+     4,
+     25
+    ],
+    "timeH": [
+     0,
+     2
+    ]
+   },
+   "mechanism": "酪蛋白在 pH 4.6（等电点）失去静电斥力而絮凝，沉淀时把脂溶性香气一起带走，滤掉后得到清澈、香气更干净的酒。",
+   "teaching": "奶洗的关键不是「加奶」，是「让它凝」——酸量算不够，pH 掉不到 4.6 就不会分层。",
+   "avoid": "",
+   "evidence": "literature"
+  },
+  {
+   "id": "r9-ouzo",
+   "no": "R9",
+   "zh": "乌佐效应",
+   "en": "Ouzo effect",
+   "mode": "physical",
+   "condText": "乙醇 < 30% · 快速加水",
+   "rate": "instant",
+   "reversible": true,
+   "verdict": "desired",
+   "reactants": [
+    "compound:anethole",
+    "compound:water"
+   ],
+   "products": [
+    {
+     "match": "class:nanoemulsion",
+     "sensoryDelta": "清澈 → 乳白云雾"
+    }
+   ],
+   "conditions": {
+    "ethanolPct": [
+     0,
+     30
+    ]
+   },
+   "mechanism": "茴香脑在低乙醇高水时溶解度骤降，自发形成纳米乳液，光散射成乳白。",
+   "teaching": "加水要快、要冷；慢加会先过饱和再骤析，颗粒变大、放一会儿就分层。",
+   "avoid": "",
+   "evidence": "literature"
+  },
+  {
+   "id": "r10-enzyme-clarify",
+   "no": "R10",
+   "zh": "酶解澄清",
+   "en": "Enzymatic clarification",
+   "mode": "chemical",
+   "condText": "4–20℃ · 数小时–过夜",
+   "rate": "hours",
+   "reversible": false,
+   "verdict": "desired",
+   "reactants": [
+    "class:pectin",
+    "enzyme:pectinase"
+   ],
+   "products": [
+    {
+     "match": "class:galacturonic-acid",
+     "sensoryDelta": "浑浊 → 清澈"
+    }
+   ],
+   "conditions": {
+    "tempC": [
+     4,
+     50
+    ],
+    "ph": [
+     3.5,
+     5
+    ],
+    "timeH": [
+     1,
+     12
+    ],
+    "enzyme": "pectinase"
+   },
+   "mechanism": "果胶酶切断裂解果胶主链，长链变短，不再缠住水分子，浑浊散去。",
+   "teaching": "酶怕热，过 60℃ 失活；也怕高酒精，>20% 活性大降。所以先澄清，后加酒。",
+   "avoid": "",
+   "evidence": "literature"
+  },
+  {
+   "id": "r11-iron-polyphenol",
+   "no": "R11",
+   "zh": "铁-多酚络合",
+   "en": "Iron–polyphenol complex",
+   "mode": "chemical",
+   "condText": "微量 Fe³⁺ 即触发",
+   "rate": "instant",
+   "reversible": false,
+   "verdict": "avoid",
+   "reactants": [
+    "class:polyphenol",
+    "ion:fe3"
+   ],
+   "products": [
+    {
+     "match": "class:iron-polyphenol-complex",
+     "sensoryDelta": "变色 · 发暗 / 墨绿"
+    }
+   ],
+   "conditions": {
+    "metalIon": "Fe3+"
+   },
+   "mechanism": "三价铁与邻二酚羟基形成深色络合物，颜色从淡黄变墨绿到黑。",
+   "teaching": "刀、摇酒壶、冰块都可能带铁。红酒配深色食材发黑就是这个，不是坏。",
+   "avoid": "用不锈钢或玻璃器皿、避免铁器与含铁冰。",
+   "evidence": "literature"
+  },
+  {
+   "id": "r12-ethanol-water",
+   "no": "R12",
+   "zh": "乙醇-水缔合",
+   "en": "Ethanol–water association",
+   "mode": "physical",
+   "condText": "任意比例 · 立即",
+   "rate": "instant",
+   "reversible": true,
+   "verdict": "contextual",
+   "reactants": [
+    "compound:ethanol",
+    "compound:water"
+   ],
+   "products": [
+    {
+     "match": "class:hydrogen-bonded-cluster",
+     "sensoryDelta": "放热 · 体积收缩"
+    }
+   ],
+   "conditions": {},
+   "mechanism": "乙醇与水的氢键缔合导致体积收缩，50% v/v 时约收缩 3.6%，所以 50+50 不等于 100。",
+   "teaching": "配方台的成品体积必须按质量算再折体积，否则永远对不上。这也是调酒师「先酒后水」感觉的量差来源。",
+   "avoid": "",
+   "evidence": "literature"
+  }
+ ]
+}

@@ -1,0 +1,1557 @@
+{
+ "_meta": {
+  "version": "0.1",
+  "title": "结构分子表 · 不靠闻的那一半",
+  "count": 53,
+  "note": "收的是决定颜色、涩感、浑浊、凝胶、辣、酸度、离子反应与酶解的分子、离子与酶。它们大多不挥发或阈值极高，闻不到，但决定一杯酒「长什么样、什么口感、能不能澄清、会不会出问题」。与 compounds.json（143 条挥发香气分子）互补，不重复。酶是「工具」而非「成分」，单独成类。",
+  "fields": "id zh en cls cas formula sol{w,e,o}(0不溶/1微溶/2可溶/3易溶) effect cond tox{lv,note}(0安全/1注意/2限量) from[] tech[] conf(lit/est)"
+ },
+ "classes": [
+  {
+   "id": "polyphenol",
+   "zh": "多酚",
+   "en": "POLYPHENOL",
+   "glyph": "◉",
+   "color": "#6B4A2E"
+  },
+  {
+   "id": "pigment",
+   "zh": "色素",
+   "en": "PIGMENT",
+   "glyph": "◐",
+   "color": "#8A3A6B"
+  },
+  {
+   "id": "protein",
+   "zh": "蛋白",
+   "en": "PROTEIN",
+   "glyph": "⬡",
+   "color": "#7A6A4A"
+  },
+  {
+   "id": "hydrocolloid",
+   "zh": "胶体与多糖",
+   "en": "HYDROCOLLOID",
+   "glyph": "◍",
+   "color": "#3E5C4B"
+  },
+  {
+   "id": "irritant",
+   "zh": "辣与刺激",
+   "en": "IRRITANT",
+   "glyph": "✸",
+   "color": "#A33B2B"
+  },
+  {
+   "id": "acid",
+   "zh": "有机酸",
+   "en": "ORGANIC ACID",
+   "glyph": "✦",
+   "color": "#B9A03C"
+  },
+  {
+   "id": "ion",
+   "zh": "离子",
+   "en": "ION",
+   "glyph": "✱",
+   "color": "#6E7A7A"
+  },
+  {
+   "id": "other",
+   "zh": "其他活性物",
+   "en": "BIOACTIVE",
+   "glyph": "⊛",
+   "color": "#5A5145"
+  },
+  {
+   "id": "enzyme",
+   "zh": "酶 · 工具",
+   "en": "ENZYME",
+   "glyph": "⟳",
+   "color": "#4A6A7A"
+  }
+ ],
+ "items": [
+  {
+   "id": "st-tannin-cond",
+   "zh": "缩合单宁",
+   "en": "Condensed tannin (PAs)",
+   "cls": "polyphenol",
+   "cas": "—",
+   "formula": "(C15H14O6)n",
+   "effect": "涩感与收敛，与唾液蛋白结合后「变干」",
+   "cond": "与蛋白同杯时最明显；pH 越高越涩",
+   "from": [
+    "ing-redwine",
+    "ing-cinnamon",
+    "ing-apple",
+    "ing-grape",
+    "ing-jujube"
+   ],
+   "tech": [
+    "T8",
+    "T9",
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 2,
+    "o": 0
+   },
+   "tox": {
+    "lv": 1,
+    "note": "过量涩感强并抑制铁吸收；与蛋白同杯可降涩"
+   }
+  },
+  {
+   "id": "st-tannin-hydro",
+   "zh": "水解单宁",
+   "en": "Hydrolysable tannin",
+   "cls": "polyphenol",
+   "cas": "—",
+   "formula": "C76H52O46 (鞣酸)",
+   "effect": "涩中带苦，遇 Fe³⁺ 迅速变蓝黑",
+   "cond": "铁器、铁盐、氧化",
+   "from": [
+    "ing-oak",
+    "ing-saffron",
+    "ing-pomegranate"
+   ],
+   "tech": [
+    "T17",
+    "T11"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 2,
+    "o": 0
+   },
+   "tox": {
+    "lv": 1,
+    "note": "水解单宁（鞣酸）过量有肝毒性，不可长期高浓度浸泡"
+   }
+  },
+  {
+   "id": "st-anthocyanin",
+   "zh": "花青素",
+   "en": "Anthocyanin (C3G)",
+   "cls": "pigment",
+   "cas": "7084-24-4",
+   "formula": "C21H21O11+",
+   "effect": "pH 指示剂：酸性红、中性紫、碱性蓝绿，遇氧褐变",
+   "cond": "pH 3–9 之间变色最明显；加热 60℃ 以上加速降解",
+   "from": [
+    "ing-strawberry",
+    "ing-blueberry",
+    "ing-blackberry",
+    "ing-hibiscus",
+    "ing-cherry",
+    "ing-mulberry",
+    "ing-grape"
+   ],
+   "tech": [
+    "T1",
+    "T6",
+    "T19"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-chlorophyll",
+   "zh": "叶绿素",
+   "en": "Chlorophyll a",
+   "cls": "pigment",
+   "cas": "479-61-8",
+   "formula": "C55H72MgN4O5",
+   "effect": "绿色，遇酸脱镁变橄榄褐（青草→腌菜色）",
+   "cond": "pH < 5 数分钟内开始脱镁",
+   "from": [
+    "ing-cucumber",
+    "ing-basil",
+    "ing-mint",
+    "ing-matcha",
+    "ing-edamame"
+   ],
+   "tech": [
+    "T1",
+    "T3",
+    "T19"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 0,
+    "e": 2,
+    "o": 3
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-carotenoid",
+   "zh": "类胡萝卜素",
+   "en": "β-Carotene",
+   "cls": "pigment",
+   "cas": "7235-40-7",
+   "formula": "C40H56",
+   "effect": "橙黄，油溶性，遇氧褪色；是「颜色不进水」的典型",
+   "cond": "光照 + 氧气；脂肪共存时更稳定",
+   "from": [
+    "ing-carrot",
+    "ing-mango",
+    "ing-apricot",
+    "ing-peach",
+    "ing-tomato"
+   ],
+   "tech": [
+    "T2",
+    "T7"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 0,
+    "e": 1,
+    "o": 3
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-betalain",
+   "zh": "甜菜红素",
+   "en": "Betalain (betanin)",
+   "cls": "pigment",
+   "cas": "7659-95-2",
+   "formula": "C24H26N2O13",
+   "effect": "紫红，pH 4–5 最稳，>60℃ 迅速褪成土黄",
+   "cond": "温度敏感，不适合慢煮",
+   "from": [
+    "ing-beetroot",
+    "ing-dragonfruit"
+   ],
+   "tech": [
+    "T4",
+    "T6"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-curcumin",
+   "zh": "姜黄素",
+   "en": "Curcumin",
+   "cls": "pigment",
+   "cas": "458-37-7",
+   "formula": "C21H20O6",
+   "effect": "亮黄，碱性变橙红，可做 pH 试纸",
+   "cond": "pH > 8 变橙红",
+   "from": [
+    "ing-turmeric"
+   ],
+   "tech": [
+    "T3",
+    "T7"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 1,
+    "e": 3,
+    "o": 3
+   },
+   "tox": {
+    "lv": 0,
+    "note": "常规调味量安全；高剂量补充剂另论"
+   }
+  },
+  {
+   "id": "st-casein",
+   "zh": "酪蛋白",
+   "en": "Casein",
+   "cls": "protein",
+   "cas": "9000-71-9",
+   "formula": "—",
+   "effect": "等电点 pH 4.6 凝聚沉淀，这就是奶洗的原理",
+   "cond": "pH 4.4–4.8 迅速絮凝；乙醇 > 30% 也会沉",
+   "from": [
+    "ing-milk",
+    "ing-yogurt",
+    "ing-creamcheese"
+   ],
+   "tech": [
+    "T8",
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 1,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-gelatin",
+   "zh": "明胶",
+   "en": "Gelatin",
+   "cls": "protein",
+   "cas": "9000-70-8",
+   "formula": "—",
+   "effect": "冷却成胶，与单宁结合后浑浊并失去凝胶力",
+   "cond": "40℃ 溶、15℃ 凝；遇单宁/蛋白酶失效",
+   "from": [
+    "ing-gelatin"
+   ],
+   "tech": [
+    "T9",
+    "T14"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-ovalbumin",
+   "zh": "卵清蛋白",
+   "en": "Ovalbumin",
+   "cls": "protein",
+   "cas": "9006-50-2",
+   "formula": "—",
+   "effect": "摇和后形成稳定泡沫，遇高温凝固成白色絮",
+   "cond": "60℃ 以上变性；酸与乙醇使其难打发",
+   "from": [
+    "ing-eggwhite"
+   ],
+   "tech": [
+    "T15"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-gluten",
+   "zh": "面筋蛋白",
+   "en": "Gluten",
+   "cls": "protein",
+   "cas": "8002-80-0",
+   "formula": "—",
+   "effect": "遇水揉搓成团，带来「糊」的质感",
+   "cond": "水 + 机械力",
+   "from": [
+    "ing-flour"
+   ],
+   "tech": [
+    "T7"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 1,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-soy",
+   "zh": "大豆蛋白",
+   "en": "Soy protein",
+   "cls": "protein",
+   "cas": "9010-10-0",
+   "formula": "—",
+   "effect": "遇酸/钙离子絮凝，豆乳也能奶洗",
+   "cond": "pH 4.5 或加钙盐",
+   "from": [
+    "ing-soymilk"
+   ],
+   "tech": [
+    "T8"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-pectin-hm",
+   "zh": "高甲氧基果胶",
+   "en": "HM pectin",
+   "cls": "hydrocolloid",
+   "cas": "9000-69-5",
+   "formula": "—",
+   "effect": "需糖 > 55% 且 pH 3 附近才凝胶（做果酱的原理）",
+   "cond": "糖+酸；不加糖不凝",
+   "from": [
+    "ing-apple",
+    "ing-citrus-peel",
+    "ing-strawberry",
+    "ing-quince"
+   ],
+   "tech": [
+    "T10",
+    "T11",
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-pectin-lm",
+   "zh": "低甲氧基果胶",
+   "en": "LM pectin",
+   "cls": "hydrocolloid",
+   "cas": "—",
+   "formula": "—",
+   "effect": "只要有钙离子就凝，不需要糖",
+   "cond": "Ca²⁺ 存在",
+   "from": [
+    "ing-apple"
+   ],
+   "tech": [
+    "T10",
+    "T13"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-alginate",
+   "zh": "海藻酸钠",
+   "en": "Sodium alginate",
+   "cls": "hydrocolloid",
+   "cas": "9005-38-3",
+   "formula": "(C6H7NaO6)n",
+   "effect": "遇钙离子瞬间成膜——球化的基础",
+   "cond": "Ca²⁺ > 0.5%；pH < 3.5 时不成膜（需反向球化）",
+   "from": [
+    "ing-alginate"
+   ],
+   "tech": [
+    "T13"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-calcium-lactate",
+   "zh": "乳酸钙",
+   "en": "Calcium lactate",
+   "cls": "ion",
+   "cas": "814-80-2",
+   "formula": "C6H10CaO6",
+   "effect": "给海藻酸钠/低甲氧基果胶提供交联钙",
+   "cond": "0.5–2% 溶液",
+   "from": [
+    "ing-calcium-lactate"
+   ],
+   "tech": [
+    "T13",
+    "T14"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-agar",
+   "zh": "琼脂",
+   "en": "Agar",
+   "cls": "hydrocolloid",
+   "cas": "9002-18-0",
+   "formula": "—",
+   "effect": "85℃ 溶、40℃ 凝，胶体脆、会「出水」",
+   "cond": "必须煮沸溶解；酸会水解失效",
+   "from": [
+    "ing-agar"
+   ],
+   "tech": [
+    "T14",
+    "T10"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 1,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-gellan",
+   "zh": "结冷胶",
+   "en": "Gellan gum",
+   "cls": "hydrocolloid",
+   "cas": "71010-52-1",
+   "formula": "—",
+   "effect": "0.1% 就能悬浮，做「透明悬浮」的首选",
+   "cond": "需 Ca²⁺ 与 80℃ 以上",
+   "from": [
+    "ing-gellan"
+   ],
+   "tech": [
+    "T14"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-carrageenan",
+   "zh": "卡拉胶",
+   "en": "Carrageenan",
+   "cls": "hydrocolloid",
+   "cas": "9000-07-1",
+   "formula": "—",
+   "effect": "与奶蛋白反应，少量就增稠并带「滑」",
+   "cond": "需加热到 80℃；与酪蛋白结合",
+   "from": [
+    "ing-carrageenan"
+   ],
+   "tech": [
+    "T14",
+    "T16"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-xanthan",
+   "zh": "黄原胶",
+   "en": "Xanthan gum",
+   "cls": "hydrocolloid",
+   "cas": "11138-66-2",
+   "formula": "—",
+   "effect": "0.05% 就显著增稠，剪切变稀（倒出来像糖浆）",
+   "cond": "冷溶；加多了发黏",
+   "from": [
+    "ing-xanthan"
+   ],
+   "tech": [
+    "T14",
+    "T16"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-starch",
+   "zh": "淀粉",
+   "en": "Starch",
+   "cls": "hydrocolloid",
+   "cas": "9005-25-8",
+   "formula": "(C6H10O5)n",
+   "effect": "糊化后增稠，冷却变浑浊、易回生",
+   "cond": "60–80℃ 糊化；乙醇抑制糊化",
+   "from": [
+    "ing-potato",
+    "ing-rice",
+    "ing-flour"
+   ],
+   "tech": [
+    "T7",
+    "T14"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 1,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-cellulose",
+   "zh": "纤维素",
+   "en": "Cellulose",
+   "cls": "hydrocolloid",
+   "cas": "9004-34-6",
+   "formula": "(C6H10O5)n",
+   "effect": "不溶，构成「纤维感」与浑浊；打碎后难滤",
+   "cond": "机械打碎后悬浮",
+   "from": [
+    "ing-celery",
+    "ing-cucumber",
+    "ing-pear"
+   ],
+   "tech": [
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 0,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-capsaicin",
+   "zh": "辣椒素",
+   "en": "Capsaicin",
+   "cls": "irritant",
+   "cas": "404-86-4",
+   "formula": "C18H27NO3",
+   "effect": "激活 TRPV1，辣；油溶，水洗不掉",
+   "cond": "脂肪/乙醇可溶出；糖与乳脂可掩盖",
+   "from": [
+    "ing-chili"
+   ],
+   "tech": [
+    "T2",
+    "T16"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 0,
+    "e": 3,
+    "o": 3
+   },
+   "tox": {
+    "lv": 1,
+    "note": "黏膜刺激；TRPV1 脱敏后冷水无效，只能靠脂肪/乳脂缓解"
+   }
+  },
+  {
+   "id": "st-piperine",
+   "zh": "胡椒碱",
+   "en": "Piperine",
+   "cls": "irritant",
+   "cas": "94-62-2",
+   "formula": "C17H19NO3",
+   "effect": "辣与「麻」的混合，与辣椒素是两条通路",
+   "cond": "乙醇溶出快；久煮损失",
+   "from": [
+    "ing-blackpepper",
+    "ing-longpepper"
+   ],
+   "tech": [
+    "T3",
+    "T4"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 0,
+    "e": 2,
+    "o": 2
+   },
+   "tox": {
+    "lv": 1,
+    "note": "显著提高多种物质（含药物）的生物利用度——服药期间避免大量"
+   }
+  },
+  {
+   "id": "st-gingerol",
+   "zh": "姜辣素",
+   "en": "6-Gingerol",
+   "cls": "irritant",
+   "cas": "23513-14-6",
+   "formula": "C17H26O4",
+   "effect": "温热感；加热脱水变成姜烯酚，更辣更冲",
+   "cond": "> 100℃ 或久煮转换",
+   "from": [
+    "ing-ginger"
+   ],
+   "tech": [
+    "T1",
+    "T5"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 1,
+    "e": 3,
+    "o": 2
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-allicin",
+   "zh": "大蒜素",
+   "en": "Allicin",
+   "cls": "irritant",
+   "cas": "539-86-6",
+   "formula": "C6H10OS2",
+   "effect": "压碎才生成，极不稳定，几分钟内分解成硫化物",
+   "cond": "需酶（蒜氨酸酶）；热与酸使其失活",
+   "from": [
+    "ing-garlic"
+   ],
+   "tech": [
+    "T3"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 3,
+    "o": 2
+   },
+   "tox": {
+    "lv": 1,
+    "note": "刺激胃肠；切开后久置氧化失效，蒜末不建议过夜"
+   }
+  },
+  {
+   "id": "st-menthol",
+   "zh": "薄荷醇（冷感）",
+   "en": "l-Menthol",
+   "cls": "irritant",
+   "cas": "2216-51-5",
+   "formula": "C10H20O",
+   "effect": "激活 TRPM8，产生「凉」而非「冷」；与辣叠加会打架",
+   "cond": "乙醇溶出；与辣椒素互相抑制",
+   "from": [
+    "ing-mint"
+   ],
+   "tech": [
+    "T3",
+    "T4"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 1,
+    "e": 3,
+    "o": 3
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-sanshool",
+   "zh": "羟基山椒素",
+   "en": "Hydroxy-α-sanshool",
+   "cls": "irritant",
+   "cas": "83883-10-7",
+   "formula": "C16H23NO2",
+   "effect": "50 Hz 振动错觉（「麻」），不是味觉",
+   "cond": "油溶；水浸几乎提不出来",
+   "from": [
+    "ing-sichuan-pepper"
+   ],
+   "tech": [
+    "T2",
+    "T3"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 0,
+    "e": 3,
+    "o": 3
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-citric",
+   "zh": "柠檬酸",
+   "en": "Citric acid",
+   "cls": "acid",
+   "cas": "77-92-9",
+   "formula": "C6H8O7",
+   "effect": "主酸味，螯合金属离子，也缓冲 pH",
+   "cond": "—",
+   "from": [
+    "ing-lemon",
+    "ing-lime",
+    "ing-yuzu",
+    "ing-orange"
+   ],
+   "tech": [
+    "T19"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 2,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-malic",
+   "zh": "苹果酸",
+   "en": "Malic acid",
+   "cls": "acid",
+   "cas": "6915-15-7",
+   "formula": "C4H6O5",
+   "effect": "酸感更「尖」更持久，青苹果型",
+   "cond": "—",
+   "from": [
+    "ing-apple",
+    "ing-pear",
+    "ing-grape"
+   ],
+   "tech": [
+    "T19"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 2,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-tartaric",
+   "zh": "酒石酸",
+   "en": "Tartaric acid",
+   "cls": "acid",
+   "cas": "87-69-4",
+   "formula": "C4H6O6",
+   "effect": "葡萄的主酸；与钾结合生成酒石（沉淀）",
+   "cond": "低温 + 高酒精度易析出",
+   "from": [
+    "ing-grape",
+    "ing-wine"
+   ],
+   "tech": [
+    "T6",
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-lactic",
+   "zh": "乳酸",
+   "en": "Lactic acid",
+   "cls": "acid",
+   "cas": "50-21-5",
+   "formula": "C3H6O3",
+   "effect": "柔和圆润的酸，带「奶感」；发酵产物",
+   "cond": "—",
+   "from": [
+    "ing-yogurt",
+    "ing-kombucha"
+   ],
+   "tech": [
+    "T11"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 3,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-acetic",
+   "zh": "乙酸",
+   "en": "Acetic acid",
+   "cls": "acid",
+   "cas": "64-19-7",
+   "formula": "C2H4O2",
+   "effect": "刺鼻的挥发性酸，过量就是「醋味」",
+   "cond": "挥发，闻得到",
+   "from": [
+    "ing-vinegar",
+    "ing-kombucha"
+   ],
+   "tech": [
+    "T5"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 3,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-phosphoric",
+   "zh": "磷酸",
+   "en": "Phosphoric acid",
+   "cls": "acid",
+   "cas": "7664-38-2",
+   "formula": "H3PO4",
+   "effect": "可乐的酸，pH 2.6，能把整杯拉到极低 pH",
+   "cond": "—",
+   "from": [
+    "base-cola"
+   ],
+   "tech": [
+    "T19"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 2,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-ascorbic",
+   "zh": "抗坏血酸",
+   "en": "Ascorbic acid (Vit C)",
+   "cls": "acid",
+   "cas": "50-81-7",
+   "formula": "C6H8O6",
+   "effect": "抗氧化、护色；自身会被氧化成褐色",
+   "cond": "遇氧、光照、铜铁离子加速失效",
+   "from": [
+    "ing-lemon",
+    "ing-strawberry",
+    "ing-bellpepper"
+   ],
+   "tech": [
+    "T4",
+    "T7"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-sodium",
+   "zh": "钠离子",
+   "en": "Sodium ion",
+   "cls": "ion",
+   "cas": "7440-23-5",
+   "formula": "Na+",
+   "effect": "抑制苦味受体，同时抬甜感（这就是加盐的意义）",
+   "cond": "0.05 g 已是分水岭，多了变咸",
+   "from": [
+    "ing-salt"
+   ],
+   "tech": [
+    "T19"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-calcium",
+   "zh": "钙离子",
+   "en": "Calcium ion",
+   "cls": "ion",
+   "cas": "7440-70-2",
+   "formula": "Ca²⁺",
+   "effect": "交联胶体、使蛋白絮凝；硬水会让茶变浑",
+   "cond": "与海藻酸钠/果胶/酪蛋白反应",
+   "from": [
+    "ing-mineral-water",
+    "ing-calcium-lactate"
+   ],
+   "tech": [
+    "T13",
+    "T14",
+    "T8"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-iron",
+   "zh": "铁离子",
+   "en": "Iron (Fe³⁺)",
+   "cls": "ion",
+   "cas": "20074-52-6",
+   "formula": "Fe³⁺",
+   "effect": "与多酚络合变蓝黑（墨水），是「酒变黑」的元凶",
+   "cond": "多酚 + 微量铁；果酒最敏感",
+   "from": [
+    "ing-iron"
+   ],
+   "tech": [
+    "T11",
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 2,
+    "note": "果酒中 > 5 mg/L 即致浑浊变黑；避免酸性果汁接触铁器"
+   }
+  },
+  {
+   "id": "st-copper",
+   "zh": "铜离子",
+   "en": "Copper (Cu²⁺)",
+   "cls": "ion",
+   "cas": "15158-11-9",
+   "formula": "Cu²⁺",
+   "effect": "催化抗坏血酸与硫化物氧化，加速褐变",
+   "cond": "痕量即可；铜器/铜管引入",
+   "from": [
+    "ing-copper"
+   ],
+   "tech": [
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 2,
+    "note": "痕量即催化褐变与抗坏血酸氧化；铜器不建议接触酸性汁"
+   }
+  },
+  {
+   "id": "st-caffeine",
+   "zh": "咖啡因",
+   "en": "Caffeine",
+   "cls": "other",
+   "cas": "58-08-2",
+   "formula": "C8H10N4O2",
+   "effect": "苦，且与多酚形成复合物（茶涩的来源之一）",
+   "cond": "热水萃取；冷萃苦味更低",
+   "from": [
+    "ing-coffee",
+    "ing-oolong",
+    "ing-jasmine-tea"
+   ],
+   "tech": [
+    "T4"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 1,
+    "note": "浓缩 60 ml ≈ 60 mg；孕妇每日建议 < 200 mg，睡前不饮"
+   }
+  },
+  {
+   "id": "st-saponin",
+   "zh": "皂苷",
+   "en": "Saponin",
+   "cls": "other",
+   "cas": "—",
+   "formula": "—",
+   "effect": "天然起泡剂，摇晃即出泡；过量发苦",
+   "cond": "机械力；与胆固醇类结合",
+   "from": [
+    "ing-quinoa",
+    "ing-licorice"
+   ],
+   "tech": [
+    "T15"
+   ],
+   "conf": "est",
+   "sol": {
+    "w": 3,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 1,
+    "note": "藜麦/甘草来源；过量致腹泻，甘草酸长期大量致假性醛固酮增多"
+   }
+  },
+  {
+   "id": "st-oxalate",
+   "zh": "草酸",
+   "en": "Oxalic acid",
+   "cls": "other",
+   "cas": "144-62-7",
+   "formula": "C2H2O4",
+   "effect": "与钙结合生成不溶草酸钙（涩、沙感）",
+   "cond": "钙共存时析出",
+   "from": [
+    "ing-spinach",
+    "ing-rhubarb"
+   ],
+   "tech": [
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 2,
+    "note": "菠菜 0.5–1 g/100g、大黄更高；生食与钙同锅会析出草酸钙，肾结石人群限量"
+   }
+  },
+  {
+   "id": "st-glucosinolate",
+   "zh": "硫代葡萄糖苷",
+   "en": "Glucosinolate",
+   "cls": "other",
+   "cas": "—",
+   "formula": "—",
+   "effect": "压碎后经酶解生成异硫氰酸酯（苦、冲、芥末感）",
+   "cond": "需酶与水分；加热使酶失活",
+   "from": [
+    "ing-horseradish",
+    "ing-cabbage"
+   ],
+   "tech": [
+    "T3"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 2,
+    "o": 0
+   },
+   "tox": {
+    "lv": 1,
+    "note": "异硫氰酸酯大量生食干扰甲状腺摄碘；加热使酶失活即减弱"
+   }
+  },
+  {
+   "id": "st-catechin",
+   "zh": "儿茶素（EGCG）",
+   "en": "Epigallocatechin gallate",
+   "cls": "polyphenol",
+   "cas": "989-51-5",
+   "formula": "C22H18O11",
+   "effect": "涩中带苦，是茶涩的主体；与咖啡因结合成「冷后浑」",
+   "cond": "> 20℃ 澄清、低温析出浑浊；铁离子使其变暗",
+   "from": [
+    "ing-oolong",
+    "ing-jasminetea",
+    "ing-matcha"
+   ],
+   "tech": [
+    "T4",
+    "T11",
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 2,
+    "e": 2,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-chlorogenic",
+   "zh": "绿原酸",
+   "en": "Chlorogenic acid",
+   "cls": "polyphenol",
+   "cas": "327-97-9",
+   "formula": "C16H18O9",
+   "effect": "苹果/咖啡的主多酚，氧化后褐变；本身微苦",
+   "cond": "多酚氧化酶 + 氧；pH 6–7 最快",
+   "from": [
+    "ing-apple",
+    "ing-coffee",
+    "ing-pear"
+   ],
+   "tech": [
+    "T7",
+    "T11"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 3,
+    "e": 2,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-quercetin",
+   "zh": "槲皮素（芦丁）",
+   "en": "Quercetin / Rutin",
+   "cls": "polyphenol",
+   "cas": "117-39-5",
+   "formula": "C15H10O7",
+   "effect": "黄酮，黄色；与铝/铁络合变深，苦味低但涩",
+   "cond": "pH 5–6 偏黄，碱性变橙",
+   "from": [
+    "ing-onion",
+    "ing-apple",
+    "ing-caper"
+   ],
+   "tech": [
+    "T3",
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 1,
+    "e": 2,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": "常规食材量安全"
+   }
+  },
+  {
+   "id": "st-ellagic",
+   "zh": "鞣花酸",
+   "en": "Ellagic acid",
+   "cls": "polyphenol",
+   "cas": "476-66-4",
+   "formula": "C14H6O8",
+   "effect": "几乎不溶，构成「粉感/颗粒感」，也是陈年色深的原因",
+   "cond": "水解单宁降解产物；乙醇中溶解度略升",
+   "from": [
+    "ing-raspberry",
+    "ing-strawberry",
+    "ing-pomegranate",
+    "ing-oak"
+   ],
+   "tech": [
+    "T17",
+    "T12"
+   ],
+   "conf": "lit",
+   "sol": {
+    "w": 0,
+    "e": 1,
+    "o": 0
+   },
+   "tox": {
+    "lv": 0,
+    "note": ""
+   }
+  },
+  {
+   "id": "st-pectinase",
+   "zh": "果胶酶",
+   "en": "Pectinase",
+   "cls": "enzyme",
+   "cas": "9032-75-1",
+   "formula": "—",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "effect": "切断果胶链，30 分钟把浑浊果汁变清；也提高出汁率",
+   "cond": "40–50℃，pH 3.5–5.0，30–120 min；> 70℃ 失活；高乙醇抑制",
+   "from": [
+    "ing-apple",
+    "ing-citrus-peel"
+   ],
+   "tech": [
+    "T11",
+    "T12"
+   ],
+   "conf": "lit",
+   "tox": {
+    "lv": 0,
+    "note": "食品级酶制剂，常用 0.01–0.1%（w/w）；成品需灭活（> 80℃ 10 min）"
+   }
+  },
+  {
+   "id": "st-protease",
+   "zh": "蛋白酶",
+   "en": "Protease",
+   "cls": "enzyme",
+   "cas": "9001-92-7",
+   "formula": "—",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "effect": "水解蛋白，减少浑浊与苦味；也能软化明胶",
+   "cond": "50℃，pH 5–7，30–120 min；> 70℃ 失活",
+   "from": [
+    "ing-pineapple",
+    "ing-papaya",
+    "ing-ginger"
+   ],
+   "tech": [
+    "T11"
+   ],
+   "conf": "lit",
+   "tox": {
+    "lv": 0,
+    "note": "菠萝/木瓜本身含酶（菠萝蛋白酶/木瓜蛋白酶），生食即可起作用——这也是明胶甜点放鲜菠萝不凝的原因"
+   }
+  },
+  {
+   "id": "st-rennet",
+   "zh": "凝乳酶",
+   "en": "Rennet (chymosin)",
+   "cls": "enzyme",
+   "cas": "9001-98-3",
+   "formula": "—",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "effect": "专一切断 κ-酪蛋白，使牛奶凝固——做奶酪的原理，也是「奶洗」的另一种做法",
+   "cond": "35–40℃，pH 6.2–6.5，30–60 min；酸或 > 50℃ 失效",
+   "from": [
+    "base-milk"
+   ],
+   "tech": [
+    "T8",
+    "T14"
+   ],
+   "conf": "lit",
+   "tox": {
+    "lv": 0,
+    "note": "动物源或微生物源；素食者选微生物凝乳酶"
+   }
+  },
+  {
+   "id": "st-amylase",
+   "zh": "淀粉酶",
+   "en": "α-Amylase",
+   "cls": "enzyme",
+   "cas": "9000-90-2",
+   "formula": "—",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "effect": "把淀粉切成糊精与糖，降低浑浊并增加甜感",
+   "cond": "60–70℃，pH 5–7；> 80℃ 失活",
+   "from": [
+    "ing-potato",
+    "ing-rice",
+    "ing-flour"
+   ],
+   "tech": [
+    "T11"
+   ],
+   "conf": "lit",
+   "tox": {
+    "lv": 0,
+    "note": "过量会把「稠」变成「甜」，用量宁少"
+   }
+  },
+  {
+   "id": "st-cellulase",
+   "zh": "纤维素酶",
+   "en": "Cellulase",
+   "cls": "enzyme",
+   "cas": "9012-54-8",
+   "formula": "—",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "effect": "分解纤维素，提高出汁率、减轻「渣感」",
+   "cond": "45–55℃，pH 4–5，1–3 h",
+   "from": [
+    "ing-celery",
+    "ing-cucumber",
+    "ing-pear"
+   ],
+   "tech": [
+    "T11",
+    "T12"
+   ],
+   "conf": "lit",
+   "tox": {
+    "lv": 0,
+    "note": "对果蔬泥效果最明显；对清汁几乎无用"
+   }
+  },
+  {
+   "id": "st-naringinase",
+   "zh": "柚皮苷酶",
+   "en": "Naringinase",
+   "cls": "enzyme",
+   "cas": "9068-31-9",
+   "formula": "—",
+   "sol": {
+    "w": 3,
+    "e": 0,
+    "o": 0
+   },
+   "effect": "把柚皮苷（苦）水解成鼠李糖与普鲁宁（不苦）——去柑橘苦味的最干净办法",
+   "cond": "50℃，pH 3.5–5，1–2 h；> 70℃ 失活",
+   "from": [
+    "ing-yuzu",
+    "ing-grapefruit",
+    "ing-lime"
+   ],
+   "tech": [
+    "T11"
+   ],
+   "conf": "lit",
+   "tox": {
+    "lv": 0,
+    "note": "比加糖掩盖更彻底：它从分子上把苦拿掉，而不是压住"
+   }
+  }
+ ]
+}

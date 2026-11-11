@@ -1,0 +1,5218 @@
+{
+ "_meta": {
+  "version": "0.1",
+  "title": "植物性食材表（表 A）",
+  "scope": "水果 / 蔬菜 / 香草 —— 用户冰箱与菜市场里真有的东西",
+  "fields": {
+   "ph": "近似 pH（整果或汁）",
+   "sugar": "可溶性糖 g/100g",
+   "acid": "可滴定酸 g/100g（以柠檬酸计）",
+   "aroma": "关键香气分子，[分子id, 强度 dominant/high/mid/low]",
+   "actives": "不挥发但决定成败的成分",
+   "tech": "适用技法 id（T1–T20）",
+   "avail": "获取难度 [easy|mid|hard, 说明]",
+   "water": "含水 %",
+   "leach": "1:1 浸渍时可溶性固形物的浸出率（0–1）"
+  },
+  "note": "阈值与含量均为分级估算，界面永远标「估算」",
+  "count": 80,
+  "counts": {
+   "fruit": 24,
+   "vegetable": 9,
+   "herb": 10,
+   "spice": 10,
+   "flower": 5,
+   "dried": 12,
+   "nut": 6,
+   "dairy": 4
+  }
+ },
+ "items": [
+  {
+   "id": "ing-strawberry",
+   "zh": "草莓",
+   "en": "Strawberry",
+   "fam": "fruit",
+   "season": "3–5 月",
+   "ph": 3.5,
+   "sugar": 4.9,
+   "acid": 0.8,
+   "aroma": [
+    [
+     "cmp-rip-01",
+     "high"
+    ],
+    [
+     "cmp-rip-05",
+     "high"
+    ],
+    [
+     "cmp-grn-01",
+     "mid"
+    ],
+    [
+     "cmp-rip-11",
+     "mid"
+    ],
+    [
+     "cmp-rip-08",
+     "mid"
+    ],
+    [
+     "cmp-flo-02",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "果胶 0.4%",
+    "花青素（天竺葵素）",
+    "维生素 C"
+   ],
+   "texture": "软、多汁、组织易碎，一压就出水",
+   "prep": "去蒂对切；冷压取汁，或与酒 1:1 低温慢煮",
+   "tech": [
+    "T1",
+    "T3",
+    "T4",
+    "T6"
+   ],
+   "pairs": [
+    "ing-lime",
+    "ing-basil",
+    "ing-vanilla",
+    "ing-mint"
+   ],
+   "risk": "超过 75℃ 出「煮过的果酱味」，青绿香基本留不住",
+   "note": "关键分子横跨前中后三层，是天然自带三调结构的少数水果",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 90,
+   "leach": 0.7
+  },
+  {
+   "id": "ing-raspberry",
+   "zh": "覆盆子",
+   "en": "Raspberry",
+   "fam": "fruit",
+   "season": "5–7 月",
+   "ph": 3.2,
+   "sugar": 4.4,
+   "acid": 1.3,
+   "aroma": [
+    [
+     "cmp-rip-01",
+     "high"
+    ],
+    [
+     "cmp-flo-02",
+     "mid"
+    ],
+    [
+     "cmp-rip-11",
+     "mid"
+    ],
+    [
+     "cmp-flo-09",
+     "low"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ],
+    [
+     "cmp-grn-03",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "覆盆子酮（树莓酮）",
+    "花青素",
+    "果胶 0.5%"
+   ],
+   "texture": "软、籽多、易碎",
+   "prep": "轻洗即用；要清亮必须过离心或酶澄清",
+   "tech": [
+    "T1",
+    "T4",
+    "T11",
+    "T12"
+   ],
+   "pairs": [
+    "ing-rose",
+    "ing-vanilla",
+    "ing-lemon"
+   ],
+   "risk": "籽在浸泡液里会出涩味，慢煮后要过滤",
+   "note": "「树莓酮」不在本分子表里，它是覆盆子特征香的决定项，待补",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 86,
+   "leach": 0.65
+  },
+  {
+   "id": "ing-blueberry",
+   "zh": "蓝莓",
+   "en": "Blueberry",
+   "fam": "fruit",
+   "season": "6–8 月",
+   "ph": 3.3,
+   "sugar": 7.4,
+   "acid": 0.9,
+   "aroma": [
+    [
+     "cmp-flo-01",
+     "mid"
+    ],
+    [
+     "cmp-rip-05",
+     "mid"
+    ],
+    [
+     "cmp-flo-04",
+     "mid"
+    ],
+    [
+     "cmp-grn-01",
+     "low"
+    ],
+    [
+     "cmp-rip-04",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-flo-05",
+     "low"
+    ],
+    [
+     "cmp-cit-01",
+     "low"
+    ]
+   ],
+   "actives": [
+    "花青素（高）",
+    "果胶 0.6%",
+    "单宁"
+   ],
+   "texture": "皮厚、果肉致密、加热后爆浆",
+   "prep": "整颗轻压再浸渍；想留颜色就别加碱",
+   "tech": [
+    "T1",
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-lemon",
+    "ing-rosemary",
+    "base-honey"
+   ],
+   "risk": "花青素对 pH 极敏感，遇到碱性材料会转蓝绿",
+   "note": "颜色比香气更值得利用——它是天然的 pH 试纸",
+   "avail": {
+    "lv": "mid",
+    "where": "当季 6–8 月"
+   },
+   "water": 84,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-blackberry",
+   "zh": "黑莓",
+   "en": "Blackberry",
+   "fam": "fruit",
+   "season": "6–8 月",
+   "ph": 3.2,
+   "sugar": 4.9,
+   "acid": 1.2,
+   "aroma": [
+    [
+     "cmp-rip-01",
+     "high"
+    ],
+    [
+     "cmp-flo-09",
+     "mid"
+    ],
+    [
+     "cmp-flo-02",
+     "mid"
+    ],
+    [
+     "cmp-grn-01",
+     "low"
+    ],
+    [
+     "cmp-rip-05",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "花青素",
+    "单宁（籽）",
+    "果胶 0.5%"
+   ],
+   "texture": "软、籽硬",
+   "prep": "压碎后冷浸 30 min，别揉籽",
+   "tech": [
+    "T1",
+    "T3",
+    "T12"
+   ],
+   "pairs": [
+    "ing-lime",
+    "ing-thyme",
+    "base-gin"
+   ],
+   "risk": "籽压碎会释放苦单宁",
+   "note": "和覆盆子用法接近，但更涩、更适合配草本",
+   "avail": {
+    "lv": "mid",
+    "where": "当季 6–7 月"
+   },
+   "water": 88,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-lemon",
+   "zh": "柠檬",
+   "en": "Lemon",
+   "fam": "fruit",
+   "season": "全年",
+   "ph": 2.2,
+   "sugar": 2.5,
+   "acid": 5,
+   "aroma": [
+    [
+     "cmp-cit-01",
+     "dominant"
+    ],
+    [
+     "cmp-cit-02",
+     "high"
+    ],
+    [
+     "cmp-cit-04",
+     "mid"
+    ],
+    [
+     "cmp-cit-03",
+     "mid"
+    ],
+    [
+     "cmp-cit-06",
+     "low"
+    ],
+    [
+     "cmp-cit-11",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ],
+    [
+     "cmp-cit-07",
+     "low"
+    ]
+   ],
+   "actives": [
+    "柠檬酸 5–6%",
+    "抗坏血酸",
+    "橙皮苷（皮）"
+   ],
+   "texture": "皮油胞密、果肉多汁",
+   "prep": "皮只取黄色层（白瓤发苦）；汁现挤",
+   "tech": [
+    "T2",
+    "T3",
+    "T4",
+    "T7"
+   ],
+   "pairs": [
+    "ing-basil",
+    "base-honey",
+    "ing-rosemary"
+   ],
+   "risk": "皮油氧化后变松节油味；汁放久会失香",
+   "note": "整杯酒的酸度基准，也是所有柑橘类香气的参考点",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 89,
+   "leach": 0.75
+  },
+  {
+   "id": "ing-lime",
+   "zh": "青柠",
+   "en": "Lime",
+   "fam": "fruit",
+   "season": "全年",
+   "ph": 2.2,
+   "sugar": 1.7,
+   "acid": 6,
+   "aroma": [
+    [
+     "cmp-cit-01",
+     "dominant"
+    ],
+    [
+     "cmp-cit-02",
+     "high"
+    ],
+    [
+     "cmp-cit-04",
+     "mid"
+    ],
+    [
+     "cmp-cit-06",
+     "low"
+    ],
+    [
+     "cmp-cit-13",
+     "low"
+    ],
+    [
+     "cmp-cit-11",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ],
+    [
+     "cmp-cit-12",
+     "low"
+    ]
+   ],
+   "actives": [
+    "柠檬酸",
+    "维生素 C",
+    "叶绿素（皮）"
+   ],
+   "texture": "皮薄油多、汁少",
+   "prep": "皮屑（zest）比汁更香；挤汁前先擦皮",
+   "tech": [
+    "T2",
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-mint",
+    "ing-basil",
+    "ing-ginger"
+   ],
+   "risk": "和薄荷同用会抢同一段前调，二选一",
+   "note": "香气比柠檬更尖、更青，适合做「一条酸线」",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 88,
+   "leach": 0.75
+  },
+  {
+   "id": "ing-yuzu",
+   "zh": "柚子（香柚）",
+   "en": "Yuzu",
+   "fam": "fruit",
+   "season": "11–1 月",
+   "ph": 2.8,
+   "sugar": 3,
+   "acid": 4,
+   "aroma": [
+    [
+     "cmp-cit-01",
+     "high"
+    ],
+    [
+     "cmp-flo-01",
+     "mid"
+    ],
+    [
+     "cmp-cit-13",
+     "mid"
+    ],
+    [
+     "cmp-cit-11",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ],
+    [
+     "cmp-cit-07",
+     "low"
+    ],
+    [
+     "cmp-cit-09",
+     "low"
+    ]
+   ],
+   "actives": [
+    "柠檬酸",
+    "柚皮苷（苦）",
+    "果胶"
+   ],
+   "texture": "皮厚、油胞大、汁少",
+   "prep": "只用皮屑与少量汁；果肉苦",
+   "tech": [
+    "T2",
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-shiso",
+    "base-honey",
+    "base-gin"
+   ],
+   "risk": "柚皮苷会让整杯发苦，量要少",
+   "note": "花香与柑橘之间的桥——它同时具备两族的分子",
+   "avail": {
+    "lv": "hard",
+    "where": "当季 11–1 月，进口"
+   },
+   "water": 87,
+   "leach": 0.7
+  },
+  {
+   "id": "ing-orange",
+   "zh": "甜橙",
+   "en": "Orange",
+   "fam": "fruit",
+   "season": "12–3 月",
+   "ph": 3.8,
+   "sugar": 9.4,
+   "acid": 1.2,
+   "aroma": [
+    [
+     "cmp-cit-01",
+     "high"
+    ],
+    [
+     "cmp-cit-06",
+     "mid"
+    ],
+    [
+     "cmp-cit-04",
+     "mid"
+    ],
+    [
+     "cmp-cit-11",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-cit-05",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ],
+    [
+     "cmp-cit-09",
+     "low"
+    ]
+   ],
+   "actives": [
+    "柠檬酸",
+    "橙皮苷",
+    "果胶 0.5%"
+   ],
+   "texture": "汁多、皮厚",
+   "prep": "汁与皮分用；皮屑提香、汁做主体",
+   "tech": [
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+   ],
+   "pairs": [
+    "ing-clove",
+    "ing-vanilla",
+    "ing-cinnamon"
+   ],
+   "risk": "甜度高，压香；用量大时先减糖",
+   "note": "辛酸 / 癸醛是「橙皮味」的真正来源，不是柠檬烯",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 87,
+   "leach": 0.75
+  },
+  {
+   "id": "ing-grapefruit",
+   "zh": "葡萄柚",
+   "en": "Grapefruit",
+   "fam": "fruit",
+   "season": "11–4 月",
+   "ph": 3.1,
+   "sugar": 5.9,
+   "acid": 1.8,
+   "aroma": [
+    [
+     "cmp-cit-02",
+     "high"
+    ],
+    [
+     "cmp-cit-09",
+     "high"
+    ],
+    [
+     "cmp-sul-07",
+     "mid"
+    ],
+    [
+     "cmp-cit-01",
+     "mid"
+    ],
+    [
+     "cmp-cit-06",
+     "low"
+    ],
+    [
+     "cmp-cit-11",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ]
+   ],
+   "actives": [
+    "柚皮苷（强苦）",
+    "柠檬酸",
+    "呋喃香豆素"
+   ],
+   "texture": "汁多、膜苦",
+   "prep": "取汁不过膜；皮屑只取表层",
+   "tech": [
+    "T2",
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-rosemary",
+    "base-campari",
+    "ing-mint"
+   ],
+   "risk": "苦味会放大酒精的灼烧感；与部分药物有相互作用（呋喃香豆素）",
+   "note": "诺卡酮 + 硫代薄荷酮 = 那股「又苦又像西柚皮」的锐利",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 89,
+   "leach": 0.7
+  },
+  {
+   "id": "ing-pineapple",
+   "zh": "菠萝",
+   "en": "Pineapple",
+   "fam": "fruit",
+   "season": "3–7 月",
+   "ph": 3.5,
+   "sugar": 9.9,
+   "acid": 0.7,
+   "aroma": [
+    [
+     "cmp-sul-06",
+     "high"
+    ],
+    [
+     "cmp-rip-01",
+     "high"
+    ],
+    [
+     "cmp-rip-05",
+     "mid"
+    ],
+    [
+     "cmp-rip-03",
+     "mid"
+    ],
+    [
+     "cmp-rip-02",
+     "mid"
+    ],
+    [
+     "cmp-cit-04",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-rip-07",
+     "low"
+    ]
+   ],
+   "actives": [
+    "菠萝蛋白酶",
+    "柠檬酸",
+    "果胶"
+   ],
+   "texture": "纤维粗、汁多",
+   "prep": "去芯；蛋白酶会让奶制品发苦",
+   "tech": [
+    "T1",
+    "T3",
+    "T4",
+    "T6"
+   ],
+   "pairs": [
+    "ing-cinnamon",
+    "base-rum",
+    "ing-lime"
+   ],
+   "risk": "菠萝蛋白酶分解明胶——做凝胶时不能用生菠萝",
+   "note": "硫香族里唯一「好的」分子就来自它",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 86,
+   "leach": 0.65
+  },
+  {
+   "id": "ing-mango",
+   "zh": "芒果",
+   "en": "Mango",
+   "fam": "fruit",
+   "season": "5–8 月",
+   "ph": 3.9,
+   "sugar": 13.7,
+   "acid": 0.4,
+   "aroma": [
+    [
+     "cmp-rip-01",
+     "high"
+    ],
+    [
+     "cmp-cit-03",
+     "high"
+    ],
+    [
+     "cmp-rip-05",
+     "mid"
+    ],
+    [
+     "cmp-rip-09",
+     "mid"
+    ],
+    [
+     "cmp-flo-09",
+     "low"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-rip-08",
+     "low"
+    ]
+   ],
+   "actives": [
+    "果胶 0.7%",
+    "胡萝卜素",
+    "抗坏血酸"
+   ],
+   "texture": "纤维多、泥状、极稠",
+   "prep": "打泥后过筛；糖度高，做酒要减糖",
+   "tech": [
+    "T1",
+    "T4",
+    "T13",
+    "T14"
+   ],
+   "pairs": [
+    "ing-chili",
+    "ing-lime",
+    "base-coconut"
+   ],
+   "risk": "糖 13% + 果胶，容易做成「糖水」而非酒",
+   "note": "适合当甜味来源，而不是风味主角",
+   "avail": {
+    "lv": "mid",
+    "where": "当季 5–8 月"
+   },
+   "water": 84,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-passionfruit",
+   "zh": "百香果",
+   "en": "Passion fruit",
+   "fam": "fruit",
+   "season": "6–9 月",
+   "ph": 2.9,
+   "sugar": 11.2,
+   "acid": 2.5,
+   "aroma": [
+    [
+     "cmp-sul-06",
+     "mid"
+    ],
+    [
+     "cmp-rip-05",
+     "mid"
+    ],
+    [
+     "cmp-rip-01",
+     "mid"
+    ],
+    [
+     "cmp-rip-03",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ]
+   ],
+   "actives": [
+    "柠檬酸",
+    "果胶（高）",
+    "胡萝卜素"
+   ],
+   "texture": "籽包在胶质里、极香",
+   "prep": "连籽挖出；要清亮必须过滤",
+   "tech": [
+    "T3",
+    "T4",
+    "T11",
+    "T12"
+   ],
+   "pairs": [
+    "ing-vanilla",
+    "base-rum",
+    "ing-mint"
+   ],
+   "risk": "果胶含量高，冷冻后会凝胶变稠",
+   "note": "香气强度极高，20 ml 就能盖住一杯酒",
+   "avail": {
+    "lv": "mid",
+    "where": "当季夏秋"
+   },
+   "water": 75,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-banana",
+   "zh": "香蕉",
+   "en": "Banana",
+   "fam": "fruit",
+   "season": "全年",
+   "ph": 4.6,
+   "sugar": 20.2,
+   "acid": 0.4,
+   "aroma": [
+    [
+     "cmp-rip-03",
+     "dominant"
+    ],
+    [
+     "cmp-rip-01",
+     "high"
+    ],
+    [
+     "cmp-rip-07",
+     "mid"
+    ],
+    [
+     "cmp-rip-05",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-flo-18",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ]
+   ],
+   "actives": [
+    "淀粉（未熟 20%）",
+    "果胶",
+    "多酚氧化酶"
+   ],
+   "texture": "泥状、易褐变",
+   "prep": "熟透才好用；打泥后立刻用柠檬汁护色",
+   "tech": [
+    "T1",
+    "T4",
+    "T14",
+    "T6"
+   ],
+   "pairs": [
+    "base-rum",
+    "ing-cinnamon",
+    "ing-coffee"
+   ],
+   "risk": "未熟香蕉的淀粉会让酒体发糊；氧化后发黑",
+   "note": "乙酸异戊酯就是「香蕉糖」本糖，工业香精的老祖宗",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 75,
+   "leach": 0.55
+  },
+  {
+   "id": "ing-apple",
+   "zh": "苹果",
+   "en": "Apple",
+   "fam": "fruit",
+   "season": "9–11 月",
+   "ph": 3.4,
+   "sugar": 10.4,
+   "acid": 0.6,
+   "aroma": [
+    [
+     "cmp-rip-12",
+     "high"
+    ],
+    [
+     "cmp-rip-05",
+     "high"
+    ],
+    [
+     "cmp-rip-04",
+     "mid"
+    ],
+    [
+     "cmp-grn-02",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "苹果酸",
+    "果胶 0.5%",
+    "多酚"
+   ],
+   "texture": "脆、汁多",
+   "prep": "带皮冷压最香；切开后褐变",
+   "tech": [
+    "T1",
+    "T4",
+    "T7",
+    "T12"
+   ],
+   "pairs": [
+    "ing-cinnamon",
+    "ing-lemon",
+    "ing-thyme"
+   ],
+   "risk": "氧化变褐很快，需要维 C 或真空",
+   "note": "青苹果 → 青绿香；红苹果 → 熟果甜香，选哪种很关键",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 86,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-pear",
+   "zh": "梨",
+   "en": "Pear",
+   "fam": "fruit",
+   "season": "8–10 月",
+   "ph": 3.6,
+   "sugar": 9.8,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-rip-04",
+     "high"
+    ],
+    [
+     "cmp-rip-12",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-rip-03",
+     "low"
+    ],
+    [
+     "cmp-rip-08",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "山梨醇",
+    "果胶",
+    "石细胞"
+   ],
+   "texture": "水多、甜、酸极低",
+   "prep": "冷压取汁；亚洲梨香气更淡但更甜",
+   "tech": [
+    "T1",
+    "T4",
+    "T6"
+   ],
+   "pairs": [
+    "ing-ginger",
+    "ing-lemon",
+    "ing-vanilla"
+   ],
+   "risk": "酸几乎为零，不加酸会显得「扁」",
+   "note": "最适合做「高球」的果汁：不抢戏、只增加圆润度",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 88,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-peach",
+   "zh": "桃",
+   "en": "Peach",
+   "fam": "fruit",
+   "season": "6–8 月",
+   "ph": 3.6,
+   "sugar": 8.4,
+   "acid": 0.5,
+   "aroma": [
+    [
+     "cmp-rip-09",
+     "high"
+    ],
+    [
+     "cmp-rip-08",
+     "mid"
+    ],
+    [
+     "cmp-nut-04",
+     "mid"
+    ],
+    [
+     "cmp-flo-09",
+     "low"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-flo-02",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ]
+   ],
+   "actives": [
+    "果胶 0.6%",
+    "胡萝卜素",
+    "氰苷（核）"
+   ],
+   "texture": "软、纤维细、易氧化",
+   "prep": "去核；皮可留（香气在皮里）",
+   "tech": [
+    "T1",
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-basil",
+    "ing-vanilla",
+    "base-bourbon"
+   ],
+   "risk": "核含苦杏仁苷，不要长时间浸泡砸碎的核",
+   "note": "γ-壬内酯是「桃子糖」的骨架，和椰子内酯同族",
+   "avail": {
+    "lv": "mid",
+    "where": "当季 6–8 月"
+   },
+   "water": 88,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-apricot",
+   "zh": "杏",
+   "en": "Apricot",
+   "fam": "fruit",
+   "season": "5–7 月",
+   "ph": 3.8,
+   "sugar": 9.2,
+   "acid": 1,
+   "aroma": [
+    [
+     "cmp-rip-09",
+     "mid"
+    ],
+    [
+     "cmp-rip-08",
+     "mid"
+    ],
+    [
+     "cmp-nut-04",
+     "mid"
+    ],
+    [
+     "cmp-nut-01",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-spc-05",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "果胶",
+    "胡萝卜素",
+    "苦杏仁苷（核）"
+   ],
+   "texture": "软、易烂",
+   "prep": "去核；干杏风味更浓，适合泡酒",
+   "tech": [
+    "T1",
+    "T4",
+    "T6"
+   ],
+   "pairs": [
+    "base-almond",
+    "ing-vanilla",
+    "ing-cinnamon"
+   ],
+   "risk": "核内苦杏仁苷有氰化物风险，不入酒",
+   "note": "杏与杏仁共享苯甲醛——「果核味」的同一来源",
+   "avail": {
+    "lv": "mid",
+    "where": "当季 5–7 月"
+   },
+   "water": 86,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-cherry",
+   "zh": "樱桃",
+   "en": "Cherry",
+   "fam": "fruit",
+   "season": "5–7 月",
+   "ph": 3.9,
+   "sugar": 12.8,
+   "acid": 0.6,
+   "aroma": [
+    [
+     "cmp-nut-04",
+     "high"
+    ],
+    [
+     "cmp-flo-04",
+     "high"
+    ],
+    [
+     "cmp-flo-06",
+     "mid"
+    ],
+    [
+     "cmp-flo-09",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ]
+   ],
+   "actives": [
+    "花青素",
+    "单宁",
+    "果胶"
+   ],
+   "texture": "皮薄肉嫩、核硬",
+   "prep": "去核对切；压碎会带核味（好或坏取决于平衡）",
+   "tech": [
+    "T1",
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "base-almond",
+    "ing-vanilla",
+    "base-bourbon"
+   ],
+   "risk": "核味过量会变成「止咳糖浆」",
+   "note": "苯甲醛把樱桃和杏仁、香草连成一条线",
+   "avail": {
+    "lv": "mid",
+    "where": "当季 5–7 月"
+   },
+   "water": 82,
+   "leach": 0.55
+  },
+  {
+   "id": "ing-lychee",
+   "zh": "荔枝",
+   "en": "Lychee",
+   "fam": "fruit",
+   "season": "6–7 月",
+   "ph": 4.6,
+   "sugar": 16.5,
+   "acid": 0.4,
+   "aroma": [
+    [
+     "cmp-flo-08",
+     "high"
+    ],
+    [
+     "cmp-flo-01",
+     "mid"
+    ],
+    [
+     "cmp-flo-05",
+     "mid"
+    ],
+    [
+     "cmp-flo-15",
+     "mid"
+    ],
+    [
+     "cmp-flo-04",
+     "mid"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ]
+   ],
+   "actives": [
+    "果糖",
+    "果胶",
+    "多酚"
+   ],
+   "texture": "多汁、半透明、极香",
+   "prep": "去壳去核；冷冻后香气保留得意外好",
+   "tech": [
+    "T3",
+    "T4",
+    "T6",
+    "T13"
+   ],
+   "pairs": [
+    "ing-rose",
+    "base-gin",
+    "ing-lime"
+   ],
+   "risk": "糖 16%，做酒必须减糖否则失衡",
+   "note": "玫瑰醚含量高——它是「玫瑰」和「荔枝」共用的分子",
+   "avail": {
+    "lv": "mid",
+    "where": "当季 6–7 月"
+   },
+   "water": 82,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-greenplum",
+   "zh": "青梅",
+   "en": "Green plum",
+   "fam": "fruit",
+   "season": "4–6 月",
+   "ph": 2.9,
+   "sugar": 2.4,
+   "acid": 3.5,
+   "aroma": [
+    [
+     "cmp-grn-03",
+     "mid"
+    ],
+    [
+     "cmp-nut-04",
+     "mid"
+    ],
+    [
+     "cmp-rip-04",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ],
+    [
+     "cmp-sou-03",
+     "low"
+    ]
+   ],
+   "actives": [
+    "柠檬酸",
+    "苹果酸",
+    "苦杏仁苷（核）"
+   ],
+   "texture": "硬、极酸、涩",
+   "prep": "去蒂，扎孔或冷冻破皮；必须加糖浸渍",
+   "tech": [
+    "T4",
+    "T17",
+    "T3"
+   ],
+   "pairs": [
+    "base-honey",
+    "ing-hawthorn",
+    "base-baijiu"
+   ],
+   "risk": "核破碎会产生苦味与氢氰酸风险；泡酒别砸核",
+   "note": "青梅酒的本质是「糖 + 酸 + 时间」，是本表里最需要耐心的一项",
+   "avail": {
+    "lv": "mid",
+    "where": "当季 4–6 月"
+   },
+   "water": 85,
+   "leach": 0.5
+  },
+  {
+   "id": "ing-fig",
+   "zh": "无花果",
+   "en": "Fig",
+   "fam": "fruit",
+   "season": "7–10 月",
+   "ph": 4.9,
+   "sugar": 16.3,
+   "acid": 0.4,
+   "aroma": [
+    [
+     "cmp-rip-11",
+     "high"
+    ],
+    [
+     "cmp-rip-09",
+     "mid"
+    ],
+    [
+     "cmp-nut-04",
+     "mid"
+    ],
+    [
+     "cmp-flo-02",
+     "low"
+    ],
+    [
+     "cmp-car-01",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "果胶（高）",
+    "无花果蛋白酶",
+    "花青素"
+   ],
+   "texture": "软烂、籽细脆",
+   "prep": "对切；蛋白酶会凝结奶制品",
+   "tech": [
+    "T1",
+    "T4",
+    "T14"
+   ],
+   "pairs": [
+    "ing-vanilla",
+    "ing-rosemary",
+    "base-honey"
+   ],
+   "risk": "果胶 + 糖高，煮久会变果酱；蛋白酶让奶洗失败",
+   "note": "呋喃酮含量高，是「焦糖草莓」那一类甜的来源",
+   "avail": {
+    "lv": "mid",
+    "where": "当季 7–10 月"
+   },
+   "water": 79,
+   "leach": 0.55
+  },
+  {
+   "id": "ing-tomato",
+   "zh": "番茄",
+   "en": "Tomato",
+   "fam": "fruit",
+   "season": "6–9 月",
+   "ph": 4.3,
+   "sugar": 2.6,
+   "acid": 0.5,
+   "aroma": [
+    [
+     "cmp-grn-01",
+     "high"
+    ],
+    [
+     "cmp-grn-06",
+     "high"
+    ],
+    [
+     "cmp-grn-03",
+     "mid"
+    ],
+    [
+     "cmp-nut-05",
+     "low"
+    ],
+    [
+     "cmp-grn-12",
+     "low"
+    ],
+    [
+     "cmp-cit-11",
+     "low"
+    ],
+    [
+     "cmp-cit-01",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "谷氨酸（鲜味）",
+    "番茄红素",
+    "果胶"
+   ],
+   "texture": "多汁、有籽胶",
+   "prep": "要有番茄味就得连籽胶；澄清后鲜味更集中",
+   "tech": [
+    "T4",
+    "T11",
+    "T12",
+    "T5"
+   ],
+   "pairs": [
+    "ing-basil",
+    "ing-blackpepper",
+    "base-vodka"
+   ],
+   "risk": "澄清过度会失去鲜味载体，只剩「酸水」",
+   "note": "唯一把「鲜味」带进鸡尾酒的常用蔬果",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 94,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-cucumber",
+   "zh": "黄瓜",
+   "en": "Cucumber",
+   "fam": "vegetable",
+   "season": "5–8 月",
+   "ph": 5.6,
+   "sugar": 1.7,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-grn-10",
+     "high"
+    ],
+    [
+     "cmp-grn-09",
+     "mid"
+    ],
+    [
+     "cmp-grn-02",
+     "mid"
+    ],
+    [
+     "cmp-grn-12",
+     "low"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-grn-03",
+     "low"
+    ]
+   ],
+   "actives": [
+    "水 95%",
+    "葫芦素（苦）",
+    "果胶"
+   ],
+   "texture": "脆、水多",
+   "prep": "带皮切薄片冷浸 20 min；别打碎",
+   "tech": [
+    "T3",
+    "T4",
+    "T12",
+    "T10"
+   ],
+   "pairs": [
+    "ing-mint",
+    "ing-lime",
+    "base-gin"
+   ],
+   "risk": "打碎后出青草腥味；两端最苦",
+   "note": "「清爽」的标准答案，成本极低，家庭最该先学会的一项",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 96,
+   "leach": 0.55
+  },
+  {
+   "id": "ing-celery",
+   "zh": "芹菜",
+   "en": "Celery",
+   "fam": "vegetable",
+   "season": "全年",
+   "ph": 5.9,
+   "sugar": 1.3,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-grn-03",
+     "mid"
+    ],
+    [
+     "cmp-cit-01",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-grn-05",
+     "low"
+    ],
+    [
+     "cmp-cit-13",
+     "low"
+    ],
+    [
+     "cmp-wdy-01",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "苯酞（瑟丹内酯）",
+    "钠",
+    "纤维"
+   ],
+   "texture": "纤维粗、汁多",
+   "prep": "冷压取汁后立刻用；纤维会带涩",
+   "tech": [
+    "T4",
+    "T12",
+    "T11"
+   ],
+   "pairs": [
+    "ing-tomato",
+    "base-gin",
+    "ing-lemon"
+   ],
+   "risk": "氧化极快，榨汁 2 小时内必须用完",
+   "note": "自带咸鲜，是「无盐也像加了盐」的少数蔬菜",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 95,
+   "leach": 0.5
+  },
+  {
+   "id": "ing-carrot",
+   "zh": "胡萝卜",
+   "en": "Carrot",
+   "fam": "vegetable",
+   "season": "全年",
+   "ph": 6,
+   "sugar": 4.7,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-cit-14",
+     "mid"
+    ],
+    [
+     "cmp-wdy-01",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-grn-03",
+     "low"
+    ],
+    [
+     "cmp-cit-13",
+     "low"
+    ]
+   ],
+   "actives": [
+    "胡萝卜素",
+    "果胶",
+    "土味（土臭素/2-MIB）"
+   ],
+   "texture": "硬、汁甜",
+   "prep": "冷压或慢煮；土味重时先焯水",
+   "tech": [
+    "T4",
+    "T12",
+    "T1"
+   ],
+   "pairs": [
+    "ing-ginger",
+    "ing-orange",
+    "ing-cinnamon"
+   ],
+   "risk": "土味分子阈值极低（土臭素 1e-5），一根就能毁掉整杯",
+   "note": "甜度高的蔬菜，也是「土味」问题的教科书案例",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 88,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-bellpepper",
+   "zh": "甜椒",
+   "en": "Bell pepper",
+   "fam": "vegetable",
+   "season": "6–10 月",
+   "ph": 5,
+   "sugar": 2.4,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-grn-08",
+     "dominant"
+    ],
+    [
+     "cmp-grn-06",
+     "mid"
+    ],
+    [
+     "cmp-nut-05",
+     "low"
+    ],
+    [
+     "cmp-grn-09",
+     "low"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ]
+   ],
+   "actives": [
+    "辣椒红素",
+    "维生素 C",
+    "果胶"
+   ],
+   "texture": "脆、皮厚",
+   "prep": "切条冷浸；烤过会转成焦糖香",
+   "tech": [
+    "T3",
+    "T4",
+    "T20"
+   ],
+   "pairs": [
+    "ing-basil",
+    "ing-tomato"
+   ],
+   "risk": "IBMP 阈值 2e-6，极少量就盖住一切",
+   "note": "IBMP 是「青椒味」的单一分子，最干净的教学样本",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 92,
+   "leach": 0.5
+  },
+  {
+   "id": "ing-chili",
+   "zh": "辣椒",
+   "en": "Chili",
+   "fam": "vegetable",
+   "season": "7–10 月",
+   "ph": 4.8,
+   "sugar": 5.3,
+   "acid": 0.3,
+   "aroma": [
+    [
+     "cmp-nut-05",
+     "mid"
+    ],
+    [
+     "cmp-grn-06",
+     "mid"
+    ],
+    [
+     "cmp-grn-08",
+     "low"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-spc-08",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "辣椒素",
+    "二氢辣椒素",
+    "胡萝卜素"
+   ],
+   "texture": "皮薄、肉少",
+   "prep": "切开冷浸出辣，别煮（辣味会扩散到全锅）",
+   "tech": [
+    "T2",
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-mango",
+    "ing-lime",
+    "base-honey"
+   ],
+   "risk": "辣椒素被脂肪与酒精放大；糖和酸能压，但不能消除",
+   "note": "辣不是味道是痛觉——所以它能被「脂肪掩蔽」，却不能被「甜」中和",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 88,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-shiso",
+   "zh": "紫苏",
+   "en": "Shiso",
+   "fam": "vegetable",
+   "season": "6–9 月",
+   "ph": 5.8,
+   "sugar": 0.3,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-grn-07",
+     "dominant"
+    ],
+    [
+     "cmp-flo-01",
+     "mid"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-flo-18",
+     "low"
+    ],
+    [
+     "cmp-flo-05",
+     "low"
+    ],
+    [
+     "cmp-cit-13",
+     "low"
+    ],
+    [
+     "cmp-cit-11",
+     "low"
+    ]
+   ],
+   "actives": [
+    "紫苏醛",
+    "花青素（红紫苏）",
+    "迷迭香酸"
+   ],
+   "texture": "叶薄、香极强",
+   "prep": "手撕不用刀（金属会加速氧化）；最后放",
+   "tech": [
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-yuzu",
+    "ing-greenplum",
+    "base-gin"
+   ],
+   "risk": "香气挥发极快，只适合「现做现喝」",
+   "note": "紫苏醛是它独有的分子，和薄荷的薄荷醇完全不同路",
+   "avail": {
+    "lv": "mid",
+    "where": "菜市场当季"
+   },
+   "water": 86,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-ginger",
+   "zh": "生姜",
+   "en": "Ginger",
+   "fam": "vegetable",
+   "season": "全年",
+   "ph": 5.6,
+   "sugar": 1.7,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-spc-07",
+     "high"
+    ],
+    [
+     "cmp-cit-02",
+     "mid"
+    ],
+    [
+     "cmp-cit-01",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-wdy-03",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ],
+    [
+     "cmp-cit-07",
+     "low"
+    ]
+   ],
+   "actives": [
+    "姜辣素（姜醇）",
+    "姜烯酚",
+    "蛋白酶"
+   ],
+   "texture": "纤维多、辛辣",
+   "prep": "切片冷浸或榨汁；加热后辣味转甜",
+   "tech": [
+    "T1",
+    "T3",
+    "T4",
+    "T6"
+   ],
+   "pairs": [
+    "ing-pear",
+    "base-honey",
+    "ing-lime"
+   ],
+   "risk": "姜辣素会随加热转化成更辣的姜烯酚",
+   "note": "「温暖辛香」的默认选项，也是唯一能压住油腻的植物",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 79,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-garlic",
+   "zh": "大蒜",
+   "en": "Garlic",
+   "fam": "vegetable",
+   "season": "全年",
+   "ph": 6.2,
+   "sugar": 1,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-sul-03",
+     "high"
+    ],
+    [
+     "cmp-sul-04",
+     "mid"
+    ],
+    [
+     "cmp-sul-05",
+     "mid"
+    ],
+    [
+     "cmp-sul-02",
+     "low"
+    ],
+    [
+     "cmp-sul-06",
+     "low"
+    ],
+    [
+     "cmp-sul-01",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "大蒜素（allicin）",
+    "二烯丙基二硫",
+    "蒜氨酸酶"
+   ],
+   "texture": "瓣状、油滑",
+   "prep": "整瓣冷浸味淡；切碎后才产蒜素",
+   "tech": [
+    "T2",
+    "T3"
+   ],
+   "pairs": [
+    "ing-tomato",
+    "ing-chili",
+    "base-vodka"
+   ],
+   "risk": "极微量就毁掉一杯甜酒；只适合咸鲜方向的特调",
+   "note": "蒜素不在完整蒜里——它是「切」这个动作的产物（酶促反应）",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 59,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-mint",
+   "zh": "薄荷",
+   "en": "Mint",
+   "fam": "herb",
+   "season": "4–9 月",
+   "ph": 6,
+   "sugar": 0.5,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-wdy-06",
+     "dominant"
+    ],
+    [
+     "cmp-wdy-08",
+     "high"
+    ],
+    [
+     "cmp-wdy-07",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-grn-03",
+     "low"
+    ],
+    [
+     "cmp-cit-11",
+     "low"
+    ],
+    [
+     "cmp-wdy-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "薄荷醇（TRPM8 冷受体激动剂）",
+    "薄荷酮",
+    "迷迭香酸"
+   ],
+   "texture": "叶薄、香挥发快",
+   "prep": "拍打不用刀；最后 30 秒才加",
+   "tech": [
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-lime",
+    "ing-cucumber",
+    "base-chocolate"
+   ],
+   "risk": "和青柠皮抢同一段前调，二选一；煮过会变「牙膏味」",
+   "note": "冷感不是味道——它是触觉，所以「清凉」不能靠加糖抵消",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 85,
+   "leach": 0.5
+  },
+  {
+   "id": "ing-basil",
+   "zh": "罗勒",
+   "en": "Basil",
+   "fam": "herb",
+   "season": "6–9 月",
+   "ph": 5.8,
+   "sugar": 0.3,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-flo-01",
+     "high"
+    ],
+    [
+     "cmp-flo-18",
+     "mid"
+    ],
+    [
+     "cmp-flo-05",
+     "low"
+    ],
+    [
+     "cmp-cit-02",
+     "low"
+    ],
+    [
+     "cmp-flo-15",
+     "low"
+    ],
+    [
+     "cmp-spc-02",
+     "low"
+    ],
+    [
+     "cmp-wdy-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "芳樟醇",
+    "丁香酚",
+    "甲基胡椒酚"
+   ],
+   "texture": "叶厚、易黑",
+   "prep": "手撕；冷浸 10 min 足够",
+   "tech": [
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-strawberry",
+    "ing-tomato",
+    "ing-lemon"
+   ],
+   "risk": "氧化后发黑发苦，冰箱里放一夜就废",
+   "note": "「花香 + 辛香」的桥：它同时有芳樟醇和丁香酚",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 92,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-rosemary",
+   "zh": "迷迭香",
+   "en": "Rosemary",
+   "fam": "herb",
+   "season": "全年",
+   "ph": 5.5,
+   "sugar": 0.2,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-wdy-04",
+     "dominant"
+    ],
+    [
+     "cmp-wdy-01",
+     "mid"
+    ],
+    [
+     "cmp-wdy-03",
+     "mid"
+    ],
+    [
+     "cmp-cit-01",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-spc-03",
+     "low"
+    ],
+    [
+     "cmp-wdy-10",
+     "low"
+    ]
+   ],
+   "actives": [
+    "1,8-桉叶素",
+    "樟脑",
+    "鼠尾草酸（抗氧化）"
+   ],
+   "texture": "木质、硬",
+   "prep": "整枝投入；要快就剪碎再浸 5 min",
+   "tech": [
+    "T1",
+    "T2",
+    "T4"
+   ],
+   "pairs": [
+    "ing-grapefruit",
+    "base-honey"
+   ],
+   "risk": "泡久了出松节油与「药水味」",
+   "note": "木质草本族的代表，也是「烤」这一味的天然来源",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 68,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-thyme",
+   "zh": "百里香",
+   "en": "Thyme",
+   "fam": "herb",
+   "season": "全年",
+   "ph": 5.4,
+   "sugar": 0.1,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-spc-03",
+     "dominant"
+    ],
+    [
+     "cmp-spc-04",
+     "high"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-wdy-01",
+     "low"
+    ],
+    [
+     "cmp-cit-01",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ],
+    [
+     "cmp-spc-01",
+     "low"
+    ]
+   ],
+   "actives": [
+    "百里香酚",
+    "香芹酚",
+    "黄酮"
+   ],
+   "texture": "小叶、木质枝",
+   "prep": "整枝冷浸；加热会释放更多酚类",
+   "tech": [
+    "T1",
+    "T2",
+    "T4"
+   ],
+   "pairs": [
+    "ing-lemon",
+    "base-honey",
+    "ing-apple"
+   ],
+   "risk": "酚类过量会有「消毒水」感",
+   "note": "百里香酚是天然的抗菌剂——这也是它能防腐的原因",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 65,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-sage",
+   "zh": "鼠尾草",
+   "en": "Sage",
+   "fam": "herb",
+   "season": "全年",
+   "ph": 5.6,
+   "sugar": 0.1,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-wdy-03",
+     "high"
+    ],
+    [
+     "cmp-wdy-04",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-wdy-01",
+     "low"
+    ],
+    [
+     "cmp-cit-01",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ],
+    [
+     "cmp-wdy-10",
+     "low"
+    ]
+   ],
+   "actives": [
+    "侧柏酮",
+    "樟脑",
+    "鼠尾草酸"
+   ],
+   "texture": "叶面绒、味重",
+   "prep": "一两片足够；油洗比浸渍更合适",
+   "tech": [
+    "T2",
+    "T4"
+   ],
+   "pairs": [
+    "ing-apricot",
+    "base-bourbon",
+    "base-honey"
+   ],
+   "risk": "侧柏酮有神经毒性，用量必须克制（尤其自制浓缩液）",
+   "note": "「药感」最重的常用香草，安全边界要写清楚",
+   "avail": {
+    "lv": "mid",
+    "where": "超市不常有"
+   },
+   "water": 70,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-lavender",
+   "zh": "薰衣草",
+   "en": "Lavender",
+   "fam": "herb",
+   "season": "6–8 月",
+   "ph": 5.8,
+   "sugar": 0.1,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-flo-01",
+     "dominant"
+    ],
+    [
+     "cmp-flo-14",
+     "high"
+    ],
+    [
+     "cmp-flo-15",
+     "low"
+    ],
+    [
+     "cmp-wdy-01",
+     "low"
+    ],
+    [
+     "cmp-wdy-03",
+     "low"
+    ],
+    [
+     "cmp-wdy-06",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "芳樟醇",
+    "乙酸芳樟酯",
+    "香豆素"
+   ],
+   "texture": "干花穗",
+   "prep": "极少量（1 小撮/杯）；冷水浸 10 min",
+   "tech": [
+    "T3",
+    "T4",
+    "T2"
+   ],
+   "pairs": [
+    "ing-lemon",
+    "base-honey",
+    "base-gin"
+   ],
+   "risk": "过量直接变「洗衣液」；这是最容易翻车的香料",
+   "note": "芳樟醇在薰衣草里占 30%+，和桂花、柑橘共享同一分子",
+   "avail": {
+    "lv": "mid",
+    "where": "花市或网购"
+   },
+   "water": 20,
+   "leach": 0.3
+  },
+  {
+   "id": "ing-cinnamon",
+   "zh": "肉桂",
+   "en": "Cinnamon",
+   "fam": "spice",
+   "season": "全年",
+   "ph": 4.9,
+   "sugar": 0.1,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-spc-01",
+     "dominant"
+    ],
+    [
+     "cmp-flo-18",
+     "mid"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-spc-04",
+     "low"
+    ],
+    [
+     "cmp-spc-02",
+     "low"
+    ],
+    [
+     "cmp-nut-04",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "肉桂醛",
+    "香豆素（桂皮）",
+    "单宁"
+   ],
+   "texture": "树皮卷、硬",
+   "prep": "整段煮或浸；粉会浑浊且难滤",
+   "tech": [
+    "T1",
+    "T4",
+    "T17"
+   ],
+   "pairs": [
+    "ing-apple",
+    "ing-orange",
+    "base-bourbon"
+   ],
+   "risk": "桂皮（cassia）香豆素高，长期大量摄入伤肝；锡兰肉桂更安全",
+   "note": "「温暖辛香」的默认项，但它的香其实来自醛而不是「甜」",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 10,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-clove",
+   "zh": "丁香",
+   "en": "Clove",
+   "fam": "spice",
+   "season": "全年",
+   "ph": 5.3,
+   "sugar": 0.2,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-flo-18",
+     "dominant"
+    ],
+    [
+     "cmp-smk-06",
+     "mid"
+    ],
+    [
+     "cmp-smk-01",
+     "low"
+    ],
+    [
+     "cmp-spc-02",
+     "low"
+    ],
+    [
+     "cmp-spc-01",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "丁香酚",
+    "乙酸丁香酚酯",
+    "单宁"
+   ],
+   "texture": "干花蕾、极硬",
+   "prep": "2–3 颗/升，整颗投入；钉在橙皮上更传统",
+   "tech": [
+    "T1",
+    "T4",
+    "T17"
+   ],
+   "pairs": [
+    "ing-orange",
+    "ing-apple",
+    "base-rum"
+   ],
+   "risk": "丁香酚过量会麻口、盖住一切；一颗就够一杯",
+   "note": "丁香酚也是牙科麻醉剂——「麻」是真的麻",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 10,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-blackpepper",
+   "zh": "黑胡椒",
+   "en": "Black pepper",
+   "fam": "spice",
+   "season": "全年",
+   "ph": 5.2,
+   "sugar": 0.6,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-wdy-01",
+     "high"
+    ],
+    [
+     "cmp-wdy-02",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-cit-01",
+     "low"
+    ],
+    [
+     "cmp-cit-03",
+     "low"
+    ],
+    [
+     "cmp-wdy-04",
+     "low"
+    ],
+    [
+     "cmp-wdy-10",
+     "low"
+    ]
+   ],
+   "actives": [
+    "胡椒碱（辛辣）",
+    "蒎烯",
+    "石竹烯"
+   ],
+   "texture": "整粒硬、现磨香",
+   "prep": "现磨；整粒冷浸 30 min 更柔",
+   "tech": [
+    "T3",
+    "T4",
+    "T2"
+   ],
+   "pairs": [
+    "ing-strawberry",
+    "base-honey",
+    "base-whisky"
+   ],
+   "risk": "磨好后 10 分钟香气减半；胡椒碱刺激胃",
+   "note": "「辛辣」不等于「辣」：胡椒碱和辣椒素是两条通路",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 12,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-sichuanpepper",
+   "zh": "花椒",
+   "en": "Sichuan pepper",
+   "fam": "spice",
+   "season": "7–9 月",
+   "ph": 5.5,
+   "sugar": 0.3,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-flo-01",
+     "high"
+    ],
+    [
+     "cmp-cit-01",
+     "mid"
+    ],
+    [
+     "cmp-flo-05",
+     "low"
+    ],
+    [
+     "cmp-wdy-01",
+     "low"
+    ],
+    [
+     "cmp-cit-03",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ],
+    [
+     "cmp-wdy-06",
+     "low"
+    ]
+   ],
+   "actives": [
+    "羟基山椒素（麻）",
+    "芳樟醇",
+    "柠檬烯"
+   ],
+   "texture": "壳脆、籽硬",
+   "prep": "只用壳（籽发苦）；干锅焙 30 秒再浸",
+   "tech": [
+    "T2",
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "base-gin",
+    "ing-lime",
+    "ing-pear"
+   ],
+   "risk": "麻感会累积，两三颗就够；籽必须去净",
+   "note": "「麻」是触觉（50 Hz 振动错觉），和薄荷的冷感同属触觉家族",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 10,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-cardamom",
+   "zh": "小豆蔻",
+   "en": "Cardamom",
+   "fam": "spice",
+   "season": "全年",
+   "ph": 5.6,
+   "sugar": 0.3,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-wdy-04",
+     "high"
+    ],
+    [
+     "cmp-wdy-09",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-spc-04",
+     "low"
+    ],
+    [
+     "cmp-cit-01",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ],
+    [
+     "cmp-cit-07",
+     "low"
+    ]
+   ],
+   "actives": [
+    "1,8-桉叶素",
+    "乙酸松油酯",
+    "萜烯"
+   ],
+   "texture": "荚果、内有黑籽",
+   "prep": "轻压破荚即可，不要磨粉",
+   "tech": [
+    "T3",
+    "T4",
+    "T1"
+   ],
+   "pairs": [
+    "ing-coffee",
+    "ing-orange",
+    "base-gin"
+   ],
+   "risk": "磨粉后香气 1 小时内衰减大半",
+   "note": "「清凉 + 辛香」的少见组合，适合做无酒精的复杂感",
+   "avail": {
+    "lv": "mid",
+    "where": "超市进口区"
+   },
+   "water": 9,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-staranise",
+   "zh": "八角",
+   "en": "Star anise",
+   "fam": "spice",
+   "season": "全年",
+   "ph": 5,
+   "sugar": 0.2,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-spc-02",
+     "dominant"
+    ],
+    [
+     "cmp-flo-18",
+     "low"
+    ],
+    [
+     "cmp-spc-03",
+     "low"
+    ],
+    [
+     "cmp-cit-01",
+     "low"
+    ],
+    [
+     "cmp-spc-01",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "反式茴香脑",
+    "莽草酸",
+    "单宁"
+   ],
+   "texture": "木质星形、硬",
+   "prep": "1 角/升，煮 5 min 或冷浸一夜",
+   "tech": [
+    "T1",
+    "T4",
+    "T17"
+   ],
+   "pairs": [
+    "ing-orange",
+    "base-rum",
+    "base-honey"
+   ],
+   "risk": "茴香脑过量有「甘草药水」感；也是乌佐效应的分子来源之一",
+   "note": "遇水浑浊（乌佐效应）——极少数能在杯子里「看得见」的化学",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 10,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-nutmeg",
+   "zh": "肉豆蔻",
+   "en": "Nutmeg",
+   "fam": "spice",
+   "season": "全年",
+   "ph": 5.4,
+   "sugar": 0.3,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-cit-14",
+     "mid"
+    ],
+    [
+     "cmp-wdy-01",
+     "mid"
+    ],
+    [
+     "cmp-flo-18",
+     "low"
+    ],
+    [
+     "cmp-spc-03",
+     "low"
+    ],
+    [
+     "cmp-spc-05",
+     "low"
+    ],
+    [
+     "cmp-wdy-03",
+     "low"
+    ],
+    [
+     "cmp-wdy-10",
+     "low"
+    ]
+   ],
+   "actives": [
+    "肉豆蔻醚（致幻，有毒）",
+    "蒎烯",
+    "萜烯"
+   ],
+   "texture": "硬壳坚果",
+   "prep": "现磨少量（<0.1 g/杯）撒面",
+   "tech": [
+    "T4",
+    "T2"
+   ],
+   "pairs": [
+    "base-milk",
+    "base-rum",
+    "ing-coffee"
+   ],
+   "risk": "肉豆蔻醚有神经毒性，一茶匙级别就可能中毒，严格限量",
+   "note": "本表里安全边界最窄的一项，界面必须给红字",
+   "avail": {
+    "lv": "mid",
+    "where": "超市进口区"
+   },
+   "water": 8,
+   "leach": 0.35
+  },
+  {
+   "id": "ing-vanilla",
+   "zh": "香草荚",
+   "en": "Vanilla pod",
+   "fam": "spice",
+   "season": "全年",
+   "ph": 4.5,
+   "sugar": 0.3,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-car-01",
+     "dominant"
+    ],
+    [
+     "cmp-car-03",
+     "mid"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-dry-01",
+     "low"
+    ],
+    [
+     "cmp-nut-04",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "香兰素",
+    "对羟基苯甲醛",
+    "树脂"
+   ],
+   "texture": "革质荚、含膏",
+   "prep": "剖开刮籽，荚一起浸；冷浸 24 h 最佳",
+   "tech": [
+    "T1",
+    "T4",
+    "T5",
+    "T17"
+   ],
+   "pairs": [
+    "base-cream",
+    "base-bourbon",
+    "ing-strawberry"
+   ],
+   "risk": "香兰素阈值 0.02 mg/L，过量会「粉感」压住一切",
+   "note": "香兰素是唯一能同时提供「甜感」而不含糖的分子",
+   "avail": {
+    "lv": "hard",
+    "where": "烘焙店或网购"
+   },
+   "water": 15,
+   "leach": 0.4
+  },
+  {
+   "id": "ing-saffron",
+   "zh": "藏红花",
+   "en": "Saffron",
+   "fam": "spice",
+   "season": "10–11 月",
+   "ph": 5.6,
+   "sugar": 0.1,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-spc-06",
+     "dominant"
+    ],
+    [
+     "cmp-flo-09",
+     "low"
+    ],
+    [
+     "cmp-flo-02",
+     "low"
+    ],
+    [
+     "cmp-flo-10",
+     "low"
+    ],
+    [
+     "cmp-car-01",
+     "low"
+    ],
+    [
+     "cmp-spc-01",
+     "low"
+    ]
+   ],
+   "actives": [
+    "藏红花素（色）",
+    "藏红花醛",
+    "苦藏红花素"
+   ],
+   "texture": "干柱头、极轻",
+   "prep": "3–5 根/杯，温水或酒中泡 20 min",
+   "tech": [
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-orange",
+    "base-gin",
+    "base-honey"
+   ],
+   "risk": "极贵且极易掺假；过量发苦发药",
+   "note": "同时给色与香——天然色素里少见的「香色一体」",
+   "avail": {
+    "lv": "hard",
+    "where": "药房或网购"
+   },
+   "water": 12,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-turmeric",
+   "zh": "姜黄",
+   "en": "Turmeric",
+   "fam": "spice",
+   "season": "全年",
+   "ph": 5.5,
+   "sugar": 0.3,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-spc-07",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-cit-13",
+     "low"
+    ],
+    [
+     "cmp-wdy-04",
+     "low"
+    ],
+    [
+     "cmp-wdy-10",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "姜黄素（pH 指示剂）",
+    "姜黄酮",
+    "树脂"
+   ],
+   "texture": "根茎、染色极强",
+   "prep": "鲜根切片冷浸 15 min；干粉会浑浊",
+   "tech": [
+    "T2",
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-ginger",
+    "ing-lime",
+    "base-coconut"
+   ],
+   "risk": "染色极强，杯子和手都会黄；碱性下变橙红",
+   "note": "又一个天然 pH 试纸——和洛神花、蓝莓是同一类玩法",
+   "avail": {
+    "lv": "mid",
+    "where": "超市调料区"
+   },
+   "water": 12,
+   "leach": 0.3
+  },
+  {
+   "id": "ing-osmanthus",
+   "zh": "桂花",
+   "en": "Osmanthus",
+   "fam": "flower",
+   "season": "9–10 月",
+   "ph": 5.5,
+   "sugar": 0.2,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-flo-02",
+     "high"
+    ],
+    [
+     "cmp-flo-01",
+     "mid"
+    ],
+    [
+     "cmp-flo-05",
+     "mid"
+    ],
+    [
+     "cmp-flo-12",
+     "mid"
+    ],
+    [
+     "cmp-flo-08",
+     "low"
+    ],
+    [
+     "cmp-flo-15",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "β-紫罗兰酮",
+    "芳樟醇氧化物",
+    "类胡萝卜素"
+   ],
+   "texture": "干小花、极轻",
+   "prep": "2 g 干花/升，冷浸 20 min；糖渍更持久",
+   "tech": [
+    "T3",
+    "T4",
+    "T1"
+   ],
+   "pairs": [
+    "ing-pear",
+    "ing-oolong",
+    "base-honey"
+   ],
+   "risk": "热水泡会出涩；香气在 60℃ 以上迅速衰减",
+   "note": "「花而不甜」的典型——它的香来自紫罗兰酮，不是糖",
+   "avail": {
+    "lv": "mid",
+    "where": "秋季鲜、全年干"
+   },
+   "water": 15,
+   "leach": 0.4
+  },
+  {
+   "id": "ing-rose",
+   "zh": "玫瑰",
+   "en": "Rose",
+   "fam": "flower",
+   "season": "5–6 月",
+   "ph": 5.6,
+   "sugar": 0.1,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-flo-08",
+     "high"
+    ],
+    [
+     "cmp-flo-05",
+     "high"
+    ],
+    [
+     "cmp-flo-04",
+     "high"
+    ],
+    [
+     "cmp-flo-01",
+     "mid"
+    ],
+    [
+     "cmp-flo-15",
+     "mid"
+    ],
+    [
+     "cmp-flo-10",
+     "low"
+    ]
+   ],
+   "actives": [
+    "玫瑰醚",
+    "香叶醇",
+    "香茅醇"
+   ],
+   "texture": "花瓣薄",
+   "prep": "只用食用玫瑰；冷浸 15 min 或做纯露",
+   "tech": [
+    "T3",
+    "T4",
+    "T5"
+   ],
+   "pairs": [
+    "ing-lychee",
+    "base-gin",
+    "ing-raspberry"
+   ],
+   "risk": "市售玫瑰常有农药；观赏玫瑰不能入口",
+   "note": "玫瑰醚与荔枝共享——这就是「荔枝像玫瑰」的化学解释",
+   "avail": {
+    "lv": "mid",
+    "where": "花市或网购"
+   },
+   "water": 78,
+   "leach": 0.5
+  },
+  {
+   "id": "ing-jasminetea",
+   "zh": "茉莉花茶",
+   "en": "Jasmine tea",
+   "fam": "flower",
+   "season": "全年",
+   "ph": 5.5,
+   "sugar": 0.1,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-flo-01",
+     "high"
+    ],
+    [
+     "cmp-flo-10",
+     "mid"
+    ],
+    [
+     "cmp-flo-05",
+     "mid"
+    ],
+    [
+     "cmp-flo-06",
+     "mid"
+    ],
+    [
+     "cmp-flo-08",
+     "low"
+    ],
+    [
+     "cmp-nut-04",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "芳樟醇",
+    "苯甲醇",
+    "茶多酚",
+    "咖啡因"
+   ],
+   "texture": "干茶叶",
+   "prep": "冷泡 4 h 或 80℃ 泡 3 min；久泡出涩",
+   "tech": [
+    "T4",
+    "T3",
+    "T5"
+   ],
+   "pairs": [
+    "ing-lychee",
+    "ing-lemon",
+    "base-gin"
+   ],
+   "risk": "单宁久泡发涩；咖啡因在晚间饮用要注意",
+   "note": "窨制茶的香来自花，不是茶——但涩来自茶",
+   "avail": {
+    "lv": "easy",
+    "where": "超市茶叶区"
+   },
+   "water": 5,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-hibiscus",
+   "zh": "洛神花",
+   "en": "Hibiscus",
+   "fam": "flower",
+   "season": "10–12 月",
+   "ph": 2.3,
+   "sugar": 0.6,
+   "acid": 2.5,
+   "aroma": [
+    [
+     "cmp-flo-02",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-flo-05",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "花青素（pH 指示）",
+    "柠檬酸",
+    "果胶"
+   ],
+   "texture": "干萼片、酸",
+   "prep": "5 g/升冷水浸 30 min；热水出色更快",
+   "tech": [
+    "T4",
+    "T3",
+    "T12"
+   ],
+   "pairs": [
+    "ing-orange",
+    "ing-ginger",
+    "base-honey"
+   ],
+   "risk": "pH 一变颜色全变（红→紫→蓝绿）；本身极酸",
+   "note": "最直观的 pH 指示剂：加一点小苏打就能看见它变蓝",
+   "avail": {
+    "lv": "mid",
+    "where": "药房或网购"
+   },
+   "water": 10,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-agedpeel",
+   "zh": "陈皮",
+   "en": "Aged tangerine peel",
+   "fam": "dried",
+   "season": "全年",
+   "ph": 4.5,
+   "sugar": 0.5,
+   "acid": 0.5,
+   "aroma": [
+    [
+     "cmp-cit-01",
+     "dominant"
+    ],
+    [
+     "cmp-cit-12",
+     "high"
+    ],
+    [
+     "cmp-cit-02",
+     "mid"
+    ],
+    [
+     "cmp-flo-16",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-cit-04",
+     "low"
+    ],
+    [
+     "cmp-cit-13",
+     "low"
+    ],
+    [
+     "cmp-cit-11",
+     "low"
+    ]
+   ],
+   "actives": [
+    "橙皮苷",
+    "柠檬烯氧化物",
+    "挥发油"
+   ],
+   "texture": "干硬、油胞密",
+   "prep": "温水快洗去浮尘；冷浸 30 min 或煮 3 min",
+   "tech": [
+    "T1",
+    "T4",
+    "T17"
+   ],
+   "pairs": [
+    "ing-oolong",
+    "base-whisky",
+    "base-honey"
+   ],
+   "risk": "久煮出苦；霉变的陈皮不能用（黄曲霉）",
+   "note": "「陈」= 氧化产物变多：柠檬烯部分转成香芹酮，所以更「沉」",
+   "avail": {
+    "lv": "mid",
+    "where": "药房或网购"
+   },
+   "water": 14,
+   "leach": 0.4
+  },
+  {
+   "id": "ing-hawthorn",
+   "zh": "山楂",
+   "en": "Hawthorn",
+   "fam": "dried",
+   "season": "9–11 月",
+   "ph": 2.9,
+   "sugar": 4.5,
+   "acid": 2,
+   "aroma": [
+    [
+     "cmp-nut-04",
+     "mid"
+    ],
+    [
+     "cmp-flo-02",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ],
+    [
+     "cmp-sou-01",
+     "low"
+    ]
+   ],
+   "actives": [
+    "山楂酸",
+    "黄酮",
+    "果胶（高）"
+   ],
+   "texture": "干片、酸涩",
+   "prep": "10 g/升煮 5 min；加糖或蜂蜜平衡",
+   "tech": [
+    "T4",
+    "T1",
+    "T11"
+   ],
+   "pairs": [
+    "base-honey",
+    "ing-rose",
+    "base-baijiu"
+   ],
+   "risk": "果胶高，冷了会凝；极酸会盖住香气",
+   "note": "本土食材里最「酸得干净」的一味，适合做无酒精的骨架",
+   "avail": {
+    "lv": "mid",
+    "where": "药房或网购"
+   },
+   "water": 18,
+   "leach": 0.5
+  },
+  {
+   "id": "ing-plumcandy",
+   "zh": "话梅",
+   "en": "Preserved plum",
+   "fam": "dried",
+   "season": "全年",
+   "ph": 2.8,
+   "sugar": 30,
+   "acid": 2.5,
+   "aroma": [
+    [
+     "cmp-nut-04",
+     "mid"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-car-01",
+     "low"
+    ],
+    [
+     "cmp-smk-01",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ],
+    [
+     "cmp-sou-01",
+     "low"
+    ]
+   ],
+   "actives": [
+    "盐",
+    "柠檬酸",
+    "糖（30%）",
+    "甘草"
+   ],
+   "texture": "干皱、咸酸",
+   "prep": "2–3 颗/杯冷浸 20 min；别煮（会出咸苦）",
+   "tech": [
+    "T4",
+    "T3"
+   ],
+   "pairs": [
+    "base-whisky",
+    "ing-lime",
+    "base-soda"
+   ],
+   "risk": "盐 + 糖双双很高，容易做成「咸甜水」",
+   "note": "盐的存在会让它同时触发「抑制苦味」和「提升甜感」两条规则",
+   "avail": {
+    "lv": "easy",
+    "where": "超市蜜饯区"
+   },
+   "water": 20,
+   "leach": 0.55
+  },
+  {
+   "id": "ing-goji",
+   "zh": "枸杞",
+   "en": "Goji berry",
+   "fam": "dried",
+   "season": "全年",
+   "ph": 4.8,
+   "sugar": 10,
+   "acid": 1,
+   "aroma": [
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-car-01",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ],
+    [
+     "cmp-nut-04",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "多糖",
+    "胡萝卜素",
+    "甜菜碱",
+    "玉米黄素"
+   ],
+   "texture": "干果、微黏",
+   "prep": "温水泡开再用；冷浸 30 min 出淡甜",
+   "tech": [
+    "T4",
+    "T1"
+   ],
+   "pairs": [
+    "ing-chrysanthemum",
+    "ing-oolong",
+    "base-honey"
+   ],
+   "risk": "香气极弱，主要是「甜 + 色」；别指望它提供风味",
+   "note": "它的价值在颜色与口感，不在香气——诚实标注比吹嘘有用",
+   "avail": {
+    "lv": "easy",
+    "where": "超市干货区"
+   },
+   "water": 16,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-raisin",
+   "zh": "葡萄干",
+   "en": "Raisin",
+   "fam": "dried",
+   "season": "全年",
+   "ph": 3.9,
+   "sugar": 66,
+   "acid": 0.5,
+   "aroma": [
+    [
+     "cmp-rip-11",
+     "high"
+    ],
+    [
+     "cmp-car-03",
+     "mid"
+    ],
+    [
+     "cmp-car-05",
+     "mid"
+    ],
+    [
+     "cmp-rip-05",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ],
+    [
+     "cmp-nut-04",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "果糖 33%",
+    "葡萄糖 33%",
+    "酒石酸"
+   ],
+   "texture": "干皱、黏",
+   "prep": "温水泡 10 min 再浸酒；别煮",
+   "tech": [
+    "T4",
+    "T1",
+    "T17"
+   ],
+   "pairs": [
+    "base-rum",
+    "ing-cinnamon",
+    "ing-vanilla"
+   ],
+   "risk": "糖 66%，一小把就能把整杯变成甜酒",
+   "note": "「雪莉桶味」的家庭平替——它给的就是氧化果香",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 16,
+   "leach": 0.55
+  },
+  {
+   "id": "ing-driedfig",
+   "zh": "无花果干",
+   "en": "Dried fig",
+   "fam": "dried",
+   "season": "全年",
+   "ph": 4.7,
+   "sugar": 48,
+   "acid": 0.6,
+   "aroma": [
+    [
+     "cmp-rip-11",
+     "high"
+    ],
+    [
+     "cmp-car-01",
+     "mid"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ],
+    [
+     "cmp-nut-04",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "果糖",
+    "果胶",
+    "钙"
+   ],
+   "texture": "韧、籽脆",
+   "prep": "对切冷浸一夜；煮会出「枣泥味」",
+   "tech": [
+    "T4",
+    "T1",
+    "T17"
+   ],
+   "pairs": [
+    "base-bourbon",
+    "ing-rosemary",
+    "base-honey"
+   ],
+   "risk": "糖 48% + 果胶，很容易做稠",
+   "note": "与新鲜无花果相比少了青绿、多了焦糖——氧化让香气「变深」",
+   "avail": {
+    "lv": "mid",
+    "where": "进口超市"
+   },
+   "water": 22,
+   "leach": 0.5
+  },
+  {
+   "id": "ing-jujube",
+   "zh": "红枣",
+   "en": "Jujube",
+   "fam": "dried",
+   "season": "全年",
+   "ph": 5,
+   "sugar": 30,
+   "acid": 0.4,
+   "aroma": [
+    [
+     "cmp-car-03",
+     "mid"
+    ],
+    [
+     "cmp-rip-11",
+     "mid"
+    ],
+    [
+     "cmp-car-05",
+     "mid"
+    ],
+    [
+     "cmp-car-04",
+     "low"
+    ],
+    [
+     "cmp-nut-01",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "果糖",
+    "环磷酸腺苷",
+    "三萜"
+   ],
+   "texture": "干皱、肉厚",
+   "prep": "烤过再浸（香气翻倍）；冷水浸 2 h",
+   "tech": [
+    "T4",
+    "T1",
+    "T17"
+   ],
+   "pairs": [
+    "base-whisky",
+    "ing-cinnamon",
+    "base-baijiu"
+   ],
+   "risk": "煮久会出「中药味」，甜得发闷",
+   "note": "烤过的红枣和未烤的完全是两种材料——美拉德的力量",
+   "avail": {
+    "lv": "easy",
+    "where": "超市干货区"
+   },
+   "water": 20,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-longan",
+   "zh": "桂圆干",
+   "en": "Dried longan",
+   "fam": "dried",
+   "season": "全年",
+   "ph": 5.2,
+   "sugar": 60,
+   "acid": 0.3,
+   "aroma": [
+    [
+     "cmp-rip-11",
+     "high"
+    ],
+    [
+     "cmp-car-05",
+     "mid"
+    ],
+    [
+     "cmp-flo-08",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-car-01",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "果糖",
+    "葡萄糖",
+    "多酚"
+   ],
+   "texture": "干肉、黏",
+   "prep": "5–8 颗冷浸一夜；和烈酒很搭",
+   "tech": [
+    "T4",
+    "T1",
+    "T17"
+   ],
+   "pairs": [
+    "base-rum",
+    "ing-oolong",
+    "ing-orange"
+   ],
+   "risk": "糖 60%，且香气容易「压过一切」变成糖水",
+   "note": "和荔枝同源但走向完全不同——干制把清香变成了焦甜",
+   "avail": {
+    "lv": "easy",
+    "where": "超市干货区"
+   },
+   "water": 20,
+   "leach": 0.5
+  },
+  {
+   "id": "ing-oolong",
+   "zh": "乌龙茶",
+   "en": "Oolong tea",
+   "fam": "dried",
+   "season": "全年",
+   "ph": 5.2,
+   "sugar": 0.1,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-flo-05",
+     "high"
+    ],
+    [
+     "cmp-flo-01",
+     "mid"
+    ],
+    [
+     "cmp-nut-01",
+     "mid"
+    ],
+    [
+     "cmp-car-05",
+     "mid"
+    ],
+    [
+     "cmp-nut-02",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-flo-16",
+     "low"
+    ]
+   ],
+   "actives": [
+    "茶多酚",
+    "咖啡因",
+    "茶氨酸"
+   ],
+   "texture": "卷曲干叶",
+   "prep": "冷泡 4 h 最稳；热泡 90℃ 30 秒提香",
+   "tech": [
+    "T4",
+    "T5",
+    "T3"
+   ],
+   "pairs": [
+    "ing-osmanthus",
+    "base-whisky",
+    "ing-peach"
+   ],
+   "risk": "久泡出涩；单宁遇铁会变黑",
+   "note": "焙火乌龙自带吡嗪——这是「烤」的香气，不来自任何水果",
+   "avail": {
+    "lv": "easy",
+    "where": "超市茶叶区"
+   },
+   "water": 5,
+   "leach": 0.45
+  },
+  {
+   "id": "ing-cacao",
+   "zh": "可可碎",
+   "en": "Cacao nibs",
+   "fam": "dried",
+   "season": "全年",
+   "ph": 5.1,
+   "sugar": 2,
+   "acid": 0.3,
+   "aroma": [
+    [
+     "cmp-nut-01",
+     "high"
+    ],
+    [
+     "cmp-nut-03",
+     "mid"
+    ],
+    [
+     "cmp-car-05",
+     "mid"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-sou-01",
+     "low"
+    ]
+   ],
+   "actives": [
+    "可可碱",
+    "多酚",
+    "可可脂（脂肪）"
+   ],
+   "texture": "脆碎、含脂",
+   "prep": "粗碎冷浸 2 h；脂肪会浑浊，需过滤",
+   "tech": [
+    "T2",
+    "T4",
+    "T17"
+   ],
+   "pairs": [
+    "ing-orange",
+    "ing-chili",
+    "base-rum"
+   ],
+   "risk": "可可脂会浑酒、堵滤纸；可可碱有轻微毒性（大量）",
+   "note": "脂肪 + 多酚 + 吡嗪，三重身份让它既能油洗也能浸渍",
+   "avail": {
+    "lv": "hard",
+    "where": "烘焙店或网购"
+   },
+   "water": 4,
+   "leach": 0.3
+  },
+  {
+   "id": "ing-chrysanthemum",
+   "zh": "菊花",
+   "en": "Chrysanthemum",
+   "fam": "flower",
+   "season": "9–11 月",
+   "ph": 5.6,
+   "sugar": 0.1,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-flo-01",
+     "mid"
+    ],
+    [
+     "cmp-wdy-03",
+     "mid"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-flo-05",
+     "low"
+    ],
+    [
+     "cmp-cit-01",
+     "low"
+    ],
+    [
+     "cmp-wdy-10",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "樟脑",
+    "黄酮",
+    "绿原酸"
+   ],
+   "texture": "干花、轻",
+   "prep": "3 g/升，80℃ 泡 3 min；别久泡",
+   "tech": [
+    "T4",
+    "T3"
+   ],
+   "pairs": [
+    "ing-goji",
+    "base-honey",
+    "base-gin"
+   ],
+   "risk": "久泡出「药汤味」；部分品种有苦味",
+   "note": "和桂花、茉莉同属「花」，但走的是清凉药香而不是甜花香",
+   "avail": {
+    "lv": "easy",
+    "where": "超市茶叶区"
+   },
+   "water": 10,
+   "leach": 0.4
+  },
+  {
+   "id": "ing-perilla-seed",
+   "zh": "紫苏籽",
+   "en": "Perilla seed",
+   "fam": "dried",
+   "season": "9–11 月",
+   "ph": 5.7,
+   "sugar": 0.4,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-grn-07",
+     "mid"
+    ],
+    [
+     "cmp-nut-04",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-nut-01",
+     "low"
+    ],
+    [
+     "cmp-grn-03",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "紫苏醛",
+    "亚麻酸（油）",
+    "木犀草素"
+   ],
+   "texture": "小粒、含油",
+   "prep": "干锅焙 20 秒再浸；别磨碎（会浑）",
+   "tech": [
+    "T2",
+    "T4"
+   ],
+   "pairs": [
+    "ing-yuzu",
+    "base-gin",
+    "ing-greenplum"
+   ],
+   "risk": "含油会浑浊；焙过头会苦",
+   "note": "和紫苏叶同源，但走的是坚果 + 青草，不是清凉",
+   "avail": {
+    "lv": "hard",
+    "where": "药房或网购"
+   },
+   "water": 6,
+   "leach": 0.25
+  },
+  {
+   "id": "ing-bamboo",
+   "zh": "竹叶",
+   "en": "Bamboo leaf",
+   "fam": "herb",
+   "season": "5–9 月",
+   "ph": 5.9,
+   "sugar": 0.1,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-grn-02",
+     "high"
+    ],
+    [
+     "cmp-grn-04",
+     "mid"
+    ],
+    [
+     "cmp-grn-01",
+     "low"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-nut-04",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "叶绿素",
+    "黄酮",
+    "多糖"
+   ],
+   "texture": "长叶、韧",
+   "prep": "撕开冷浸 30 min；不要煮（出草腥）",
+   "tech": [
+    "T4",
+    "T3"
+   ],
+   "pairs": [
+    "ing-cucumber",
+    "base-gin",
+    "ing-lime"
+   ],
+   "risk": "煮过会有「青草烂掉」的味道",
+   "note": "「青绿」最便宜的来源，比黄瓜更像「竹林」",
+   "avail": {
+    "lv": "mid",
+    "where": "菜市场当季"
+   },
+   "water": 75,
+   "leach": 0.4
+  },
+  {
+   "id": "ing-pandan",
+   "zh": "斑斓叶",
+   "en": "Pandan leaf",
+   "fam": "herb",
+   "season": "全年",
+   "ph": 5.8,
+   "sugar": 0.2,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-nut-05",
+     "high"
+    ],
+    [
+     "cmp-car-01",
+     "mid"
+    ],
+    [
+     "cmp-flo-02",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-nut-01",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "2-乙酰基-1-吡咯啉",
+    "叶绿素",
+    "香豆素"
+   ],
+   "texture": "长叶、纤维粗",
+   "prep": "打结后冷浸或慢煮；不要打碎",
+   "tech": [
+    "T1",
+    "T4",
+    "T3"
+   ],
+   "pairs": [
+    "base-coconut",
+    "ing-lime",
+    "base-gin"
+   ],
+   "risk": "打碎后纤维会让酒体发涩",
+   "note": "2-乙酰基-1-吡咯啉也是「香米」的香气——同一分子，两种食物",
+   "avail": {
+    "lv": "hard",
+    "where": "南方或网购"
+   },
+   "water": 78,
+   "leach": 0.4
+  },
+  {
+   "id": "ing-lemongrass",
+   "zh": "香茅",
+   "en": "Lemongrass",
+   "fam": "herb",
+   "season": "全年",
+   "ph": 5.6,
+   "sugar": 0.5,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-cit-02",
+     "high"
+    ],
+    [
+     "cmp-flo-05",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-flo-14",
+     "low"
+    ],
+    [
+     "cmp-flo-15",
+     "low"
+    ],
+    [
+     "cmp-cit-14",
+     "low"
+    ],
+    [
+     "cmp-cit-07",
+     "low"
+    ]
+   ],
+   "actives": [
+    "柠檬醛",
+    "香叶醇",
+    "柠檬酸"
+   ],
+   "texture": "茎硬、纤维多",
+   "prep": "拍扁切段冷浸 30 min；只用下半段",
+   "tech": [
+    "T1",
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "ing-lime",
+    "ing-ginger",
+    "base-coconut"
+   ],
+   "risk": "纤维煮久出涩；上半段几乎没味",
+   "note": "柠檬醛占了它香气的 70%——是「柠檬香」的另一种表达",
+   "avail": {
+    "lv": "mid",
+    "where": "超市或网购"
+   },
+   "water": 72,
+   "leach": 0.4
+  },
+  {
+   "id": "ing-coffee",
+   "zh": "咖啡豆",
+   "en": "Coffee bean",
+   "fam": "dried",
+   "season": "全年",
+   "ph": 5,
+   "sugar": 0.3,
+   "acid": 0.5,
+   "aroma": [
+    [
+     "cmp-nut-01",
+     "high"
+    ],
+    [
+     "cmp-car-05",
+     "high"
+    ],
+    [
+     "cmp-nut-06",
+     "mid"
+    ],
+    [
+     "cmp-nut-03",
+     "mid"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-car-01",
+     "low"
+    ],
+    [
+     "cmp-sou-03",
+     "low"
+    ]
+   ],
+   "actives": [
+    "咖啡因",
+    "绿原酸",
+    "油脂"
+   ],
+   "texture": "硬豆、含油",
+   "prep": "粗碎冷浸 12 h；浅烘更「果」，深烘更「焦」",
+   "tech": [
+    "T4",
+    "T5",
+    "T17"
+   ],
+   "pairs": [
+    "ing-cardamom",
+    "ing-orange",
+    "base-rum"
+   ],
+   "risk": "咖啡因 + 酒精的心率叠加；油脂会浑",
+   "note": "烘焙度决定它属于「坚果烘焙」还是「烟熏」——同一颗豆子",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 4,
+   "leach": 0.4
+  },
+  {
+   "id": "ing-walnut",
+   "zh": "核桃",
+   "en": "Walnut",
+   "fam": "nut",
+   "season": "9–11 月",
+   "ph": 5.5,
+   "sugar": 2.6,
+   "acid": 0.3,
+   "aroma": [
+    [
+     "cmp-nut-04",
+     "high"
+    ],
+    [
+     "cmp-grn-02",
+     "mid"
+    ],
+    [
+     "cmp-nut-02",
+     "low"
+    ],
+    [
+     "cmp-nut-01",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-spc-01",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "油脂 65%",
+    "单宁（种皮，涩）",
+    "维生素 E",
+    "多酚"
+   ],
+   "texture": "脆、含油高",
+   "prep": "干锅焙 3 min 再浸；种皮发涩，能去就去",
+   "tech": [
+    "T2",
+    "T4",
+    "T17"
+   ],
+   "pairs": [
+    "base-bourbon",
+    "ing-driedfig",
+    "ing-cinnamon"
+   ],
+   "risk": "含油会让酒浑浊，必须过滤或离心；哈喇味一旦出现不可逆",
+   "note": "「坚果」的涩来自种皮单宁——这也是它能和酒体「压在一起」的原因",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 4,
+   "leach": 0.2
+  },
+  {
+   "id": "ing-hazelnut",
+   "zh": "榛子",
+   "en": "Hazelnut",
+   "fam": "nut",
+   "season": "9–10 月",
+   "ph": 5.6,
+   "sugar": 4.3,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-nut-01",
+     "high"
+    ],
+    [
+     "cmp-car-06",
+     "high"
+    ],
+    [
+     "cmp-nut-02",
+     "mid"
+    ],
+    [
+     "cmp-car-01",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-nut-04",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "油脂 60%",
+    "生育酚",
+    "精氨酸"
+   ],
+   "texture": "硬壳、油润",
+   "prep": "160℃ 焙 8 min（别更久），趁热浸酒精最香",
+   "tech": [
+    "T2",
+    "T4",
+    "T17"
+   ],
+   "pairs": [
+    "base-brandy",
+    "base-chocolate",
+    "ing-coffee"
+   ],
+   "risk": "焙过头直接变苦；油脂同样会浑酒",
+   "note": "焙烤香来自吡嗪与糠醛——生榛子几乎没有味道，是火给的",
+   "avail": {
+    "lv": "mid",
+    "where": "超市进口区"
+   },
+   "water": 5,
+   "leach": 0.2
+  },
+  {
+   "id": "ing-almond",
+   "zh": "杏仁",
+   "en": "Almond",
+   "fam": "nut",
+   "season": "全年",
+   "ph": 5.5,
+   "sugar": 4.4,
+   "acid": 0.3,
+   "aroma": [
+    [
+     "cmp-nut-04",
+     "dominant"
+    ],
+    [
+     "cmp-car-01",
+     "mid"
+    ],
+    [
+     "cmp-nut-02",
+     "low"
+    ],
+    [
+     "cmp-nut-01",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "苯甲醛",
+    "苦杏仁苷（苦杏仁）",
+    "油脂 50%"
+   ],
+   "texture": "脆、皮薄",
+   "prep": "甜杏仁可直接浸；苦杏仁必须限量",
+   "tech": [
+    "T2",
+    "T4",
+    "T17"
+   ],
+   "pairs": [
+    "base-almond",
+    "ing-cherry",
+    "ing-apricot"
+   ],
+   "risk": "苦杏仁含苦杏仁苷，嚼碎水解产生氢氰酸，严格限量",
+   "note": "杏仁味 = 苯甲醛，和樱桃核、杏核是同一个分子",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 5,
+   "leach": 0.2
+  },
+  {
+   "id": "ing-sesame",
+   "zh": "芝麻",
+   "en": "Sesame",
+   "fam": "nut",
+   "season": "全年",
+   "ph": 5.8,
+   "sugar": 0.5,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-nut-02",
+     "high"
+    ],
+    [
+     "cmp-smk-01",
+     "mid"
+    ],
+    [
+     "cmp-car-05",
+     "mid"
+    ],
+    [
+     "cmp-nut-01",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-car-01",
+     "low"
+    ],
+    [
+     "cmp-nut-03",
+     "low"
+    ]
+   ],
+   "actives": [
+    "芝麻酚（抗氧化）",
+    "油脂 50%",
+    "木脂素"
+   ],
+   "texture": "小粒、焙后爆香",
+   "prep": "干锅小火焙 1 min 至微跳；立即离火",
+   "tech": [
+    "T2",
+    "T4"
+   ],
+   "pairs": [
+    "base-whisky",
+    "ing-ginger",
+    "ing-cacao"
+   ],
+   "risk": "焙糊 5 秒就前功尽弃；油脂会浑",
+   "note": "芝麻酚是天然抗氧化剂——芝麻油不易酸败就是这个原因",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 4,
+   "leach": 0.2
+  },
+  {
+   "id": "ing-pinenut",
+   "zh": "松子",
+   "en": "Pine nut",
+   "fam": "nut",
+   "season": "10–12 月",
+   "ph": 5.7,
+   "sugar": 3.6,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-wdy-01",
+     "high"
+    ],
+    [
+     "cmp-nut-04",
+     "mid"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-nut-02",
+     "low"
+    ],
+    [
+     "cmp-nut-01",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-wdy-02",
+     "low"
+    ]
+   ],
+   "actives": [
+    "油脂 68%",
+    "松脂（萜烯）",
+    "维生素 E"
+   ],
+   "texture": "软脆、油重",
+   "prep": "低温焙 2 min；不要高温（易苦）",
+   "tech": [
+    "T2",
+    "T4"
+   ],
+   "pairs": [
+    "base-gin",
+    "ing-rosemary",
+    "ing-lemon"
+   ],
+   "risk": "「松子嘴」（金属苦味）是真实存在的个体反应",
+   "note": "它是少数同时有「树脂感」和「奶香」的食材——松节油的两面",
+   "avail": {
+    "lv": "mid",
+    "where": "超市干货区"
+   },
+   "water": 3,
+   "leach": 0.2
+  },
+  {
+   "id": "ing-peanut",
+   "zh": "花生",
+   "en": "Peanut",
+   "fam": "nut",
+   "season": "全年",
+   "ph": 5.9,
+   "sugar": 4.7,
+   "acid": 0.2,
+   "aroma": [
+    [
+     "cmp-nut-01",
+     "high"
+    ],
+    [
+     "cmp-nut-03",
+     "high"
+    ],
+    [
+     "cmp-ert-01",
+     "low"
+    ],
+    [
+     "cmp-nut-02",
+     "low"
+    ],
+    [
+     "cmp-car-03",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "油脂 50%",
+    "白藜芦醇",
+    "蛋白质 25%"
+   ],
+   "texture": "脆、皮薄",
+   "prep": "去皮焙香；生花生有「青味」",
+   "tech": [
+    "T2",
+    "T4",
+    "T17"
+   ],
+   "pairs": [
+    "base-rum",
+    "ing-chili",
+    "ing-lime"
+   ],
+   "risk": "霉变花生含黄曲霉毒素，肉眼看不出来，来源不明不要用",
+   "note": "2,5-二甲基吡嗪是「烤花生」的签名分子，也是可可与咖啡共享的",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 5,
+   "leach": 0.2
+  },
+  {
+   "id": "ing-yogurt",
+   "zh": "酸奶",
+   "en": "Yogurt",
+   "fam": "dairy",
+   "season": "全年",
+   "ph": 4.4,
+   "sugar": 4.7,
+   "acid": 1.2,
+   "aroma": [
+    [
+     "cmp-car-08",
+     "dominant"
+    ],
+    [
+     "cmp-car-09",
+     "mid"
+    ],
+    [
+     "cmp-sou-06",
+     "mid"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-dry-05",
+     "low"
+    ],
+    [
+     "cmp-dry-04",
+     "low"
+    ],
+    [
+     "cmp-dry-02",
+     "low"
+    ]
+   ],
+   "actives": [
+    "乳酸",
+    "酪蛋白",
+    "活性菌"
+   ],
+   "texture": "稠、含固形物",
+   "prep": "直接用或做奶洗；冷藏取出先回温",
+   "tech": [
+    "T8",
+    "T12",
+    "T16"
+   ],
+   "pairs": [
+    "base-gin",
+    "ing-cucumber",
+    "ing-mint"
+   ],
+   "risk": "pH 已 4.4，接近酪蛋白等电点，加酸会立刻絮凝",
+   "note": "丁二酮（奶油味）是乳酸菌发酵的产物——不是奶本身的味道",
+   "avail": {
+    "lv": "easy",
+    "where": "超市冷藏区"
+   },
+   "water": 85,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-creamcheese",
+   "zh": "奶油奶酪",
+   "en": "Cream cheese",
+   "fam": "dairy",
+   "season": "全年",
+   "ph": 4.8,
+   "sugar": 3.2,
+   "acid": 0.6,
+   "aroma": [
+    [
+     "cmp-car-08",
+     "high"
+    ],
+    [
+     "cmp-car-10",
+     "mid"
+    ],
+    [
+     "cmp-dry-04",
+     "mid"
+    ],
+    [
+     "cmp-car-09",
+     "mid"
+    ],
+    [
+     "cmp-dry-05",
+     "low"
+    ],
+    [
+     "cmp-dry-01",
+     "low"
+    ],
+    [
+     "cmp-sou-06",
+     "low"
+    ]
+   ],
+   "actives": [
+    "脂肪 34%",
+    "酪蛋白",
+    "乳糖"
+   ],
+   "texture": "膏状、易打散",
+   "prep": "室温软化后与酒打匀，再离心取清液",
+   "tech": [
+    "T8",
+    "T12",
+    "T16"
+   ],
+   "pairs": [
+    "ing-fig",
+    "ing-honey",
+    "base-bourbon"
+   ],
+   "risk": "直接入酒会结块；必须打匀或走奶洗",
+   "note": "它是奶洗里「脂肪」最集中的版本，也是口感最厚的",
+   "avail": {
+    "lv": "easy",
+    "where": "超市冷藏区"
+   },
+   "water": 54,
+   "leach": 0.5
+  },
+  {
+   "id": "ing-butter",
+   "zh": "黄油",
+   "en": "Butter",
+   "fam": "dairy",
+   "season": "全年",
+   "ph": 6.4,
+   "sugar": 0.1,
+   "acid": 0.3,
+   "aroma": [
+    [
+     "cmp-car-08",
+     "high"
+    ],
+    [
+     "cmp-dry-04",
+     "mid"
+    ],
+    [
+     "cmp-car-02",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ],
+    [
+     "cmp-dry-01",
+     "low"
+    ],
+    [
+     "cmp-nut-04",
+     "low"
+    ],
+    [
+     "cmp-dry-02",
+     "low"
+    ]
+   ],
+   "actives": [
+    "脂肪 82%",
+    "丁酸",
+    "乳脂"
+   ],
+   "texture": "固态、遇热化",
+   "prep": "融化后油洗（fat-wash），冷冻去脂再过滤",
+   "tech": [
+    "T2",
+    "T12"
+   ],
+   "pairs": [
+    "base-rum",
+    "ing-vanilla",
+    "ing-cinnamon"
+   ],
+   "risk": "丁酸过量会像「呕吐物」；冷藏至少 2 h 才能滤净",
+   "note": "油洗的教科书材料：脂肪带走脂溶性香，留下圆润口感",
+   "avail": {
+    "lv": "easy",
+    "where": "超市冷藏区"
+   },
+   "water": 16,
+   "leach": 0.3
+  },
+  {
+   "id": "ing-condensedmilk",
+   "zh": "炼乳",
+   "en": "Condensed milk",
+   "fam": "dairy",
+   "season": "全年",
+   "ph": 6.2,
+   "sugar": 54,
+   "acid": 0.3,
+   "aroma": [
+    [
+     "cmp-car-03",
+     "high"
+    ],
+    [
+     "cmp-car-01",
+     "mid"
+    ],
+    [
+     "cmp-car-04",
+     "low"
+    ],
+    [
+     "cmp-dry-03",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-dry-01",
+     "low"
+    ],
+    [
+     "cmp-dry-02",
+     "low"
+    ]
+   ],
+   "actives": [
+    "蔗糖 45%",
+    "乳脂 8%",
+    "美拉德产物"
+   ],
+   "texture": "稠、极甜",
+   "prep": "直接搅入；量以 barspoon 计",
+   "tech": [],
+   "pairs": [
+    "ing-coffee",
+    "base-rum",
+    "ing-banana"
+   ],
+   "risk": "糖 54%，一勺就能毁掉平衡；它自己就是甜味剂",
+   "note": "它的焦糖香来自罐装杀菌时的美拉德，不是加进去的",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 27,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-grape",
+   "zh": "葡萄",
+   "en": "Grape",
+   "fam": "fruit",
+   "season": "8–10 月",
+   "ph": 3.5,
+   "sugar": 16,
+   "acid": 0.7,
+   "aroma": [
+    [
+     "cmp-cit-10",
+     "high"
+    ],
+    [
+     "cmp-rip-06",
+     "mid"
+    ],
+    [
+     "cmp-flo-05",
+     "mid"
+    ],
+    [
+     "cmp-flo-04",
+     "mid"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-rip-11",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ]
+   ],
+   "actives": [
+    "葡萄糖 8%",
+    "果糖 8%",
+    "酒石酸",
+    "单宁（皮）"
+   ],
+   "texture": "皮薄汁多、成串",
+   "prep": "整串冷浸；压碎会连皮出单宁",
+   "tech": [
+    "T3",
+    "T4",
+    "T6"
+   ],
+   "pairs": [
+    "base-gin",
+    "ing-rosemary",
+    "ing-creamcheese"
+   ],
+   "risk": "糖 16%，且自带酒石酸，容易与酒里的钙结「酒石」",
+   "note": "邻氨基苯甲酸甲酯是「康科德葡萄」的签名，也是葡萄味糖果的原型",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 81,
+   "leach": 0.6
+  },
+  {
+   "id": "ing-bittermelon",
+   "zh": "苦瓜",
+   "en": "Bitter melon",
+   "fam": "vegetable",
+   "season": "6–9 月",
+   "ph": 5.6,
+   "sugar": 1.9,
+   "acid": 0.3,
+   "aroma": [
+    [
+     "cmp-grn-10",
+     "mid"
+    ],
+    [
+     "cmp-grn-06",
+     "mid"
+    ],
+    [
+     "cmp-grn-03",
+     "mid"
+    ],
+    [
+     "cmp-grn-09",
+     "low"
+    ],
+    [
+     "cmp-flo-01",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-car-05",
+     "low"
+    ]
+   ],
+   "actives": [
+    "苦瓜苷（苦）",
+    "多肽-P",
+    "维生素 C"
+   ],
+   "texture": "脆、汁少",
+   "prep": "去瓤去白膜（苦味集中处），薄片冷浸 20 min",
+   "tech": [
+    "T3",
+    "T4",
+    "T12"
+   ],
+   "pairs": [
+    "base-gin",
+    "ing-lime",
+    "ing-honey"
+   ],
+   "risk": "苦味强度个体差异极大；孕妇与低血糖者不宜大量",
+   "note": "苦味是受体层面的信号（TAS2R），不是「难吃」——盐和酸都能削它",
+   "avail": {
+    "lv": "easy",
+    "where": "超市常年"
+   },
+   "water": 94,
+   "leach": 0.5
+  },
+  {
+   "id": "ing-lotusleaf",
+   "zh": "荷叶",
+   "en": "Lotus leaf",
+   "fam": "herb",
+   "season": "6–9 月",
+   "ph": 5.9,
+   "sugar": 0.2,
+   "acid": 0.1,
+   "aroma": [
+    [
+     "cmp-grn-02",
+     "high"
+    ],
+    [
+     "cmp-flo-01",
+     "mid"
+    ],
+    [
+     "cmp-grn-05",
+     "mid"
+    ],
+    [
+     "cmp-grn-03",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ],
+    [
+     "cmp-grn-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "荷叶碱",
+    "黄酮",
+    "叶绿素"
+   ],
+   "texture": "大叶、蜡质表面",
+   "prep": "鲜叶撕开冷浸 20 min；干叶需煮 2 min",
+   "tech": [
+    "T4",
+    "T3",
+    "T1"
+   ],
+   "pairs": [
+    "base-gin",
+    "ing-cucumber",
+    "ing-osmanthus"
+   ],
+   "risk": "煮久出「池塘味」（土臭素）；蜡质层会阻隔萃取",
+   "note": "「清」的方向里最东方的一味；和竹叶是同一路但更柔",
+   "avail": {
+    "lv": "mid",
+    "where": "药房或网购"
+   },
+   "water": 12,
+   "leach": 0.3
+  },
+  {
+   "id": "ing-mulberry",
+   "zh": "桑葚",
+   "en": "Mulberry",
+   "fam": "fruit",
+   "season": "5–6 月",
+   "ph": 3.3,
+   "sugar": 9.8,
+   "acid": 1.4,
+   "aroma": [
+    [
+     "cmp-flo-02",
+     "mid"
+    ],
+    [
+     "cmp-rip-01",
+     "mid"
+    ],
+    [
+     "cmp-rip-11",
+     "mid"
+    ],
+    [
+     "cmp-rip-04",
+     "low"
+    ],
+    [
+     "cmp-grn-02",
+     "low"
+    ],
+    [
+     "cmp-rip-09",
+     "low"
+    ],
+    [
+     "cmp-flo-04",
+     "low"
+    ]
+   ],
+   "actives": [
+    "花青素（极高）",
+    "白藜芦醇",
+    "果胶"
+   ],
+   "texture": "软、易破、染色强",
+   "prep": "轻洗，不揉；冷浸 15 min 即可出色",
+   "tech": [
+    "T3",
+    "T4"
+   ],
+   "pairs": [
+    "base-gin",
+    "ing-rose",
+    "ing-honey"
+   ],
+   "risk": "染色极强，沾到布就洗不掉；pH 一变颜色全改",
+   "note": "和洛神花一样是「天然 pH 试纸」，但更甜、更容易入口",
+   "avail": {
+    "lv": "mid",
+    "where": "当季 5–6 月"
+   },
+   "water": 88,
+   "leach": 0.6
+  }
+ ]
+}

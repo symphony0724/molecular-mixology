@@ -1,0 +1,26 @@
+{
+  "name": "molecular-mixology",
+  "version": "0.1.0",
+  "private": true,
+  "description": "分子特调 · 以食品化学与调酒学为基础的风味工作台：查风味分子、看分子联动、按现有材料推荐经典骨架、把分子构成转成技法与配方",
+  "keywords": ["cocktail", "mixology", "food-chemistry", "flavor", "react", "vite", "typescript"],
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5178",
+    "build": "vite build",
+    "preview": "vite preview --port 5179",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7"
+  }
+}

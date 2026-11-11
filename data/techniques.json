@@ -1,0 +1,2021 @@
+{
+ "_meta": {
+  "version": "0.1",
+  "count": 20,
+  "note": "参数区间来自 docs/08 与通行做法；safe 是推荐区间，danger 是会出现明显缺陷的区间。"
+ },
+ "families": [
+  {
+   "id": "extraction",
+   "zh": "萃取"
+  },
+  {
+   "id": "clarification",
+   "zh": "澄清"
+  },
+  {
+   "id": "structure",
+   "zh": "结构"
+  },
+  {
+   "id": "aging",
+   "zh": "熟成"
+  }
+ ],
+ "items": [
+  {
+   "id": "T1",
+   "no": "01",
+   "zh": "低温慢煮",
+   "en": "SOUS-VIDE",
+   "family": "extraction",
+   "oneLiner": "在低于沸点的精确温度里长时间加热：果胶水解让细胞壁松开，糖与色素溶出，而挥发性萜类在真空袋里几乎无损。",
+   "params": [
+    {
+     "key": "tempC",
+     "label": "温度",
+     "unit": "℃",
+     "min": 40,
+     "max": 85,
+     "step": 1,
+     "default": 65,
+     "safe": [
+      55,
+      70
+     ],
+     "danger": [
+      [
+       40,
+       52
+      ],
+      [
+       78,
+       85
+      ]
+     ],
+     "note": "低于 52℃ 出不了果胶水解，高于 78℃ 开始出「煮过的果酱味」"
+    },
+    {
+     "key": "timeMin",
+     "label": "时间",
+     "unit": "min",
+     "min": 30,
+     "max": 240,
+     "step": 10,
+     "default": 90,
+     "safe": [
+      60,
+      120
+     ],
+     "danger": [
+      [
+       150,
+       240
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "ratio",
+     "label": "料液比",
+     "unit": "g/ml",
+     "min": 0.5,
+     "max": 2,
+     "step": 0.1,
+     "default": 1,
+     "safe": [
+      0.8,
+      1.2
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 10,
+     "zh": "升温·细胞壁破裂",
+     "note": "汁液外渗，色素开始溶出"
+    },
+    {
+     "from": 10,
+     "to": 30,
+     "zh": "糖·色素溶出",
+     "note": "花青素、果糖进入液相"
+    },
+    {
+     "from": 30,
+     "to": 60,
+     "zh": "果胶水解",
+     "note": "β-消除断链，组织变软、出汁"
+    },
+    {
+     "from": 60,
+     "to": 120,
+     "zh": "香气萃取完成",
+     "note": "酯类/萜烯达到平衡"
+    },
+    {
+     "from": 120,
+     "to": 240,
+     "zh": "氧化·衰退",
+     "note": "萜烯氧化成香芹酮，出现「熟过头」的果酱味"
+    }
+   ],
+   "output": {
+    "name": "慢煮浸渍液",
+    "keep": "冷藏 2 周",
+    "note": "果泥与清液会分层，用前摇匀或过滤"
+   },
+   "equipment": [
+    "慢煮机",
+    "真空封口机",
+    "探针温度计"
+   ],
+   "failures": [
+    "袋内留气 → 氧气让多酚氧化，颜色发暗、出「煮过」味",
+    "温度 > 75℃ → 香气保留掉到 45% 以下，果酱味盖过鲜果",
+    "超过 120 min → 萜烯氧化成香芹酮，出现薄荷/橡胶味的偏差"
+   ],
+   "tech": [
+    "T12",
+    "T14",
+    "T7"
+   ]
+  },
+  {
+   "id": "T2",
+   "no": "02",
+   "zh": "油洗",
+   "en": "FAT-WASH",
+   "family": "extraction",
+   "oneLiner": "把脂肪溶性香气溶进油，再冷冻析出油——留下香气、去掉油腻，得到圆润的口感。",
+   "params": [
+    {
+     "key": "tempC",
+     "label": "温度",
+     "unit": "℃",
+     "min": 4,
+     "max": 30,
+     "step": 1,
+     "default": 22,
+     "safe": [
+      18,
+      25
+     ],
+     "danger": [
+      [
+       4,
+       10
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "timeMin",
+     "label": "时间",
+     "unit": "min",
+     "min": 30,
+     "max": 240,
+     "step": 15,
+     "default": 120,
+     "safe": [
+      60,
+      180
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "fatRatio",
+     "label": "脂肪比例",
+     "unit": "%",
+     "min": 5,
+     "max": 40,
+     "step": 1,
+     "default": 20,
+     "safe": [
+      15,
+      25
+     ],
+     "danger": [
+      [
+       30,
+       40
+      ]
+     ],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 30,
+     "zh": "脂肪溶香",
+     "note": "萜烯、内酯进入油相"
+    },
+    {
+     "from": 30,
+     "to": 120,
+     "zh": "平衡",
+     "note": "水相香气被油相吸走，酒体变柔"
+    },
+    {
+     "from": 120,
+     "to": 240,
+     "zh": "过饱和",
+     "note": "油开始乳化进酒，出现浑浊"
+    }
+   ],
+   "output": {
+    "name": "油洗基酒",
+    "keep": "冷藏 1 个月",
+    "note": "冷冻后油会结块，滤纸+咖啡滤即可"
+   },
+   "equipment": [
+    "冰箱/冷冻室",
+    "滤纸",
+    "密封罐"
+   ],
+   "failures": [
+    "温度太低 → 香气没溶出来",
+    "油比例 > 30% → 乳化后滤不清",
+    "用橄榄油 → 它的青草味会盖住酒香"
+   ],
+   "tech": [
+    "T12"
+   ]
+  },
+  {
+   "id": "T3",
+   "no": "03",
+   "zh": "快速浸渍",
+   "en": "ISI RAPID INFUSION",
+   "family": "extraction",
+   "oneLiner": "虹吸瓶加压 90 秒，把香气逼进酒精。软果最划算的一次：香气保留约 92%，接近慢煮的两倍。",
+   "params": [
+    {
+     "key": "timeSec",
+     "label": "时间",
+     "unit": "s",
+     "min": 30,
+     "max": 300,
+     "step": 10,
+     "default": 90,
+     "safe": [
+      60,
+      120
+     ],
+     "danger": [
+      [
+       180,
+       300
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "charges",
+     "label": "气弹数",
+     "unit": "颗",
+     "min": 1,
+     "max": 2,
+     "step": 1,
+     "default": 1,
+     "safe": [
+      1,
+      1
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "ratio",
+     "label": "料液比",
+     "unit": "g/ml",
+     "min": 0.5,
+     "max": 2,
+     "step": 0.1,
+     "default": 1,
+     "safe": [
+      0.8,
+      1.2
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 30,
+     "zh": "加压",
+     "note": "气体溶入液相"
+    },
+    {
+     "from": 30,
+     "to": 90,
+     "zh": "香气萃取",
+     "note": "细胞破裂，酯类快速释放"
+    },
+    {
+     "from": 90,
+     "to": 300,
+     "zh": "过萃",
+     "note": "苦涩与纤维味一起出来"
+    }
+   ],
+   "output": {
+    "name": "快速浸渍液",
+    "keep": "当天用完",
+    "note": "第二天风味会「塌」下去，只剩甜味"
+   },
+   "equipment": [
+    "虹吸瓶",
+    "N₂O 气弹"
+   ],
+   "failures": [
+    "压力没放净就开瓶 → 会喷",
+    "蜂蜜等高黏液体一起加压 → 堵阀",
+    "超过 3 分钟 → 出苦涩"
+   ],
+   "tech": [
+    "T12"
+   ]
+  },
+  {
+   "id": "T4",
+   "no": "04",
+   "zh": "冷萃",
+   "en": "COLD BREW",
+   "family": "extraction",
+   "oneLiner": "低温长时间浸泡，只萃取香气与甜感、不萃取苦涩——茶与咖啡的通用解法。",
+   "params": [
+    {
+     "key": "tempC",
+     "label": "温度",
+     "unit": "℃",
+     "min": 2,
+     "max": 12,
+     "step": 1,
+     "default": 6,
+     "safe": [
+      4,
+      8
+     ],
+     "danger": [
+      [
+       10,
+       12
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "timeH",
+     "label": "时间",
+     "unit": "h",
+     "min": 4,
+     "max": 24,
+     "step": 1,
+     "default": 12,
+     "safe": [
+      8,
+      16
+     ],
+     "danger": [
+      [
+       20,
+       24
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "ratio",
+     "label": "料液比",
+     "unit": "g/ml",
+     "min": 0.5,
+     "max": 2,
+     "step": 0.1,
+     "default": 1,
+     "safe": [
+      0.8,
+      1.2
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 4,
+     "zh": "香气先行",
+     "note": "挥发性香气进入液相"
+    },
+    {
+     "from": 4,
+     "to": 12,
+     "zh": "甜感与氨基酸",
+     "note": "茶氨酸、糖类溶出"
+    },
+    {
+     "from": 12,
+     "to": 24,
+     "zh": "苦涩上升",
+     "note": "单宁与咖啡因开始大量溶出"
+    }
+   ],
+   "output": {
+    "name": "冷萃液",
+    "keep": "冷藏 3 天",
+    "note": "久放会继续变苦"
+   },
+   "equipment": [
+    "冰箱",
+    "滤器"
+   ],
+   "failures": [
+    "时间 > 20 h → 单宁过量，涩",
+    "常温做 → 微生物风险",
+    "粉末太细 → 滤不清"
+   ],
+   "tech": [
+    "T12"
+   ]
+  },
+  {
+   "id": "T5",
+   "no": "05",
+   "zh": "旋转蒸发",
+   "en": "ROTARY EVAPORATION",
+   "family": "extraction",
+   "oneLiner": "减压让溶剂在低温沸腾，把香气浓缩下来、把酒精抽走——做无酒精风味最强的工具。",
+   "params": [
+    {
+     "key": "tempC",
+     "label": "水浴温度",
+     "unit": "℃",
+     "min": 30,
+     "max": 70,
+     "step": 1,
+     "default": 45,
+     "safe": [
+      40,
+      55
+     ],
+     "danger": [
+      [
+       65,
+       70
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "mbar",
+     "label": "真空度",
+     "unit": "mbar",
+     "min": 50,
+     "max": 300,
+     "step": 10,
+     "default": 150,
+     "safe": [
+      100,
+      200
+     ],
+     "danger": [
+      [
+       50,
+       80
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "timeMin",
+     "label": "时间",
+     "unit": "min",
+     "min": 10,
+     "max": 120,
+     "step": 5,
+     "default": 40,
+     "safe": [
+      20,
+      60
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 10,
+     "zh": "抽真空·起沸",
+     "note": "乙醇在 40℃ 左右开始蒸发"
+    },
+    {
+     "from": 10,
+     "to": 40,
+     "zh": "酒精脱除",
+     "note": "香气随共沸物一起被冷凝收集"
+    },
+    {
+     "from": 40,
+     "to": 120,
+     "zh": "浓缩",
+     "note": "水分减少，风味变厚"
+    }
+   ],
+   "output": {
+    "name": "浓缩香气液",
+    "keep": "冷藏 1 个月",
+    "note": "无酒精、香气浓度约为原液的 3–5 倍"
+   },
+   "equipment": [
+    "旋转蒸发仪",
+    "真空泵",
+    "冷凝管"
+   ],
+   "failures": [
+    "温度过高 → 香气跟着溶剂一起跑掉",
+    "真空度不够 → 沸腾温度过高，煮出熟味",
+    "没有冷阱 → 香气进泵"
+   ],
+   "tech": []
+  },
+  {
+   "id": "T6",
+   "no": "06",
+   "zh": "冷冻浓缩",
+   "en": "FREEZE CONCENTRATION",
+   "family": "extraction",
+   "oneLiner": "冻住后滤掉冰晶，等于把水和一部分酸拿走——风味变浓，但「新鲜感」掉一档。",
+   "params": [
+    {
+     "key": "tempC",
+     "label": "冷冻温度",
+     "unit": "℃",
+     "min": -30,
+     "max": -12,
+     "step": 1,
+     "default": -18,
+     "safe": [
+      -24,
+      -18
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "timeH",
+     "label": "时间",
+     "unit": "h",
+     "min": 4,
+     "max": 36,
+     "step": 1,
+     "default": 12,
+     "safe": [
+      8,
+      24
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "cycles",
+     "label": "冻融次数",
+     "unit": "次",
+     "min": 1,
+     "max": 3,
+     "step": 1,
+     "default": 1,
+     "safe": [
+      1,
+      2
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 4,
+     "zh": "结冰",
+     "note": "纯水先结晶"
+    },
+    {
+     "from": 4,
+     "to": 12,
+     "zh": "浓缩",
+     "note": "糖、酸、香气被挤进剩余液相"
+    },
+    {
+     "from": 12,
+     "to": 36,
+     "zh": "过度",
+     "note": "酸也被浓缩，酸感变尖"
+    }
+   ],
+   "output": {
+    "name": "浓缩果汁",
+    "keep": "冷冻 1 个月",
+    "note": "酒精也会被冻住一部分，ABV 不可控"
+   },
+   "equipment": [
+    "冷冻室",
+    "滤网"
+   ],
+   "failures": [
+    "温度不够低 → 冰晶不纯，浓缩效率低",
+    "反复冻融 → 细胞全破，口感糊",
+    "用在清澈酒上 → 会变浑浊"
+   ],
+   "tech": [
+    "T12"
+   ]
+  },
+  {
+   "id": "T7",
+   "no": "07",
+   "zh": "脱水粉末",
+   "en": "DEHYDRATION",
+   "family": "extraction",
+   "oneLiner": "低温烘干后打粉——把风味浓缩成固体，用于装饰、糖边或直接调味。",
+   "params": [
+    {
+     "key": "tempC",
+     "label": "烘干温度",
+     "unit": "℃",
+     "min": 40,
+     "max": 80,
+     "step": 1,
+     "default": 55,
+     "safe": [
+      50,
+      65
+     ],
+     "danger": [
+      [
+       70,
+       80
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "timeH",
+     "label": "时间",
+     "unit": "h",
+     "min": 2,
+     "max": 16,
+     "step": 1,
+     "default": 8,
+     "safe": [
+      6,
+      12
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "mesh",
+     "label": "研磨细度",
+     "unit": "目",
+     "min": 30,
+     "max": 200,
+     "step": 10,
+     "default": 80,
+     "safe": [
+      60,
+      100
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 2,
+     "zh": "表面干燥",
+     "note": "水分快速蒸发"
+    },
+    {
+     "from": 2,
+     "to": 8,
+     "zh": "内部干燥",
+     "note": "褐变开始，颜色变深"
+    },
+    {
+     "from": 8,
+     "to": 16,
+     "zh": "风味损失",
+     "note": "挥发性香气大量流失"
+    }
+   ],
+   "output": {
+    "name": "风味粉末",
+    "keep": "密封干燥 3 个月",
+    "note": "吸湿后结块，要放干燥剂"
+   },
+   "equipment": [
+    "烘干机",
+    "研磨机"
+   ],
+   "failures": [
+    "温度 > 70℃ → 美拉德反应，颜色变深、出烤味",
+    "没干透就打粉 → 结块发霉",
+    "研磨过热 → 香气挥发"
+   ],
+   "tech": []
+  },
+  {
+   "id": "T8",
+   "no": "08",
+   "zh": "奶洗",
+   "en": "MILK WASHING",
+   "family": "clarification",
+   "oneLiner": "酸把酪蛋白推到等电点（pH 4.6），絮凝时把涩味和杂色一起带走，滤掉后得到清澈、更干净、更顺的酒。",
+   "params": [
+    {
+     "key": "ph",
+     "label": "目标 pH",
+     "unit": "pH",
+     "min": 3.8,
+     "max": 5,
+     "step": 0.1,
+     "default": 4.5,
+     "safe": [
+      4.2,
+      4.7
+     ],
+     "danger": [
+      [
+       4.8,
+       5
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "milkPct",
+     "label": "牛奶比例",
+     "unit": "%",
+     "min": 5,
+     "max": 30,
+     "step": 1,
+     "default": 15,
+     "safe": [
+      10,
+      20
+     ],
+     "danger": [
+      [
+       25,
+       30
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "timeMin",
+     "label": "静置",
+     "unit": "min",
+     "min": 20,
+     "max": 240,
+     "step": 10,
+     "default": 60,
+     "safe": [
+      30,
+      120
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 10,
+     "zh": "絮凝",
+     "note": "酪蛋白失电，结成细絮"
+    },
+    {
+     "from": 10,
+     "to": 60,
+     "zh": "沉降",
+     "note": "絮团吸附单宁与色素"
+    },
+    {
+     "from": 60,
+     "to": 240,
+     "zh": "压实",
+     "note": "沉到底部，上层清液可分"
+    }
+   ],
+   "output": {
+    "name": "奶洗澄清液",
+    "keep": "冷藏 5 天",
+    "note": "必须过滤两次，否则会二次浑浊"
+   },
+   "equipment": [
+    "滤纸/咖啡滤",
+    "细网筛"
+   ],
+   "failures": [
+    "pH > 4.8 → 不絮凝，只是变浑浊",
+    "牛奶 > 25% → 吸走太多香气",
+    "搅拌过度 → 絮团打碎，滤不清"
+   ],
+   "tech": [
+    "T9"
+   ]
+  },
+  {
+   "id": "T9",
+   "no": "09",
+   "zh": "明胶-单宁澄清",
+   "en": "GELATIN FINING",
+   "family": "clarification",
+   "oneLiner": "明胶带正电、单宁带负电，两者互相拉住下沉，把浑浊一起带到杯底。",
+   "params": [
+    {
+     "key": "gelatin",
+     "label": "明胶用量",
+     "unit": "g/L",
+     "min": 0.2,
+     "max": 2,
+     "step": 0.1,
+     "default": 0.6,
+     "safe": [
+      0.4,
+      1
+     ],
+     "danger": [
+      [
+       1.5,
+       2
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "tempC",
+     "label": "温度",
+     "unit": "℃",
+     "min": 2,
+     "max": 15,
+     "step": 1,
+     "default": 6,
+     "safe": [
+      4,
+      10
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "timeH",
+     "label": "静置",
+     "unit": "h",
+     "min": 2,
+     "max": 24,
+     "step": 1,
+     "default": 12,
+     "safe": [
+      8,
+      24
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 2,
+     "zh": "溶解分散",
+     "note": "明胶先吸水膨胀"
+    },
+    {
+     "from": 2,
+     "to": 8,
+     "zh": "絮凝下沉",
+     "note": "与单宁/蛋白结合"
+    },
+    {
+     "from": 8,
+     "to": 24,
+     "zh": "压实",
+     "note": "沉淀到底，上层清澈"
+    }
+   ],
+   "output": {
+    "name": "澄清酒液",
+    "keep": "冷藏 2 周",
+    "note": "过量明胶会让酒失去口感"
+   },
+   "equipment": [
+    "滤纸",
+    "冷藏"
+   ],
+   "failures": [
+    "明胶过量 → 酒体变薄、口感寡",
+    "温度太高 → 明胶不凝",
+    "含果胶的酒 → 效果差，要先加酶"
+   ],
+   "tech": [
+    "T11"
+   ]
+  },
+  {
+   "id": "T10",
+   "no": "10",
+   "zh": "琼脂澄清",
+   "en": "AGAR CLARIFICATION",
+   "family": "clarification",
+   "oneLiner": "琼脂 85℃ 溶、40℃ 凝，凝住时把悬浮物网住，取上层清液。",
+   "params": [
+    {
+     "key": "agar",
+     "label": "琼脂用量",
+     "unit": "g/L",
+     "min": 0.2,
+     "max": 1.5,
+     "step": 0.1,
+     "default": 0.5,
+     "safe": [
+      0.3,
+      0.8
+     ],
+     "danger": [
+      [
+       1.2,
+       1.5
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "tempC",
+     "label": "溶解温度",
+     "unit": "℃",
+     "min": 80,
+     "max": 95,
+     "step": 1,
+     "default": 88,
+     "safe": [
+      85,
+      92
+     ],
+     "danger": [
+      [
+       80,
+       83
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "timeH",
+     "label": "冷却静置",
+     "unit": "h",
+     "min": 1,
+     "max": 12,
+     "step": 1,
+     "default": 4,
+     "safe": [
+      2,
+      8
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 1,
+     "zh": "溶解",
+     "note": "必须煮沸并持续搅拌"
+    },
+    {
+     "from": 1,
+     "to": 4,
+     "zh": "凝胶网捕",
+     "note": "悬浮物被网络固定"
+    },
+    {
+     "from": 4,
+     "to": 12,
+     "zh": "分层",
+     "note": "取上层清液"
+    }
+   ],
+   "output": {
+    "name": "澄清酒液",
+    "keep": "冷藏 5 天",
+    "note": "琼脂过量会带「海藻味」"
+   },
+   "equipment": [
+    "锅",
+    "温度计",
+    "虹吸管"
+   ],
+   "failures": [
+    "没煮沸 → 琼脂不溶成颗粒",
+    "酸性太强 → 琼脂水解失效",
+    "搅拌起泡 → 气泡被困在凝胶里"
+   ],
+   "tech": [
+    "T14"
+   ]
+  },
+  {
+   "id": "T11",
+   "no": "11",
+   "zh": "酶澄清",
+   "en": "ENZYMATIC CLARIFICATION",
+   "family": "clarification",
+   "oneLiner": "果胶酶切断果胶主链，30 分钟把浑浊果汁变清，也提高出汁率——不加热、不损失香气。",
+   "params": [
+    {
+     "key": "tempC",
+     "label": "温度",
+     "unit": "℃",
+     "min": 30,
+     "max": 60,
+     "step": 1,
+     "default": 45,
+     "safe": [
+      40,
+      50
+     ],
+     "danger": [
+      [
+       55,
+       60
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "ph",
+     "label": "pH",
+     "unit": "pH",
+     "min": 3,
+     "max": 6,
+     "step": 0.1,
+     "default": 4,
+     "safe": [
+      3.5,
+      5
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "timeMin",
+     "label": "时间",
+     "unit": "min",
+     "min": 15,
+     "max": 180,
+     "step": 5,
+     "default": 45,
+     "safe": [
+      30,
+      120
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "dose",
+     "label": "用量",
+     "unit": "%w/w",
+     "min": 0.01,
+     "max": 0.2,
+     "step": 0.01,
+     "default": 0.05,
+     "safe": [
+      0.02,
+      0.1
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 15,
+     "zh": "主链断裂",
+     "note": "黏度快速下降"
+    },
+    {
+     "from": 15,
+     "to": 45,
+     "zh": "澄清",
+     "note": "悬浮颗粒失稳下沉"
+    },
+    {
+     "from": 45,
+     "to": 180,
+     "zh": "过度",
+     "note": "可能带出少量果胶分解味"
+    }
+   ],
+   "output": {
+    "name": "澄清果汁",
+    "keep": "冷藏 3 天",
+    "note": "60℃ 以上酶失活，超过 20% 酒精也会抑制"
+   },
+   "equipment": [
+    "水浴",
+    "pH 计",
+    "滤器"
+   ],
+   "failures": [
+    "温度 > 60℃ → 酶失活，白等",
+    "pH < 3 → 活性低",
+    "先加高浓度酒 → 酒精抑制"
+   ],
+   "tech": [
+    "T12"
+   ]
+  },
+  {
+   "id": "T12",
+   "no": "12",
+   "zh": "离心",
+   "en": "CENTRIFUGE",
+   "family": "clarification",
+   "oneLiner": "高速旋转把悬浮物压到底部，几秒到几分钟得到别的方法做不出的透明度。",
+   "params": [
+    {
+     "key": "g",
+     "label": "离心力",
+     "unit": "g",
+     "min": 1000,
+     "max": 12000,
+     "step": 500,
+     "default": 6000,
+     "safe": [
+      3000,
+      10000
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "timeMin",
+     "label": "时间",
+     "unit": "min",
+     "min": 1,
+     "max": 30,
+     "step": 1,
+     "default": 8,
+     "safe": [
+      5,
+      20
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "tempC",
+     "label": "温度",
+     "unit": "℃",
+     "min": 1,
+     "max": 25,
+     "step": 1,
+     "default": 5,
+     "safe": [
+      2,
+      10
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 2,
+     "zh": "分层",
+     "note": "重相下沉"
+    },
+    {
+     "from": 2,
+     "to": 8,
+     "zh": "压实",
+     "note": "沉淀更紧，上清更亮"
+    },
+    {
+     "from": 8,
+     "to": 30,
+     "zh": "过度",
+     "note": "温度升高，香气损失"
+    }
+   ],
+   "output": {
+    "name": "离心上清",
+    "keep": "冷藏 1 周",
+    "note": "沉渣可留作下一杯的装饰粉"
+   },
+   "equipment": [
+    "离心机"
+   ],
+   "failures": [
+    "没有配平 → 设备损坏",
+    "转速过高 → 香气随热量逸散",
+    "含气液体 → 会喷"
+   ],
+   "tech": []
+  },
+  {
+   "id": "T13",
+   "no": "13",
+   "zh": "球化",
+   "en": "SPHERIFICATION",
+   "family": "structure",
+   "oneLiner": "海藻酸钠遇钙离子瞬间成膜，把液体包成一个会爆的球——pH 低于 3.5 就成不了膜，得反过来做。",
+   "params": [
+    {
+     "key": "alginate",
+     "label": "海藻酸钠",
+     "unit": "%",
+     "min": 0.3,
+     "max": 1.5,
+     "step": 0.1,
+     "default": 0.7,
+     "safe": [
+      0.5,
+      1
+     ],
+     "danger": [
+      [
+       1.3,
+       1.5
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "calcium",
+     "label": "乳酸钙",
+     "unit": "%",
+     "min": 0.3,
+     "max": 3,
+     "step": 0.1,
+     "default": 1,
+     "safe": [
+      0.5,
+      2
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "ph",
+     "label": "体系 pH",
+     "unit": "pH",
+     "min": 2.5,
+     "max": 7,
+     "step": 0.1,
+     "default": 4,
+     "safe": [
+      3.5,
+      6
+     ],
+     "danger": [
+      [
+       2.5,
+       3.4
+      ]
+     ],
+     "note": "低于 3.5 正向球化失效，要用反向球化"
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 1,
+     "zh": "成膜",
+     "note": "表面瞬间凝胶"
+    },
+    {
+     "from": 1,
+     "to": 5,
+     "zh": "膜变厚",
+     "note": "钙离子继续向内扩散"
+    },
+    {
+     "from": 5,
+     "to": 30,
+     "zh": "全凝",
+     "note": "内部也凝住，变成胶球"
+    }
+   ],
+   "output": {
+    "name": "风味球",
+    "keep": "即做即食",
+    "note": "室温放置会继续变硬"
+   },
+   "equipment": [
+    "量勺",
+    "滴管/注射器",
+    "细网勺"
+   ],
+   "failures": [
+    "pH < 3.5 → 不成膜（柠檬汁类要做反向球化）",
+    "海藻酸钠没溶透 → 堵滴管",
+    "钙液浓度太高 → 膜太厚、口感像塑料"
+   ],
+   "tech": [
+    "T14"
+   ]
+  },
+  {
+   "id": "T14",
+   "no": "14",
+   "zh": "凝胶 / 流体胶",
+   "en": "GEL & FLUID GEL",
+   "family": "structure",
+   "oneLiner": "琼脂 85℃ 溶、40℃ 凝，明胶要冷藏，结冷胶 0.1% 就能悬浮——同一个「胶」字下是三种完全不同的材料。",
+   "params": [
+    {
+     "key": "agar",
+     "label": "琼脂",
+     "unit": "%",
+     "min": 0.1,
+     "max": 1.5,
+     "step": 0.1,
+     "default": 0.5,
+     "safe": [
+      0.2,
+      0.8
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "gelatin",
+     "label": "明胶",
+     "unit": "%",
+     "min": 0.5,
+     "max": 4,
+     "step": 0.1,
+     "default": 1.5,
+     "safe": [
+      1,
+      3
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "gellan",
+     "label": "结冷胶",
+     "unit": "%",
+     "min": 0.05,
+     "max": 0.6,
+     "step": 0.05,
+     "default": 0.15,
+     "safe": [
+      0.1,
+      0.4
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "tempC",
+     "label": "入模温度",
+     "unit": "℃",
+     "min": 30,
+     "max": 90,
+     "step": 1,
+     "default": 45,
+     "safe": [
+      38,
+      55
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 5,
+     "zh": "水合",
+     "note": "胶体吸水膨胀"
+    },
+    {
+     "from": 5,
+     "to": 15,
+     "zh": "溶解/凝固",
+     "note": "琼脂需 85℃ 以上，明胶需低温"
+    },
+    {
+     "from": 15,
+     "to": 60,
+     "zh": "定型",
+     "note": "结构稳定，可切可挖"
+    }
+   ],
+   "output": {
+    "name": "凝胶块 / 流体胶",
+    "keep": "冷藏 3 天",
+    "note": "明胶遇鲜菠萝/木瓜不凝（蛋白酶）"
+   },
+   "equipment": [
+    "温度计",
+    "模具"
+   ],
+   "failures": [
+    "琼脂和明胶混用比例没算 → 一个 40℃ 凝一个 4℃ 凝",
+    "酸 + 琼脂 → 水解失效",
+    "高糖 → 琼脂需更高浓度"
+   ],
+   "tech": [
+    "T13"
+   ]
+  },
+  {
+   "id": "T15",
+   "no": "15",
+   "zh": "泡沫",
+   "en": "FOAM",
+   "family": "structure",
+   "oneLiner": "N₂O 把气体打进气液界面，卵磷脂/明胶当稳定剂——泡沫是「香气放大器」，因为它先到鼻子。",
+   "params": [
+    {
+     "key": "charges",
+     "label": "气弹数",
+     "unit": "颗",
+     "min": 1,
+     "max": 2,
+     "step": 1,
+     "default": 1,
+     "safe": [
+      1,
+      1
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "stabilizer",
+     "label": "稳定剂",
+     "unit": "%",
+     "min": 0.1,
+     "max": 2,
+     "step": 0.1,
+     "default": 0.5,
+     "safe": [
+      0.3,
+      1
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "shakes",
+     "label": "摇晃次数",
+     "unit": "次",
+     "min": 5,
+     "max": 30,
+     "step": 1,
+     "default": 12,
+     "safe": [
+      8,
+      20
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 3,
+     "zh": "气体溶入",
+     "note": "压力下 N₂O 进入液相"
+    },
+    {
+     "from": 3,
+     "to": 10,
+     "zh": "界面吸附",
+     "note": "稳定剂在气泡壁排列"
+    },
+    {
+     "from": 10,
+     "to": 30,
+     "zh": "排出",
+     "note": "挤到杯上，泡沫开始失水"
+    }
+   ],
+   "output": {
+    "name": "风味泡沫",
+    "keep": "3 分钟内用",
+    "note": "泡沫塌了不会回来，只能重新打"
+   },
+   "equipment": [
+    "虹吸瓶",
+    "N₂O 气弹"
+   ],
+   "failures": [
+    "稳定剂太少 → 泡沫粗、立刻塌",
+    "脂肪太多 → 消泡",
+    "挤太快 → 泡沫不连续"
+   ],
+   "tech": []
+  },
+  {
+   "id": "T16",
+   "no": "16",
+   "zh": "乳化",
+   "en": "EMULSION",
+   "family": "structure",
+   "oneLiner": "油和水靠乳化剂（卵磷脂/酪蛋白）连起来——要不要分层的选择权在手里，不在运气。",
+   "params": [
+    {
+     "key": "oilPct",
+     "label": "油脂比例",
+     "unit": "%",
+     "min": 5,
+     "max": 40,
+     "step": 1,
+     "default": 15,
+     "safe": [
+      10,
+      25
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "lecithin",
+     "label": "卵磷脂",
+     "unit": "%",
+     "min": 0.1,
+     "max": 1.5,
+     "step": 0.1,
+     "default": 0.5,
+     "safe": [
+      0.3,
+      1
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "shear",
+     "label": "剪切强度",
+     "unit": "级",
+     "min": 1,
+     "max": 3,
+     "step": 1,
+     "default": 2,
+     "safe": [
+      2,
+      3
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 2,
+     "zh": "粗分散",
+     "note": "油滴被打碎"
+    },
+    {
+     "from": 2,
+     "to": 10,
+     "zh": "细分散",
+     "note": "液滴变小、体系变白"
+    },
+    {
+     "from": 10,
+     "to": 60,
+     "zh": "分层",
+     "note": "没稳定住就会重新分开"
+    }
+   ],
+   "output": {
+    "name": "乳化酒液",
+    "keep": "冷藏 2 天",
+    "note": "静置会分层，用前摇匀"
+   },
+   "equipment": [
+    "打蛋器/均质机",
+    "量勺"
+   ],
+   "failures": [
+    "油 > 30% → 乳化不住",
+    "没有乳化剂 → 立刻分层",
+    "酸性太强 → 酪蛋白失稳"
+   ],
+   "tech": []
+  },
+  {
+   "id": "T17",
+   "no": "17",
+   "zh": "快速陈化",
+   "en": "RAPID AGING",
+   "family": "aging",
+   "oneLiner": "橡木片 + 升温 + 循环，把「放三年」压缩成几小时到几天：单宁与香草醛进入酒，氧气做氧化。",
+   "params": [
+    {
+     "key": "oak",
+     "label": "橡木片",
+     "unit": "g/L",
+     "min": 2,
+     "max": 30,
+     "step": 1,
+     "default": 10,
+     "safe": [
+      5,
+      20
+     ],
+     "danger": [
+      [
+       25,
+       30
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "tempC",
+     "label": "温度",
+     "unit": "℃",
+     "min": 25,
+     "max": 65,
+     "step": 1,
+     "default": 45,
+     "safe": [
+      40,
+      55
+     ],
+     "danger": [
+      [
+       60,
+       65
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "timeH",
+     "label": "时间",
+     "unit": "h",
+     "min": 1,
+     "max": 72,
+     "step": 1,
+     "default": 12,
+     "safe": [
+      4,
+      24
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 2,
+     "zh": "单宁析出",
+     "note": "涩感上升"
+    },
+    {
+     "from": 2,
+     "to": 12,
+     "zh": "香草醛·内酯",
+     "note": "香草、椰子、焦糖风味出现"
+    },
+    {
+     "from": 12,
+     "to": 72,
+     "zh": "过度桶味",
+     "note": "木质与单宁压过酒本身"
+    }
+   ],
+   "output": {
+    "name": "陈化酒液",
+    "keep": "冷藏 1 个月",
+    "note": "橡木片别再泡超过 24 小时"
+   },
+   "equipment": [
+    "橡木片",
+    "恒温水浴",
+    "滤器"
+   ],
+   "failures": [
+    "温度 > 60℃ → 出现「煮过」的木头味",
+    "橡木片太多 → 一杯全是木头",
+    "没过滤 → 丹宁颗粒继续变化"
+   ],
+   "tech": [
+    "T9"
+   ]
+  },
+  {
+   "id": "T18",
+   "no": "18",
+   "zh": "碳酸化",
+   "en": "CARBONATION",
+   "family": "aging",
+   "oneLiner": "温度越低、压力越高，二氧化碳溶得越多——2–4 vol 是鸡尾酒气泡的区间。",
+   "params": [
+    {
+     "key": "vol",
+     "label": "二氧化碳",
+     "unit": "vol",
+     "min": 1,
+     "max": 5,
+     "step": 0.1,
+     "default": 3,
+     "safe": [
+      2,
+      4
+     ],
+     "danger": [
+      [
+       4.5,
+       5
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "tempC",
+     "label": "温度",
+     "unit": "℃",
+     "min": 0,
+     "max": 8,
+     "step": 1,
+     "default": 2,
+     "safe": [
+      0,
+      4
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "timeH",
+     "label": "加压时间",
+     "unit": "h",
+     "min": 1,
+     "max": 24,
+     "step": 1,
+     "default": 6,
+     "safe": [
+      3,
+      12
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 1,
+     "zh": "溶解",
+     "note": "低温下溶解最快"
+    },
+    {
+     "from": 1,
+     "to": 6,
+     "zh": "平衡",
+     "note": "达到目标气压"
+    },
+    {
+     "from": 6,
+     "to": 24,
+     "zh": "稳定",
+     "note": "过夜更均匀"
+    }
+   ],
+   "output": {
+    "name": "碳酸酒",
+    "keep": "冷藏 3 天",
+    "note": "开瓶后气压下降，风味也变「平」"
+   },
+   "equipment": [
+    "碳酸化瓶",
+    "CO₂ 气瓶/苏打枪",
+    "冰箱"
+   ],
+   "failures": [
+    "温度太高 → 气泡留不住",
+    "酒里有果肉 → 起泡点乱，喷瓶",
+    "摇晃后立刻开 → 喷"
+   ],
+   "tech": []
+  },
+  {
+   "id": "T19",
+   "no": "19",
+   "zh": "酸调整",
+   "en": "ACID ADJUSTMENT",
+   "family": "aging",
+   "oneLiner": "总酸（TA）和 pH 是两件事：TA 决定酸多「多」，pH 决定微生物与酶能不能工作。",
+   "params": [
+    {
+     "key": "ta",
+     "label": "目标总酸",
+     "unit": "g/L",
+     "min": 2,
+     "max": 12,
+     "step": 0.5,
+     "default": 6,
+     "safe": [
+      4,
+      8
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "ph",
+     "label": "目标 pH",
+     "unit": "pH",
+     "min": 2.5,
+     "max": 5.5,
+     "step": 0.1,
+     "default": 3.2,
+     "safe": [
+      3,
+      4
+     ],
+     "danger": [
+      [
+       2.5,
+       2.9
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "buffer",
+     "label": "缓冲剂",
+     "unit": "%",
+     "min": 0,
+     "max": 2,
+     "step": 0.1,
+     "default": 0.3,
+     "safe": [
+      0.2,
+      1
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 1,
+     "zh": "加酸",
+     "note": "柠檬酸/苹果酸/乳酸各有不同的「酸相」"
+    },
+    {
+     "from": 1,
+     "to": 5,
+     "zh": "缓冲平衡",
+     "note": "pH 与酸感稳定下来"
+    },
+    {
+     "from": 5,
+     "to": 30,
+     "zh": "口感变化",
+     "note": "酸会随时间变「圆」"
+    }
+   ],
+   "output": {
+    "name": "调酸酒液",
+    "keep": "冷藏 1 周",
+    "note": "pH < 3 会明显刺口"
+   },
+   "equipment": [
+    "pH 计",
+    "量筒"
+   ],
+   "failures": [
+    "只加柠檬酸 → 酸感尖、缺中段",
+    "pH 掉到 2.6 以下 → 刺口",
+    "不测 pH 只看酸量 → 缓冲不同结果不同"
+   ],
+   "tech": []
+  },
+  {
+   "id": "T20",
+   "no": "20",
+   "zh": "冷熏",
+   "en": "COLD SMOKE",
+   "family": "aging",
+   "oneLiner": "30℃ 以下的烟熏：只上烟味、不把酒煮熟，避免高温带来的「烤焦」与香气流失。",
+   "params": [
+    {
+     "key": "tempC",
+     "label": "熏制温度",
+     "unit": "℃",
+     "min": 10,
+     "max": 30,
+     "step": 1,
+     "default": 22,
+     "safe": [
+      18,
+      26
+     ],
+     "danger": [
+      [
+       28,
+       30
+      ]
+     ],
+     "note": ""
+    },
+    {
+     "key": "timeMin",
+     "label": "时间",
+     "unit": "min",
+     "min": 5,
+     "max": 90,
+     "step": 5,
+     "default": 25,
+     "safe": [
+      15,
+      45
+     ],
+     "danger": [],
+     "note": ""
+    },
+    {
+     "key": "wood",
+     "label": "木种强度",
+     "unit": "级",
+     "min": 1,
+     "max": 3,
+     "step": 1,
+     "default": 2,
+     "safe": [
+      1,
+      2
+     ],
+     "danger": [],
+     "note": ""
+    }
+   ],
+   "phases": [
+    {
+     "from": 0,
+     "to": 5,
+     "zh": "上烟",
+     "note": "酚类附着在表面"
+    },
+    {
+     "from": 5,
+     "to": 25,
+     "zh": "渗透",
+     "note": "愈创木酚进入酒体"
+    },
+    {
+     "from": 25,
+     "to": 90,
+     "zh": "过烟",
+     "note": "变成「熄灭的篝火」味"
+    }
+   ],
+   "output": {
+    "name": "冷熏酒液",
+    "keep": "冷藏 2 周",
+    "note": "烟味会随天数减弱"
+   },
+   "equipment": [
+    "熏枪",
+    "密封盒"
+   ],
+   "failures": [
+    "温度 > 30℃ → 酒精挥发、香气跑掉",
+    "熏太久 → 苦与焦味",
+    "直接对杯口熏 → 只留几秒"
+   ],
+   "tech": []
+  }
+ ]
+}

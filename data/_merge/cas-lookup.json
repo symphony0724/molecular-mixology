@@ -1,0 +1,1435 @@
+{
+ "generatedAt": "2026-11-10T15:28:51.859Z",
+ "results": [
+  {
+   "id": "cmp-cit-01",
+   "zh": "d-柠檬烯",
+   "en": "d-Limonene",
+   "status": "ok",
+   "cid": 440917,
+   "cas": "5989-27-5",
+   "formula": "C10H16",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-02",
+   "zh": "柠檬醛",
+   "en": "Citral",
+   "status": "ok",
+   "cid": 638011,
+   "cas": "5392-40-5",
+   "formula": "C10H16O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-03",
+   "zh": "γ-松油烯",
+   "en": "γ-Terpinene",
+   "status": "ok",
+   "cid": 7461,
+   "cas": "99-85-4",
+   "formula": "C10H16",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-04",
+   "zh": "辛醛",
+   "en": "Octanal",
+   "status": "ok",
+   "cid": 454,
+   "cas": "124-13-0",
+   "formula": "C8H16O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-05",
+   "zh": "壬醛",
+   "en": "Nonanal",
+   "status": "ok",
+   "cid": 31289,
+   "cas": "124-19-6",
+   "formula": "C9H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-06",
+   "zh": "癸醛",
+   "en": "Decanal",
+   "status": "ok",
+   "cid": 8175,
+   "cas": "112-31-2",
+   "formula": "C10H20O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-07",
+   "zh": "橙花醇",
+   "en": "Nerol",
+   "status": "ok",
+   "cid": 643820,
+   "cas": "106-25-2",
+   "formula": "C10H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-08",
+   "zh": "瓦伦烯",
+   "en": "Valencene",
+   "status": "ok",
+   "cid": 9855795,
+   "cas": "4630-07-3",
+   "formula": "C15H24",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-09",
+   "zh": "诺卡酮",
+   "en": "Nootkatone",
+   "status": "ok",
+   "cid": 1268142,
+   "cas": "4674-50-4",
+   "formula": "C15H22O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-10",
+   "zh": "邻氨基苯甲酸甲酯",
+   "en": "Methyl anthranilate",
+   "status": "ok",
+   "cid": 8635,
+   "cas": "134-20-3",
+   "formula": "C8H9NO2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-11",
+   "zh": "乙酸辛酯",
+   "en": "Octyl acetate",
+   "status": "ok",
+   "cid": 8164,
+   "cas": "112-14-1",
+   "formula": "C10H20O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-12",
+   "zh": "柠檬烯氧化物",
+   "en": "Limonene oxide",
+   "status": "ok",
+   "cid": 91496,
+   "cas": "1195-92-2",
+   "formula": "C10H16O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-13",
+   "zh": "对伞花烃",
+   "en": "p-Cymene",
+   "status": "ok",
+   "cid": 7463,
+   "cas": "99-87-6",
+   "formula": "C10H14",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-cit-14",
+   "zh": "月桂烯",
+   "en": "Myrcene",
+   "status": "ok",
+   "cid": 31253,
+   "cas": "123-35-3",
+   "formula": "C10H16",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-01",
+   "zh": "丁酸乙酯",
+   "en": "Ethyl butyrate",
+   "status": "ok",
+   "cid": 7762,
+   "cas": "105-54-4",
+   "formula": "C6H12O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-02",
+   "zh": "乙酸乙酯",
+   "en": "Ethyl acetate",
+   "status": "ok",
+   "cid": 8857,
+   "cas": "141-78-6",
+   "formula": "C4H8O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-03",
+   "zh": "乙酸异戊酯",
+   "en": "Isoamyl acetate",
+   "status": "ok",
+   "cid": 31276,
+   "cas": "123-92-2",
+   "formula": "C7H14O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-04",
+   "zh": "乙酸己酯",
+   "en": "Hexyl acetate",
+   "status": "ok",
+   "cid": 8908,
+   "cas": "142-92-7",
+   "formula": "C8H16O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-05",
+   "zh": "己酸乙酯",
+   "en": "Ethyl hexanoate",
+   "status": "ok",
+   "cid": 31265,
+   "cas": "123-66-0",
+   "formula": "C8H16O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-06",
+   "zh": "辛酸乙酯",
+   "en": "Ethyl octanoate",
+   "status": "ok",
+   "cid": 7799,
+   "cas": "106-32-1",
+   "formula": "C10H20O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-07",
+   "zh": "丁酸丁酯",
+   "en": "Butyl butyrate",
+   "status": "ok",
+   "cid": 7983,
+   "cas": "109-21-7",
+   "formula": "C8H16O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-08",
+   "zh": "γ-癸内酯",
+   "en": "γ-Decalactone",
+   "status": "ok",
+   "cid": 12813,
+   "cas": "706-14-9",
+   "formula": "C10H18O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-09",
+   "zh": "γ-壬内酯",
+   "en": "γ-Nonalactone",
+   "status": "ok",
+   "cid": 7710,
+   "cas": "104-61-0",
+   "formula": "C9H16O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-10",
+   "zh": "δ-癸内酯",
+   "en": "δ-Decalactone",
+   "status": "ok",
+   "cid": 12810,
+   "cas": "705-86-2",
+   "formula": "C10H18O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-11",
+   "zh": "呋喃酮",
+   "en": "Furaneol",
+   "status": "ok",
+   "cid": 19309,
+   "cas": "3658-77-3",
+   "formula": "C6H8O3",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-12",
+   "zh": "2-甲基丁酸乙酯",
+   "en": "Ethyl 2-methylbutyrate",
+   "status": "ok",
+   "cid": 24020,
+   "cas": "7452-79-1",
+   "formula": "C7H14O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-13",
+   "zh": "苯乙醛",
+   "en": "Phenylacetaldehyde",
+   "status": "ok",
+   "cid": 998,
+   "cas": "122-78-1",
+   "formula": "C8H8O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-14",
+   "zh": "乙酸苄酯",
+   "en": "Benzyl acetate",
+   "status": "ok",
+   "cid": 8785,
+   "cas": "140-11-4",
+   "formula": "C9H10O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-15",
+   "zh": "乙酸苯乙酯",
+   "en": "Phenethyl acetate",
+   "status": "ok",
+   "cid": 7654,
+   "cas": "103-45-7",
+   "formula": "C10H12O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-rip-16",
+   "zh": "丁酸甲酯",
+   "en": "Methyl butyrate",
+   "status": "ok",
+   "cid": 12180,
+   "cas": "623-42-7",
+   "formula": "C5H10O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-01",
+   "zh": "(Z)-3-己烯醛",
+   "en": "(Z)-3-Hexenal",
+   "status": "ok",
+   "cid": 643941,
+   "cas": "6789-80-6",
+   "formula": "C6H10O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-02",
+   "zh": "己醛",
+   "en": "Hexanal",
+   "status": "ok",
+   "cid": 6184,
+   "cas": "66-25-1",
+   "formula": "C6H12O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-03",
+   "zh": "(Z)-3-己烯醇",
+   "en": "(Z)-3-Hexenol",
+   "status": "ok",
+   "cid": 5281167,
+   "cas": "928-96-1",
+   "formula": "C6H12O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-04",
+   "zh": "1-己醇",
+   "en": "1-Hexanol",
+   "status": "ok",
+   "cid": 8103,
+   "cas": "111-27-3",
+   "formula": "C6H14O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-05",
+   "zh": "乙酸叶醇酯",
+   "en": "cis-3-Hexenyl acetate",
+   "status": "ok",
+   "cid": 5363388,
+   "cas": "3681-71-8",
+   "formula": "C8H14O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-06",
+   "zh": "反-2-己烯醛",
+   "en": "(E)-2-Hexenal",
+   "status": "ok",
+   "cid": 5281168,
+   "cas": "6728-26-3",
+   "formula": "C6H10O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-07",
+   "zh": "紫苏醛",
+   "en": "Perillaldehyde",
+   "status": "ok",
+   "cid": 16441,
+   "cas": "2111-75-3",
+   "formula": "C10H14O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-08",
+   "zh": "2-异丁基-3-甲氧基吡嗪",
+   "en": "IBMP",
+   "status": "ok",
+   "cid": 32594,
+   "cas": "24683-00-9",
+   "formula": "C9H14N2O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-09",
+   "zh": "(Z)-4-庚烯醛",
+   "en": "(Z)-4-Heptenal",
+   "status": "ok",
+   "cid": 5362814,
+   "cas": "6728-31-0",
+   "formula": "C7H12O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-10",
+   "zh": "反-2-辛烯醛",
+   "en": "(E)-2-Octenal",
+   "status": "ok",
+   "cid": 5283324,
+   "cas": "2548-87-0",
+   "formula": "C8H14O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-11",
+   "zh": "1-辛烯-3-醇",
+   "en": "1-Octen-3-ol",
+   "status": "ok",
+   "cid": 18827,
+   "cas": "3391-86-4",
+   "formula": "C8H16O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-grn-12",
+   "zh": "反-2-壬烯醛",
+   "en": "(E)-2-Nonenal",
+   "status": "ok",
+   "cid": 5283335,
+   "cas": "2463-53-8",
+   "formula": "C9H16O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-01",
+   "zh": "芳樟醇",
+   "en": "Linalool",
+   "status": "ok",
+   "cid": 6549,
+   "cas": "78-70-6",
+   "formula": "C10H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-02",
+   "zh": "β-紫罗兰酮",
+   "en": "β-Ionone",
+   "status": "ok",
+   "cid": 638014,
+   "cas": "79-77-6",
+   "formula": "C13H20O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-03",
+   "zh": "α-紫罗兰酮",
+   "en": "α-Ionone",
+   "status": "ok",
+   "cid": 5282108,
+   "cas": "127-41-3",
+   "formula": "C13H20O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-04",
+   "zh": "苯乙醇",
+   "en": "Phenylethyl alcohol",
+   "status": "ok",
+   "cid": 6054,
+   "cas": "60-12-8",
+   "formula": "C8H10O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-05",
+   "zh": "香叶醇",
+   "en": "Geraniol",
+   "status": "ok",
+   "cid": 637566,
+   "cas": "106-24-1",
+   "formula": "C10H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-06",
+   "zh": "苯甲醇",
+   "en": "Benzyl alcohol",
+   "status": "ok",
+   "cid": 244,
+   "cas": "100-51-6",
+   "formula": "C7H8O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-07",
+   "zh": "吲哚",
+   "en": "Indole",
+   "status": "ok",
+   "cid": 798,
+   "cas": "120-72-9",
+   "formula": "C8H7N",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-08",
+   "zh": "玫瑰醚",
+   "en": "Rose oxide",
+   "status": "ok",
+   "cid": 27866,
+   "cas": "16409-43-1",
+   "formula": "C10H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-09",
+   "zh": "β-大马酮",
+   "en": "β-Damascenone",
+   "status": "ok",
+   "cid": 5366074,
+   "cas": "23726-93-4",
+   "formula": "C13H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-10",
+   "zh": "(Z)-茉莉酮",
+   "en": "(Z)-Jasmone",
+   "status": "ok",
+   "cid": 1549018,
+   "cas": "488-10-8",
+   "formula": "C11H16O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-11",
+   "zh": "香叶基丙酮",
+   "en": "Geranylacetone",
+   "status": "ok",
+   "cid": 1549778,
+   "cas": "3796-70-1",
+   "formula": "C13H22O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-12",
+   "zh": "芳樟醇氧化物",
+   "en": "Linalool oxide",
+   "status": "ok",
+   "cid": 22310,
+   "cas": "1365-19-1",
+   "formula": "C10H18O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-13",
+   "zh": "橙花叔醇",
+   "en": "Nerolidol",
+   "status": "ok",
+   "cid": 5284507,
+   "cas": "7212-44-4",
+   "formula": "C15H26O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-14",
+   "zh": "乙酸香叶酯",
+   "en": "Geranyl acetate",
+   "status": "ok",
+   "cid": 1549026,
+   "cas": "105-87-3",
+   "formula": "C12H20O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-15",
+   "zh": "香茅醇",
+   "en": "Citronellol",
+   "status": "ok",
+   "cid": 8842,
+   "cas": "106-22-9",
+   "formula": "C10H20O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-16",
+   "zh": "α-松油醇",
+   "en": "α-Terpineol",
+   "status": "ok",
+   "cid": 17100,
+   "cas": "98-55-5",
+   "formula": "C10H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-17",
+   "zh": "金合欢醇",
+   "en": "Farnesol",
+   "status": "ok",
+   "cid": 445070,
+   "cas": "4602-84-0",
+   "formula": "C15H26O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-flo-18",
+   "zh": "丁香酚",
+   "en": "Eugenol",
+   "status": "ok",
+   "cid": 3314,
+   "cas": "97-53-0",
+   "formula": "C10H12O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-car-01",
+   "zh": "香兰素",
+   "en": "Vanillin",
+   "status": "ok",
+   "cid": 1183,
+   "cas": "121-33-5",
+   "formula": "C8H8O3",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-car-02",
+   "zh": "乙基香兰素",
+   "en": "Ethylvanillin",
+   "status": "ok",
+   "cid": 8467,
+   "cas": "121-32-4",
+   "formula": "C9H10O3",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-car-03",
+   "zh": "麦芽酚",
+   "en": "Maltol",
+   "status": "ok",
+   "cid": 8369,
+   "cas": "118-71-8",
+   "formula": "C6H6O3",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-car-04",
+   "zh": "乙基麦芽酚",
+   "en": "Ethyl maltol",
+   "status": "ok",
+   "cid": 21059,
+   "cas": "4940-11-8",
+   "formula": "C7H8O3",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-car-05",
+   "zh": "糠醛",
+   "en": "Furfural",
+   "status": "ok",
+   "cid": 7362,
+   "cas": "98-01-1",
+   "formula": "C5H4O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-car-06",
+   "zh": "5-甲基糠醛",
+   "en": "5-Methylfurfural",
+   "status": "ok",
+   "cid": 12097,
+   "cas": "620-02-0",
+   "formula": "C6H6O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-car-07",
+   "zh": "2-乙酰基呋喃",
+   "en": "2-Acetylfuran",
+   "status": "ok",
+   "cid": 14505,
+   "cas": "1192-62-7",
+   "formula": "C6H6O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-car-08",
+   "zh": "丁二酮",
+   "en": "Diacetyl",
+   "status": "ok",
+   "cid": 650,
+   "cas": "431-03-8",
+   "formula": "C4H6O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-car-09",
+   "zh": "乙偶姻",
+   "en": "Acetoin",
+   "status": "ok",
+   "cid": 179,
+   "cas": "513-86-0",
+   "formula": "C4H8O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-car-10",
+   "zh": "2,3-戊二酮",
+   "en": "2,3-Pentanedione",
+   "status": "ok",
+   "cid": 11747,
+   "cas": "600-14-6",
+   "formula": "C5H8O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-spc-01",
+   "zh": "肉桂醛",
+   "en": "Cinnamaldehyde",
+   "status": "ok",
+   "cid": 637511,
+   "cas": "104-55-2",
+   "formula": "C9H8O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-spc-02",
+   "zh": "反式茴香脑",
+   "en": "trans-Anethole",
+   "status": "ok",
+   "cid": 637563,
+   "cas": "104-46-1",
+   "formula": "C10H12O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-spc-03",
+   "zh": "百里香酚",
+   "en": "Thymol",
+   "status": "ok",
+   "cid": 6989,
+   "cas": "89-83-8",
+   "formula": "C10H14O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-spc-04",
+   "zh": "香芹酚",
+   "en": "Carvacrol",
+   "status": "ok",
+   "cid": 10364,
+   "cas": "499-75-2",
+   "formula": "C10H14O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-spc-05",
+   "zh": "枯茗醛",
+   "en": "Cuminaldehyde",
+   "status": "ok",
+   "cid": 326,
+   "cas": "122-03-2",
+   "formula": "C10H12O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-spc-06",
+   "zh": "藏红花醛",
+   "en": "Safranal",
+   "status": "ok",
+   "cid": 61041,
+   "cas": "116-26-7",
+   "formula": "C10H14O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-spc-07",
+   "zh": "姜烯",
+   "en": "Zingiberene",
+   "status": "ok",
+   "cid": 92776,
+   "cas": "495-60-3",
+   "formula": "C15H24",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-spc-08",
+   "zh": "胡椒酮",
+   "en": "Piperitone",
+   "status": "ok",
+   "cid": 6987,
+   "cas": "89-81-6",
+   "formula": "C10H16O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-wdy-01",
+   "zh": "α-蒎烯",
+   "en": "α-Pinene",
+   "status": "ok",
+   "cid": 6654,
+   "cas": "80-56-8",
+   "formula": "C10H16",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-wdy-02",
+   "zh": "β-蒎烯",
+   "en": "β-Pinene",
+   "status": "ok",
+   "cid": 14896,
+   "cas": "127-91-3",
+   "formula": "C10H16",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-wdy-03",
+   "zh": "樟脑",
+   "en": "Camphor",
+   "status": "ok",
+   "cid": 2537,
+   "cas": "76-22-2",
+   "formula": "C10H16O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-wdy-04",
+   "zh": "1,8-桉叶素",
+   "en": "1,8-Cineole",
+   "status": "ok",
+   "cid": 2758,
+   "cas": "470-82-6",
+   "formula": "C10H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-wdy-05",
+   "zh": "雪松醇",
+   "en": "Cedrol",
+   "status": "ok",
+   "cid": 65575,
+   "cas": "77-53-2",
+   "formula": "C15H26O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-wdy-06",
+   "zh": "薄荷醇",
+   "en": "Menthol",
+   "status": "ok",
+   "cid": 1254,
+   "cas": "1490-04-6",
+   "formula": "C10H20O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-wdy-07",
+   "zh": "薄荷酮",
+   "en": "Menthone",
+   "status": "ok",
+   "cid": 26447,
+   "cas": "89-80-5",
+   "formula": "C10H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-wdy-08",
+   "zh": "香芹酮",
+   "en": "Carvone",
+   "status": "ok",
+   "cid": 7439,
+   "cas": "99-49-0",
+   "formula": "C10H14O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-wdy-09",
+   "zh": "乙酸松油酯",
+   "en": "α-Terpinyl acetate",
+   "status": "ok",
+   "cid": 111037,
+   "cas": "80-26-2",
+   "formula": "C12H20O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-wdy-10",
+   "zh": "龙脑",
+   "en": "Borneol",
+   "status": "ok",
+   "cid": 64685,
+   "cas": "507-70-0",
+   "formula": "C10H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-smk-01",
+   "zh": "愈创木酚",
+   "en": "Guaiacol",
+   "status": "ok",
+   "cid": 460,
+   "cas": "90-05-1",
+   "formula": "C7H8O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-smk-02",
+   "zh": "4-甲基愈创木酚",
+   "en": "4-Methylguaiacol",
+   "status": "ok",
+   "cid": 7144,
+   "cas": "93-51-6",
+   "formula": "C8H10O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-smk-03",
+   "zh": "4-乙基愈创木酚",
+   "en": "4-Ethylguaiacol",
+   "status": "ok",
+   "cid": 62465,
+   "cas": "2785-89-9",
+   "formula": "C9H12O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-smk-04",
+   "zh": "4-乙烯基愈创木酚",
+   "en": "4-Vinylguaiacol",
+   "status": "ok",
+   "cid": 332,
+   "cas": "7786-61-0",
+   "formula": "C9H10O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-smk-05",
+   "zh": "苯酚",
+   "en": "Phenol",
+   "status": "ok",
+   "cid": 996,
+   "cas": "108-95-2",
+   "formula": "C6H6O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-smk-06",
+   "zh": "丁香酚甲醚",
+   "en": "Methyleugenol",
+   "status": "ok",
+   "cid": 7127,
+   "cas": "93-15-2",
+   "formula": "C11H14O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-smk-07",
+   "zh": "2,6-二甲氧基苯酚",
+   "en": "Syringol",
+   "status": "ok",
+   "cid": 7041,
+   "cas": "91-10-1",
+   "formula": "C8H10O3",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-dry-01",
+   "zh": "δ-辛内酯",
+   "en": "δ-Octanolactone",
+   "status": "ok",
+   "cid": 12777,
+   "cas": "698-76-0",
+   "formula": "C8H14O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-dry-02",
+   "zh": "γ-丁内酯",
+   "en": "γ-Butyrolactone",
+   "status": "ok",
+   "cid": 7302,
+   "cas": "96-48-0",
+   "formula": "C4H6O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-dry-03",
+   "zh": "2-壬酮",
+   "en": "2-Nonanone",
+   "status": "ok",
+   "cid": 13187,
+   "cas": "821-55-6",
+   "formula": "C9H18O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-dry-04",
+   "zh": "丁酸",
+   "en": "Butyric acid",
+   "status": "ok",
+   "cid": 264,
+   "cas": "107-92-6",
+   "formula": "C4H8O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-dry-05",
+   "zh": "异戊酸",
+   "en": "Isovaleric acid",
+   "status": "ok",
+   "cid": 10430,
+   "cas": "503-74-2",
+   "formula": "C5H10O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-dry-06",
+   "zh": "乳酸乙酯",
+   "en": "Ethyl lactate",
+   "status": "ok",
+   "cid": 7344,
+   "cas": "97-64-3",
+   "formula": "C5H10O3",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-nut-01",
+   "zh": "2-乙酰基吡嗪",
+   "en": "2-Acetylpyrazine",
+   "status": "ok",
+   "cid": 30914,
+   "cas": "22047-25-2",
+   "formula": "C6H6N2O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-nut-02",
+   "zh": "2,3,5-三甲基吡嗪",
+   "en": "2,3,5-Trimethylpyrazine",
+   "status": "ok",
+   "cid": 26808,
+   "cas": "14667-55-1",
+   "formula": "C7H10N2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-nut-03",
+   "zh": "2,5-二甲基吡嗪",
+   "en": "2,5-Dimethylpyrazine",
+   "status": "ok",
+   "cid": 31252,
+   "cas": "123-32-0",
+   "formula": "C6H8N2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-nut-04",
+   "zh": "苯甲醛",
+   "en": "Benzaldehyde",
+   "status": "ok",
+   "cid": 240,
+   "cas": "100-52-7",
+   "formula": "C7H6O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-nut-05",
+   "zh": "2-乙酰基-1-吡咯啉",
+   "en": "2-Acetyl-1-pyrroline",
+   "status": "ok",
+   "cid": 522834,
+   "cas": "85213-22-5",
+   "formula": "C6H9NO",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-nut-06",
+   "zh": "糠硫醇",
+   "en": "Furfuryl mercaptan",
+   "status": "ok",
+   "cid": 7363,
+   "cas": "98-02-2",
+   "formula": "C5H6OS",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-nut-07",
+   "zh": "甲硫基丙醛",
+   "en": "Methional",
+   "status": "ok",
+   "cid": 18635,
+   "cas": "3268-49-3",
+   "formula": "C4H8OS",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-ert-01",
+   "zh": "土臭素",
+   "en": "Geosmin",
+   "status": "ok",
+   "cid": 29746,
+   "cas": "19700-21-1",
+   "formula": "C12H22O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-ert-02",
+   "zh": "2-甲基异莰醇",
+   "en": "2-Methylisoborneol",
+   "status": "ok",
+   "cid": 11062802,
+   "cas": "2371-42-8",
+   "formula": "C11H20O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-ert-03",
+   "zh": "二甲基硫醚",
+   "en": "Dimethyl sulfide",
+   "status": "ok",
+   "cid": 1068,
+   "cas": "75-18-3",
+   "formula": "C2H6S",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sou-01",
+   "zh": "乙酸",
+   "en": "Acetic acid",
+   "status": "ok",
+   "cid": 176,
+   "cas": "64-19-7",
+   "formula": "C2H4O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sou-02",
+   "zh": "丙酸",
+   "en": "Propionic acid",
+   "status": "ok",
+   "cid": 1032,
+   "cas": "79-09-4",
+   "formula": "C3H6O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sou-03",
+   "zh": "己酸",
+   "en": "Hexanoic acid",
+   "status": "ok",
+   "cid": 8892,
+   "cas": "142-62-1",
+   "formula": "C6H12O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sou-04",
+   "zh": "辛酸",
+   "en": "Octanoic acid",
+   "status": "ok",
+   "cid": 379,
+   "cas": "124-07-2",
+   "formula": "C8H16O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sou-05",
+   "zh": "癸酸",
+   "en": "Decanoic acid",
+   "status": "ok",
+   "cid": 2969,
+   "cas": "334-48-5",
+   "formula": "C10H20O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sou-06",
+   "zh": "乳酸",
+   "en": "Lactic acid",
+   "status": "ok",
+   "cid": 612,
+   "cas": "50-21-5",
+   "formula": "C3H6O3",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-ert-04",
+   "zh": "对甲酚",
+   "en": "p-Cresol",
+   "status": "ok",
+   "cid": 2879,
+   "cas": "106-44-5",
+   "formula": "C7H8O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-ert-05",
+   "zh": "2,4,6-三氯苯甲醚",
+   "en": "TCA",
+   "status": "ok",
+   "cid": 6884,
+   "cas": "87-40-1",
+   "formula": "C7H5Cl3O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-smk-08",
+   "zh": "4-乙基苯酚",
+   "en": "4-Ethylphenol",
+   "status": "ok",
+   "cid": 31242,
+   "cas": "123-07-9",
+   "formula": "C8H10O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sul-01",
+   "zh": "硫化氢",
+   "en": "Hydrogen sulfide",
+   "status": "ok",
+   "cid": 402,
+   "cas": "7783-06-4",
+   "formula": "H2S",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sul-02",
+   "zh": "甲硫醇",
+   "en": "Methanethiol",
+   "status": "ok",
+   "cid": 878,
+   "cas": "74-93-1",
+   "formula": "CH4S",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sul-03",
+   "zh": "二甲基二硫醚",
+   "en": "Dimethyl disulfide",
+   "status": "ok",
+   "cid": 12232,
+   "cas": "624-92-0",
+   "formula": "C2H6S2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sul-04",
+   "zh": "二甲基三硫醚",
+   "en": "Dimethyl trisulfide",
+   "status": "ok",
+   "cid": 19310,
+   "cas": "3658-80-8",
+   "formula": "C2H6S3",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sul-05",
+   "zh": "甲硫基丙醇",
+   "en": "Methionol",
+   "status": "ok",
+   "cid": 10448,
+   "cas": "505-10-2",
+   "formula": "C4H10OS",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sul-06",
+   "zh": "3-甲硫基丙酸乙酯",
+   "en": "Ethyl 3-methylthiopropionate",
+   "status": "ok",
+   "cid": 61592,
+   "cas": "13327-56-5",
+   "formula": "C6H12O2S",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sul-07",
+   "zh": "硫代薄荷酮",
+   "en": "p-Mentha-8-thiol-3-one",
+   "status": "ok",
+   "cid": 61982,
+   "cas": "38462-22-5",
+   "formula": "C10H18OS",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-sul-08",
+   "zh": "二氧化硫",
+   "en": "Sulfur dioxide",
+   "status": "ok",
+   "cid": 1119,
+   "cas": "7446-09-5",
+   "formula": "O2S",
+   "formulaMatch": false
+  },
+  {
+   "id": "cmp-min-01",
+   "zh": "二氧化碳",
+   "en": "Carbon dioxide",
+   "status": "ok",
+   "cid": 280,
+   "cas": "124-38-9",
+   "formula": "CO2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-min-02",
+   "zh": "氯化钠",
+   "en": "Sodium chloride",
+   "status": "ok",
+   "cid": 5234,
+   "cas": "7647-14-5",
+   "formula": "ClNa",
+   "formulaMatch": false
+  },
+  {
+   "id": "cmp-min-03",
+   "zh": "氯化钾",
+   "en": "Potassium chloride",
+   "status": "ok",
+   "cid": 4873,
+   "cas": "7447-40-7",
+   "formula": "ClK",
+   "formulaMatch": false
+  },
+  {
+   "id": "cmp-min-04",
+   "zh": "氯化钙",
+   "en": "Calcium chloride",
+   "status": "ok",
+   "cid": 5284359,
+   "cas": "10043-52-4",
+   "formula": "CaCl2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-min-05",
+   "zh": "硫酸镁",
+   "en": "Magnesium sulfate",
+   "status": "ok",
+   "cid": 24083,
+   "cas": "7487-88-9",
+   "formula": "MgO4S",
+   "formulaMatch": false
+  },
+  {
+   "id": "cmp-min-06",
+   "zh": "碳酸氢钠",
+   "en": "Sodium bicarbonate",
+   "status": "ok",
+   "cid": 516892,
+   "cas": "144-55-8",
+   "formula": "CHNaO3",
+   "formulaMatch": false
+  },
+  {
+   "id": "cmp-min-07",
+   "zh": "氢氧化钙",
+   "en": "Calcium hydroxide",
+   "status": "ok",
+   "cid": 6093208,
+   "cas": "1305-62-0",
+   "formula": "CaH2O2",
+   "formulaMatch": false
+  },
+  {
+   "id": "cmp-min-08",
+   "zh": "磷酸",
+   "en": "Phosphoric acid",
+   "status": "ok",
+   "cid": 1004,
+   "cas": "7664-38-2",
+   "formula": "H3O4P",
+   "formulaMatch": false
+  },
+  {
+   "id": "cmp-min-09",
+   "zh": "铁离子 Fe³⁺",
+   "en": "Ferric ion",
+   "status": "ok",
+   "cid": 29936,
+   "cas": "20074-52-6",
+   "formula": "Fe+3",
+   "formulaMatch": false
+  },
+  {
+   "id": "cmp-min-10",
+   "zh": "铜离子 Cu²⁺",
+   "en": "Cupric ion",
+   "status": "ok",
+   "cid": 27099,
+   "cas": "15158-11-9",
+   "formula": "Cu+2",
+   "formulaMatch": false
+  },
+  {
+   "id": "cmp-min-11",
+   "zh": "氧气",
+   "en": "Oxygen",
+   "status": "ok",
+   "cid": 977,
+   "cas": "7782-44-7",
+   "formula": "O2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-min-12",
+   "zh": "氧化亚氮",
+   "en": "Nitrous oxide",
+   "status": "ok",
+   "cid": 948,
+   "cas": "10024-97-2",
+   "formula": "N2O",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-min-13",
+   "zh": "氨",
+   "en": "Ammonia",
+   "status": "ok",
+   "cid": 222,
+   "cas": "7664-41-7",
+   "formula": "H3N",
+   "formulaMatch": false
+  },
+  {
+   "id": "cmp-min-14",
+   "zh": "氯 / 次氯酸",
+   "en": "Chlorine",
+   "status": "ok",
+   "cid": 24526,
+   "cas": "7782-50-5",
+   "formula": "Cl2",
+   "formulaMatch": true
+  },
+  {
+   "id": "cmp-min-15",
+   "zh": "臭氧",
+   "en": "Ozone",
+   "status": "ok",
+   "cid": 24823,
+   "cas": "10028-15-6",
+   "formula": "O3",
+   "formulaMatch": true
+  }
+ ]
+}

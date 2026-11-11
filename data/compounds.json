@@ -1,0 +1,3006 @@
+{
+ "_meta": {
+  "version": "0.1",
+  "updated": "2026-11-10",
+  "count": 143,
+  "note": "阈值 (odorMgL) 一律为「水中的嗅觉阈值」，单位 mg/L，是该物质刚可辨认的浓度。bpC 为常压沸点；标 null 者为减压沸点或未查。conf: lit=有文献常引值 / est=按同系物估算，需实测校正。cas 留空表示待 PubChem 核对，不猜。",
+  "casChecked": "PubChem PUG REST, 2026-11-10"
+ },
+ "facets": [
+  {
+   "id": "citrus",
+   "zh": "柑橘",
+   "en": "CITRUS",
+   "color": "#D08A2E",
+   "glyph": "◍"
+  },
+  {
+   "id": "ripe",
+   "zh": "熟果甜香",
+   "en": "RIPE FRUIT",
+   "color": "#B4693A",
+   "glyph": "●"
+  },
+  {
+   "id": "green",
+   "zh": "青绿鲜草",
+   "en": "GREEN LEAF",
+   "color": "#4F7A46",
+   "glyph": "▲"
+  },
+  {
+   "id": "floral",
+   "zh": "花香",
+   "en": "FLORAL",
+   "color": "#8A6E92",
+   "glyph": "❀"
+  },
+  {
+   "id": "caramel",
+   "zh": "焦糖奶油",
+   "en": "CARAMEL",
+   "color": "#7B5230",
+   "glyph": "◆"
+  },
+  {
+   "id": "sour",
+   "zh": "酸鲜",
+   "en": "SOUR",
+   "color": "#B9A03C",
+   "glyph": "✦"
+  },
+  {
+   "id": "spice",
+   "zh": "辛香",
+   "en": "SPICE",
+   "color": "#A8503A",
+   "glyph": "✳"
+  },
+  {
+   "id": "woody",
+   "zh": "木质草本",
+   "en": "WOODY HERB",
+   "color": "#5A5145",
+   "glyph": "✚"
+  },
+  {
+   "id": "smoke",
+   "zh": "烟熏",
+   "en": "SMOKE",
+   "color": "#3A342C",
+   "glyph": "◼"
+  },
+  {
+   "id": "dairy",
+   "zh": "乳脂",
+   "en": "DAIRY",
+   "color": "#C08A5E",
+   "glyph": "◕"
+  },
+  {
+   "id": "nut",
+   "zh": "坚果烘焙",
+   "en": "NUT / ROAST",
+   "color": "#8A6A3A",
+   "glyph": "✲"
+  },
+  {
+   "id": "earthy",
+   "zh": "泥土霉味",
+   "en": "EARTHY",
+   "color": "#6B5B4A",
+   "glyph": "⊛"
+  },
+  {
+   "id": "sulfur",
+   "zh": "硫香",
+   "en": "SULFUR",
+   "color": "#6E6B23",
+   "glyph": "✸"
+  },
+  {
+   "id": "mineral",
+   "zh": "矿物 · 刺鼻",
+   "en": "MINERAL",
+   "color": "#6E7A7A",
+   "glyph": "✱"
+  }
+ ],
+ "compounds": [
+  {
+   "id": "cmp-cit-01",
+   "zh": "d-柠檬烯",
+   "en": "d-Limonene",
+   "formula": "C10H16",
+   "cas": "5989-27-5",
+   "bpC": 176,
+   "logP": 4.6,
+   "odorMgL": 0.2,
+   "tLayer": "top",
+   "facets": [
+    "citrus"
+   ],
+   "from": [
+    "柠檬皮",
+    "橙皮",
+    "青柠皮",
+    "柚子皮"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-cit-02",
+   "zh": "柠檬醛",
+   "en": "Citral",
+   "formula": "C10H16O",
+   "cas": "5392-40-5",
+   "bpC": 229,
+   "logP": 3.5,
+   "odorMgL": 0.03,
+   "tLayer": "heart",
+   "facets": [
+    "citrus",
+    "green"
+   ],
+   "from": [
+    "柠檬草",
+    "柠檬皮",
+    "香茅"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-cit-03",
+   "zh": "γ-松油烯",
+   "en": "γ-Terpinene",
+   "formula": "C10H16",
+   "cas": "99-85-4",
+   "bpC": 183,
+   "logP": 4.4,
+   "odorMgL": 0.26,
+   "tLayer": "heart",
+   "facets": [
+    "citrus",
+    "woody"
+   ],
+   "from": [
+    "青柠皮",
+    "柑橘皮油"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-cit-04",
+   "zh": "辛醛",
+   "en": "Octanal",
+   "formula": "C8H16O",
+   "cas": "124-13-0",
+   "bpC": 171,
+   "logP": 2.9,
+   "odorMgL": 0.0007,
+   "tLayer": "top",
+   "facets": [
+    "citrus"
+   ],
+   "from": [
+    "橙皮",
+    "柠檬皮"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-cit-05",
+   "zh": "壬醛",
+   "en": "Nonanal",
+   "formula": "C9H18O",
+   "cas": "124-19-6",
+   "bpC": 195,
+   "logP": 3.4,
+   "odorMgL": 0.015,
+   "tLayer": "heart",
+   "facets": [
+    "citrus",
+    "dairy"
+   ],
+   "from": [
+    "柑橘皮",
+    "黄瓜"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-cit-06",
+   "zh": "癸醛",
+   "en": "Decanal",
+   "formula": "C10H20O",
+   "cas": "112-31-2",
+   "bpC": 208,
+   "logP": 3.8,
+   "odorMgL": 0.0001,
+   "tLayer": "top",
+   "facets": [
+    "citrus"
+   ],
+   "from": [
+    "橙皮",
+    "柠檬皮"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-cit-07",
+   "zh": "橙花醇",
+   "en": "Nerol",
+   "formula": "C10H18O",
+   "cas": "106-25-2",
+   "bpC": 225,
+   "logP": 3.3,
+   "odorMgL": 0.3,
+   "tLayer": "heart",
+   "facets": [
+    "citrus",
+    "floral"
+   ],
+   "from": [
+    "橙花",
+    "香柠檬"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-cit-08",
+   "zh": "瓦伦烯",
+   "en": "Valencene",
+   "formula": "C15H24",
+   "cas": "4630-07-3",
+   "bpC": 274,
+   "logP": 6,
+   "odorMgL": 1,
+   "tLayer": "base",
+   "facets": [
+    "citrus",
+    "woody"
+   ],
+   "from": [
+    "橙皮油"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-cit-09",
+   "zh": "诺卡酮",
+   "en": "Nootkatone",
+   "formula": "C15H22O",
+   "cas": "4674-50-4",
+   "bpC": null,
+   "logP": 3.6,
+   "odorMgL": 1,
+   "tLayer": "heart",
+   "facets": [
+    "citrus"
+   ],
+   "from": [
+    "西柚皮",
+    "柚子"
+   ],
+   "conf": "est",
+   "note": "常压下分解，实际用减压蒸馏"
+  },
+  {
+   "id": "cmp-cit-10",
+   "zh": "邻氨基苯甲酸甲酯",
+   "en": "Methyl anthranilate",
+   "formula": "C8H9NO2",
+   "cas": "134-20-3",
+   "bpC": 256,
+   "logP": 2,
+   "odorMgL": 0.003,
+   "tLayer": "heart",
+   "facets": [
+    "citrus",
+    "floral"
+   ],
+   "from": [
+    "葡萄",
+    "橙花",
+    "日本柚子"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-cit-11",
+   "zh": "乙酸辛酯",
+   "en": "Octyl acetate",
+   "formula": "C10H20O2",
+   "cas": "112-14-1",
+   "bpC": 211,
+   "logP": 3.8,
+   "odorMgL": 0.12,
+   "tLayer": "heart",
+   "facets": [
+    "citrus",
+    "ripe"
+   ],
+   "from": [
+    "柑橘皮油",
+    "橙汁"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-cit-12",
+   "zh": "柠檬烯氧化物",
+   "en": "Limonene oxide",
+   "formula": "C10H16O",
+   "cas": "1195-92-2",
+   "bpC": 200,
+   "logP": 2.7,
+   "odorMgL": 5,
+   "tLayer": "base",
+   "facets": [
+    "citrus"
+   ],
+   "from": [
+    "陈化柑橘油",
+    "久放果皮"
+   ],
+   "conf": "est",
+   "note": "柑橘「陈旧感」的来源，不是鲜香而是教训"
+  },
+  {
+   "id": "cmp-cit-13",
+   "zh": "对伞花烃",
+   "en": "p-Cymene",
+   "formula": "C10H14",
+   "cas": "99-87-6",
+   "bpC": 177,
+   "logP": 4.1,
+   "odorMgL": 0.08,
+   "tLayer": "heart",
+   "facets": [
+    "citrus",
+    "woody"
+   ],
+   "from": [
+    "柑橘皮",
+    "百里香"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-cit-14",
+   "zh": "月桂烯",
+   "en": "Myrcene",
+   "formula": "C10H16",
+   "cas": "123-35-3",
+   "bpC": 167,
+   "logP": 4.3,
+   "odorMgL": 0.09,
+   "tLayer": "top",
+   "facets": [
+    "citrus",
+    "green"
+   ],
+   "from": [
+    "酒花",
+    "芒果",
+    "柑橘皮"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-rip-01",
+   "zh": "丁酸乙酯",
+   "en": "Ethyl butyrate",
+   "formula": "C6H12O2",
+   "cas": "105-54-4",
+   "bpC": 121,
+   "logP": 1.85,
+   "odorMgL": 0.001,
+   "tLayer": "top",
+   "facets": [
+    "ripe"
+   ],
+   "from": [
+    "草莓",
+    "菠萝",
+    "苹果"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-02",
+   "zh": "乙酸乙酯",
+   "en": "Ethyl acetate",
+   "formula": "C4H8O2",
+   "cas": "141-78-6",
+   "bpC": 77,
+   "logP": 0.73,
+   "odorMgL": 5,
+   "tLayer": "top",
+   "facets": [
+    "ripe"
+   ],
+   "from": [
+    "发酵果香",
+    "朗姆",
+    "清酒"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-03",
+   "zh": "乙酸异戊酯",
+   "en": "Isoamyl acetate",
+   "formula": "C7H14O2",
+   "cas": "123-92-2",
+   "bpC": 142,
+   "logP": 2.3,
+   "odorMgL": 0.03,
+   "tLayer": "top",
+   "facets": [
+    "ripe"
+   ],
+   "from": [
+    "香蕉",
+    "梨"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-04",
+   "zh": "乙酸己酯",
+   "en": "Hexyl acetate",
+   "formula": "C8H16O2",
+   "cas": "142-92-7",
+   "bpC": 169,
+   "logP": 2.9,
+   "odorMgL": 0.002,
+   "tLayer": "top",
+   "facets": [
+    "ripe",
+    "green"
+   ],
+   "from": [
+    "草莓",
+    "苹果",
+    "梨"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-05",
+   "zh": "己酸乙酯",
+   "en": "Ethyl hexanoate",
+   "formula": "C8H16O2",
+   "cas": "123-66-0",
+   "bpC": 168,
+   "logP": 2.8,
+   "odorMgL": 0.001,
+   "tLayer": "top",
+   "facets": [
+    "ripe"
+   ],
+   "from": [
+    "草莓",
+    "菠萝",
+    "苹果"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-06",
+   "zh": "辛酸乙酯",
+   "en": "Ethyl octanoate",
+   "formula": "C10H20O2",
+   "cas": "106-32-1",
+   "bpC": 208,
+   "logP": 3.8,
+   "odorMgL": 0.005,
+   "tLayer": "heart",
+   "facets": [
+    "ripe",
+    "dairy"
+   ],
+   "from": [
+    "菠萝",
+    "朗姆",
+    "苹果"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-07",
+   "zh": "丁酸丁酯",
+   "en": "Butyl butyrate",
+   "formula": "C8H16O2",
+   "cas": "109-21-7",
+   "bpC": 165,
+   "logP": 2.6,
+   "odorMgL": 0.07,
+   "tLayer": "top",
+   "facets": [
+    "ripe"
+   ],
+   "from": [
+    "菠萝",
+    "杏"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-rip-08",
+   "zh": "γ-癸内酯",
+   "en": "γ-Decalactone",
+   "formula": "C10H18O2",
+   "cas": "706-14-9",
+   "bpC": 281,
+   "logP": 2.7,
+   "odorMgL": 0.09,
+   "tLayer": "base",
+   "facets": [
+    "ripe",
+    "dairy"
+   ],
+   "from": [
+    "桃",
+    "杏",
+    "奶油"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-09",
+   "zh": "γ-壬内酯",
+   "en": "γ-Nonalactone",
+   "formula": "C9H16O2",
+   "cas": "104-61-0",
+   "bpC": 243,
+   "logP": 2.2,
+   "odorMgL": 0.06,
+   "tLayer": "base",
+   "facets": [
+    "ripe",
+    "dairy",
+    "caramel"
+   ],
+   "from": [
+    "椰子",
+    "桃",
+    "朗姆"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-10",
+   "zh": "δ-癸内酯",
+   "en": "δ-Decalactone",
+   "formula": "C10H18O2",
+   "cas": "705-86-2",
+   "bpC": 285,
+   "logP": 2.7,
+   "odorMgL": 0.1,
+   "tLayer": "base",
+   "facets": [
+    "ripe",
+    "dairy"
+   ],
+   "from": [
+    "椰子",
+    "奶油",
+    "桃"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-rip-11",
+   "zh": "呋喃酮",
+   "en": "Furaneol",
+   "formula": "C6H8O3",
+   "cas": "3658-77-3",
+   "bpC": 188,
+   "logP": 0.3,
+   "odorMgL": 0.04,
+   "tLayer": "heart",
+   "facets": [
+    "ripe",
+    "caramel"
+   ],
+   "from": [
+    "草莓",
+    "菠萝",
+    "焦糖",
+    "烤面包"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-12",
+   "zh": "2-甲基丁酸乙酯",
+   "en": "Ethyl 2-methylbutyrate",
+   "formula": "C7H14O2",
+   "cas": "7452-79-1",
+   "bpC": 132,
+   "logP": 2.3,
+   "odorMgL": 0.0002,
+   "tLayer": "top",
+   "facets": [
+    "ripe"
+   ],
+   "from": [
+    "苹果",
+    "草莓"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-rip-13",
+   "zh": "苯乙醛",
+   "en": "Phenylacetaldehyde",
+   "formula": "C8H8O",
+   "cas": "122-78-1",
+   "bpC": 195,
+   "logP": 1.7,
+   "odorMgL": 0.004,
+   "tLayer": "heart",
+   "facets": [
+    "ripe",
+    "floral"
+   ],
+   "from": [
+    "蜂蜜",
+    "玫瑰",
+    "苹果"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-14",
+   "zh": "乙酸苄酯",
+   "en": "Benzyl acetate",
+   "formula": "C9H10O2",
+   "cas": "140-11-4",
+   "bpC": 213,
+   "logP": 2,
+   "odorMgL": 0.02,
+   "tLayer": "heart",
+   "facets": [
+    "ripe",
+    "floral"
+   ],
+   "from": [
+    "茉莉",
+    "梨",
+    "香蕉"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-rip-15",
+   "zh": "乙酸苯乙酯",
+   "en": "Phenethyl acetate",
+   "formula": "C10H12O2",
+   "cas": "103-45-7",
+   "bpC": 232,
+   "logP": 2.3,
+   "odorMgL": 0.25,
+   "tLayer": "base",
+   "facets": [
+    "ripe",
+    "floral"
+   ],
+   "from": [
+    "玫瑰",
+    "苹果",
+    "蜂蜜"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-rip-16",
+   "zh": "丁酸甲酯",
+   "en": "Methyl butyrate",
+   "formula": "C5H10O2",
+   "cas": "623-42-7",
+   "bpC": 102,
+   "logP": 1.3,
+   "odorMgL": 0.0068,
+   "tLayer": "top",
+   "facets": [
+    "ripe",
+    "dairy"
+   ],
+   "from": [
+    "苹果",
+    "香蕉"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-grn-01",
+   "zh": "(Z)-3-己烯醛",
+   "en": "(Z)-3-Hexenal",
+   "formula": "C6H10O",
+   "cas": "6789-80-6",
+   "bpC": 138,
+   "logP": 1.6,
+   "odorMgL": 0.0005,
+   "tLayer": "top",
+   "facets": [
+    "green"
+   ],
+   "from": [
+    "草莓",
+    "青草",
+    "橄榄油"
+   ],
+   "conf": "lit",
+   "note": "半衰期只有几分钟，是「现切」感的来源"
+  },
+  {
+   "id": "cmp-grn-02",
+   "zh": "己醛",
+   "en": "Hexanal",
+   "formula": "C6H12O",
+   "cas": "66-25-1",
+   "bpC": 131,
+   "logP": 1.8,
+   "odorMgL": 0.0045,
+   "tLayer": "top",
+   "facets": [
+    "green"
+   ],
+   "from": [
+    "青草",
+    "苹果",
+    "未熟果"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-grn-03",
+   "zh": "(Z)-3-己烯醇",
+   "en": "(Z)-3-Hexenol",
+   "formula": "C6H12O",
+   "cas": "928-96-1",
+   "bpC": 157,
+   "logP": 1.6,
+   "odorMgL": 0.07,
+   "tLayer": "top",
+   "facets": [
+    "green"
+   ],
+   "from": [
+    "青草",
+    "茶叶",
+    "茉莉"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-grn-04",
+   "zh": "1-己醇",
+   "en": "1-Hexanol",
+   "formula": "C6H14O",
+   "cas": "111-27-3",
+   "bpC": 158,
+   "logP": 2,
+   "odorMgL": 0.8,
+   "tLayer": "top",
+   "facets": [
+    "green",
+    "woody"
+   ],
+   "from": [
+    "青草",
+    "未熟果"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-grn-05",
+   "zh": "乙酸叶醇酯",
+   "en": "cis-3-Hexenyl acetate",
+   "formula": "C8H14O2",
+   "cas": "3681-71-8",
+   "bpC": 195,
+   "logP": 2.5,
+   "odorMgL": 0.02,
+   "tLayer": "heart",
+   "facets": [
+    "green",
+    "ripe"
+   ],
+   "from": [
+    "香蕉",
+    "青草",
+    "梨"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-grn-06",
+   "zh": "反-2-己烯醛",
+   "en": "(E)-2-Hexenal",
+   "formula": "C6H10O",
+   "cas": "6728-26-3",
+   "bpC": 146,
+   "logP": 1.6,
+   "odorMgL": 0.02,
+   "tLayer": "top",
+   "facets": [
+    "green"
+   ],
+   "from": [
+    "青草",
+    "苹果"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-grn-07",
+   "zh": "紫苏醛",
+   "en": "Perillaldehyde",
+   "formula": "C10H14O",
+   "cas": "2111-75-3",
+   "bpC": 237,
+   "logP": 2.9,
+   "odorMgL": 0.05,
+   "tLayer": "heart",
+   "facets": [
+    "green",
+    "spice"
+   ],
+   "from": [
+    "紫苏",
+    "紫苏叶",
+    "青紫苏"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-grn-08",
+   "zh": "2-异丁基-3-甲氧基吡嗪",
+   "en": "IBMP",
+   "formula": "C9H14N2O",
+   "cas": "24683-00-9",
+   "bpC": 218,
+   "logP": 1.6,
+   "odorMgL": 0.000002,
+   "tLayer": "heart",
+   "facets": [
+    "green"
+   ],
+   "from": [
+    "青椒",
+    "青豆"
+   ],
+   "conf": "lit",
+   "note": "阈值极低，1 微克级就能压倒全场"
+  },
+  {
+   "id": "cmp-grn-09",
+   "zh": "(Z)-4-庚烯醛",
+   "en": "(Z)-4-Heptenal",
+   "formula": "C7H12O",
+   "cas": "6728-31-0",
+   "bpC": 150,
+   "logP": 1.7,
+   "odorMgL": 0.0003,
+   "tLayer": "top",
+   "facets": [
+    "green",
+    "dairy"
+   ],
+   "from": [
+    "奶油",
+    "鱼腥"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-grn-10",
+   "zh": "反-2-辛烯醛",
+   "en": "(E)-2-Octenal",
+   "formula": "C8H14O",
+   "cas": "2548-87-0",
+   "bpC": 190,
+   "logP": 2.4,
+   "odorMgL": 0.01,
+   "tLayer": "heart",
+   "facets": [
+    "green",
+    "nut"
+   ],
+   "from": [
+    "黄瓜",
+    "坚果"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-grn-11",
+   "zh": "1-辛烯-3-醇",
+   "en": "1-Octen-3-ol",
+   "formula": "C8H16O",
+   "cas": "3391-86-4",
+   "bpC": 175,
+   "logP": 2.6,
+   "odorMgL": 0.005,
+   "tLayer": "heart",
+   "facets": [
+    "green",
+    "earthy"
+   ],
+   "from": [
+    "蘑菇",
+    "泥土"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-grn-12",
+   "zh": "反-2-壬烯醛",
+   "en": "(E)-2-Nonenal",
+   "formula": "C9H16O",
+   "cas": "18829-56-6",
+   "bpC": 199,
+   "logP": 3.3,
+   "odorMgL": 0.0001,
+   "tLayer": "heart",
+   "facets": [
+    "green",
+    "dairy"
+   ],
+   "from": [
+    "黄瓜",
+    "陈化啤酒"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-flo-01",
+   "zh": "芳樟醇",
+   "en": "Linalool",
+   "formula": "C10H18O",
+   "cas": "78-70-6",
+   "bpC": 198,
+   "logP": 2.97,
+   "odorMgL": 0.0006,
+   "tLayer": "heart",
+   "facets": [
+    "floral",
+    "citrus"
+   ],
+   "from": [
+    "芫荽籽",
+    "薰衣草",
+    "桂花",
+    "茉莉"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-flo-02",
+   "zh": "β-紫罗兰酮",
+   "en": "β-Ionone",
+   "formula": "C13H20O",
+   "cas": "79-77-6",
+   "bpC": 267,
+   "logP": 3.7,
+   "odorMgL": 0.0007,
+   "tLayer": "base",
+   "facets": [
+    "floral",
+    "ripe"
+   ],
+   "from": [
+    "桂花",
+    "紫罗兰",
+    "覆盆子"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-flo-03",
+   "zh": "α-紫罗兰酮",
+   "en": "α-Ionone",
+   "formula": "C13H20O",
+   "cas": "127-41-3",
+   "bpC": 259,
+   "logP": 3.5,
+   "odorMgL": 0.005,
+   "tLayer": "base",
+   "facets": [
+    "floral"
+   ],
+   "from": [
+    "紫罗兰",
+    "鸢尾"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-flo-04",
+   "zh": "苯乙醇",
+   "en": "Phenylethyl alcohol",
+   "formula": "C8H10O",
+   "cas": "60-12-8",
+   "bpC": 219,
+   "logP": 1.36,
+   "odorMgL": 0.7,
+   "tLayer": "heart",
+   "facets": [
+    "floral",
+    "ripe"
+   ],
+   "from": [
+    "玫瑰",
+    "蜂蜜",
+    "茉莉"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-flo-05",
+   "zh": "香叶醇",
+   "en": "Geraniol",
+   "formula": "C10H18O",
+   "cas": "106-24-1",
+   "bpC": 230,
+   "logP": 3.5,
+   "odorMgL": 0.0075,
+   "tLayer": "base",
+   "facets": [
+    "floral",
+    "citrus"
+   ],
+   "from": [
+    "玫瑰",
+    "柠檬草",
+    "天竺葵"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-flo-06",
+   "zh": "苯甲醇",
+   "en": "Benzyl alcohol",
+   "formula": "C7H8O",
+   "cas": "100-51-6",
+   "bpC": 205,
+   "logP": 1.1,
+   "odorMgL": 10,
+   "tLayer": "heart",
+   "facets": [
+    "floral"
+   ],
+   "from": [
+    "茉莉",
+    "茶"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-flo-07",
+   "zh": "吲哚",
+   "en": "Indole",
+   "formula": "C8H7N",
+   "cas": "120-72-9",
+   "bpC": 254,
+   "logP": 2.1,
+   "odorMgL": 0.0003,
+   "tLayer": "base",
+   "facets": [
+    "floral"
+   ],
+   "from": [
+    "茉莉",
+    "橙花"
+   ],
+   "conf": "lit",
+   "note": "浓度反转：>0.5 mg/L 从花香转粪臭"
+  },
+  {
+   "id": "cmp-flo-08",
+   "zh": "玫瑰醚",
+   "en": "Rose oxide",
+   "formula": "C10H18O",
+   "cas": "16409-43-1",
+   "bpC": 196,
+   "logP": 2.9,
+   "odorMgL": 0.001,
+   "tLayer": "heart",
+   "facets": [
+    "floral"
+   ],
+   "from": [
+    "玫瑰",
+    "天竺葵"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-flo-09",
+   "zh": "β-大马酮",
+   "en": "β-Damascenone",
+   "formula": "C13H18O",
+   "cas": "23726-93-4",
+   "bpC": 258,
+   "logP": 3.6,
+   "odorMgL": 0.000002,
+   "tLayer": "base",
+   "facets": [
+    "floral",
+    "ripe"
+   ],
+   "from": [
+    "玫瑰",
+    "苹果",
+    "烟草"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-flo-10",
+   "zh": "(Z)-茉莉酮",
+   "en": "(Z)-Jasmone",
+   "formula": "C11H16O",
+   "cas": "488-10-8",
+   "bpC": 248,
+   "logP": 3,
+   "odorMgL": 0.003,
+   "tLayer": "base",
+   "facets": [
+    "floral"
+   ],
+   "from": [
+    "茉莉",
+    "绿茶"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-flo-11",
+   "zh": "香叶基丙酮",
+   "en": "Geranylacetone",
+   "formula": "C13H22O",
+   "cas": "3796-70-1",
+   "bpC": 254,
+   "logP": 3.9,
+   "odorMgL": 0.06,
+   "tLayer": "base",
+   "facets": [
+    "floral",
+    "green"
+   ],
+   "from": [
+    "桂花",
+    "茶叶"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-flo-12",
+   "zh": "芳樟醇氧化物",
+   "en": "Linalool oxide",
+   "formula": "C10H18O2",
+   "cas": "60047-17-8",
+   "bpC": 188,
+   "logP": 1.4,
+   "odorMgL": 0.1,
+   "tLayer": "heart",
+   "facets": [
+    "floral"
+   ],
+   "from": [
+    "接骨木花",
+    "茶叶",
+    "老酒"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-flo-13",
+   "zh": "橙花叔醇",
+   "en": "Nerolidol",
+   "formula": "C15H26O",
+   "cas": "7212-44-4",
+   "bpC": 276,
+   "logP": 4.4,
+   "odorMgL": 0.1,
+   "tLayer": "base",
+   "facets": [
+    "floral",
+    "woody"
+   ],
+   "from": [
+    "橙花",
+    "姜",
+    "茉莉"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-flo-14",
+   "zh": "乙酸香叶酯",
+   "en": "Geranyl acetate",
+   "formula": "C12H20O2",
+   "cas": "105-87-3",
+   "bpC": 245,
+   "logP": 3.7,
+   "odorMgL": 0.02,
+   "tLayer": "base",
+   "facets": [
+    "floral",
+    "ripe"
+   ],
+   "from": [
+    "玫瑰",
+    "柠檬草"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-flo-15",
+   "zh": "香茅醇",
+   "en": "Citronellol",
+   "formula": "C10H20O",
+   "cas": "106-22-9",
+   "bpC": 225,
+   "logP": 3.2,
+   "odorMgL": 0.04,
+   "tLayer": "base",
+   "facets": [
+    "floral",
+    "citrus"
+   ],
+   "from": [
+    "玫瑰",
+    "天竺葵"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-flo-16",
+   "zh": "α-松油醇",
+   "en": "α-Terpineol",
+   "formula": "C10H18O",
+   "cas": "98-55-5",
+   "bpC": 219,
+   "logP": 2.9,
+   "odorMgL": 0.28,
+   "tLayer": "heart",
+   "facets": [
+    "floral",
+    "woody"
+   ],
+   "from": [
+    "柑橘",
+    "松木",
+    "薰衣草"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-flo-17",
+   "zh": "金合欢醇",
+   "en": "Farnesol",
+   "formula": "C15H26O",
+   "cas": "4602-84-0",
+   "bpC": 283,
+   "logP": 4.8,
+   "odorMgL": 0.02,
+   "tLayer": "base",
+   "facets": [
+    "floral"
+   ],
+   "from": [
+    "橙花",
+    "玫瑰",
+    "桂花"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-flo-18",
+   "zh": "丁香酚",
+   "en": "Eugenol",
+   "formula": "C10H12O2",
+   "cas": "97-53-0",
+   "bpC": 254,
+   "logP": 2.3,
+   "odorMgL": 0.006,
+   "tLayer": "base",
+   "facets": [
+    "floral",
+    "spice"
+   ],
+   "from": [
+    "丁香",
+    "肉桂",
+    "罗勒"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-car-01",
+   "zh": "香兰素",
+   "en": "Vanillin",
+   "formula": "C8H8O3",
+   "cas": "121-33-5",
+   "bpC": 285,
+   "logP": 1.2,
+   "odorMgL": 0.02,
+   "tLayer": "base",
+   "facets": [
+    "caramel",
+    "dairy"
+   ],
+   "from": [
+    "香草荚",
+    "橡木桶",
+    "陈年酒"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-car-02",
+   "zh": "乙基香兰素",
+   "en": "Ethylvanillin",
+   "formula": "C9H10O3",
+   "cas": "121-32-4",
+   "bpC": 295,
+   "logP": 1.6,
+   "odorMgL": 0.003,
+   "tLayer": "base",
+   "facets": [
+    "caramel"
+   ],
+   "from": [
+    "人工香草",
+    "巧克力"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-car-03",
+   "zh": "麦芽酚",
+   "en": "Maltol",
+   "formula": "C6H6O3",
+   "cas": "118-71-8",
+   "bpC": 250,
+   "logP": 0.7,
+   "odorMgL": 0.02,
+   "tLayer": "base",
+   "facets": [
+    "caramel",
+    "nut"
+   ],
+   "from": [
+    "焦糖",
+    "烤面包",
+    "咖啡"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-car-04",
+   "zh": "乙基麦芽酚",
+   "en": "Ethyl maltol",
+   "formula": "C7H8O3",
+   "cas": "4940-11-8",
+   "bpC": 252,
+   "logP": 1.1,
+   "odorMgL": 0.001,
+   "tLayer": "base",
+   "facets": [
+    "caramel"
+   ],
+   "from": [
+    "焦糖",
+    "甜味剂"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-car-05",
+   "zh": "糠醛",
+   "en": "Furfural",
+   "formula": "C5H4O2",
+   "cas": "98-01-1",
+   "bpC": 162,
+   "logP": 0.4,
+   "odorMgL": 3,
+   "tLayer": "top",
+   "facets": [
+    "caramel",
+    "nut"
+   ],
+   "from": [
+    "烘焙咖啡",
+    "焦糖化糖",
+    "朗姆"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-car-06",
+   "zh": "5-甲基糠醛",
+   "en": "5-Methylfurfural",
+   "formula": "C6H6O2",
+   "cas": "620-02-0",
+   "bpC": 187,
+   "logP": 0.8,
+   "odorMgL": 0.1,
+   "tLayer": "heart",
+   "facets": [
+    "caramel",
+    "nut"
+   ],
+   "from": [
+    "蜂蜜",
+    "烘焙"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-car-07",
+   "zh": "2-乙酰基呋喃",
+   "en": "2-Acetylfuran",
+   "formula": "C6H6O2",
+   "cas": "1192-62-7",
+   "bpC": 173,
+   "logP": 0.5,
+   "odorMgL": 0.5,
+   "tLayer": "top",
+   "facets": [
+    "caramel",
+    "nut"
+   ],
+   "from": [
+    "烘焙",
+    "咖啡"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-car-08",
+   "zh": "丁二酮",
+   "en": "Diacetyl",
+   "formula": "C4H6O2",
+   "cas": "431-03-8",
+   "bpC": 88,
+   "logP": -1.3,
+   "odorMgL": 0.002,
+   "tLayer": "top",
+   "facets": [
+    "dairy",
+    "caramel"
+   ],
+   "from": [
+    "黄油",
+    "奶油",
+    "发酵"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-car-09",
+   "zh": "乙偶姻",
+   "en": "Acetoin",
+   "formula": "C4H8O2",
+   "cas": "513-86-0",
+   "bpC": 148,
+   "logP": -0.4,
+   "odorMgL": 0.5,
+   "tLayer": "heart",
+   "facets": [
+    "dairy",
+    "caramel"
+   ],
+   "from": [
+    "黄油",
+    "发酵乳"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-car-10",
+   "zh": "2,3-戊二酮",
+   "en": "2,3-Pentanedione",
+   "formula": "C5H8O2",
+   "cas": "600-14-6",
+   "bpC": 110,
+   "logP": -0.7,
+   "odorMgL": 0.02,
+   "tLayer": "top",
+   "facets": [
+    "dairy",
+    "caramel"
+   ],
+   "from": [
+    "黄油",
+    "焦糖"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-spc-01",
+   "zh": "肉桂醛",
+   "en": "Cinnamaldehyde",
+   "formula": "C9H8O",
+   "cas": "104-55-2",
+   "bpC": 248,
+   "logP": 1.9,
+   "odorMgL": 0.6,
+   "tLayer": "base",
+   "facets": [
+    "spice",
+    "caramel"
+   ],
+   "from": [
+    "肉桂",
+    "桂皮",
+    "陈皮"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-spc-02",
+   "zh": "反式茴香脑",
+   "en": "trans-Anethole",
+   "formula": "C10H12O",
+   "cas": "4180-23-8",
+   "bpC": 234,
+   "logP": 3.3,
+   "odorMgL": 0.07,
+   "tLayer": "base",
+   "facets": [
+    "spice"
+   ],
+   "from": [
+    "八角",
+    "茴香",
+    "苦艾"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-spc-03",
+   "zh": "百里香酚",
+   "en": "Thymol",
+   "formula": "C10H14O",
+   "cas": "89-83-8",
+   "bpC": 233,
+   "logP": 3.3,
+   "odorMgL": 0.05,
+   "tLayer": "base",
+   "facets": [
+    "spice",
+    "woody"
+   ],
+   "from": [
+    "百里香",
+    "牛至"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-spc-04",
+   "zh": "香芹酚",
+   "en": "Carvacrol",
+   "formula": "C10H14O",
+   "cas": "499-75-2",
+   "bpC": 237,
+   "logP": 3.5,
+   "odorMgL": 0.05,
+   "tLayer": "base",
+   "facets": [
+    "spice"
+   ],
+   "from": [
+    "牛至",
+    "墨角兰"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-spc-05",
+   "zh": "枯茗醛",
+   "en": "Cuminaldehyde",
+   "formula": "C10H12O",
+   "cas": "122-03-2",
+   "bpC": 235,
+   "logP": 2.7,
+   "odorMgL": 0.1,
+   "tLayer": "base",
+   "facets": [
+    "spice"
+   ],
+   "from": [
+    "孜然",
+    "咖喱"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-spc-06",
+   "zh": "藏红花醛",
+   "en": "Safranal",
+   "formula": "C10H14O",
+   "cas": "116-26-7",
+   "bpC": 232,
+   "logP": 2.9,
+   "odorMgL": 0.0001,
+   "tLayer": "base",
+   "facets": [
+    "spice",
+    "green"
+   ],
+   "from": [
+    "藏红花",
+    "茶叶"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-spc-07",
+   "zh": "姜烯",
+   "en": "Zingiberene",
+   "formula": "C15H24",
+   "cas": "495-60-3",
+   "bpC": 270,
+   "logP": 6,
+   "odorMgL": 2,
+   "tLayer": "base",
+   "facets": [
+    "spice",
+    "woody"
+   ],
+   "from": [
+    "姜",
+    "姜黄"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-spc-08",
+   "zh": "胡椒酮",
+   "en": "Piperitone",
+   "formula": "C10H16O",
+   "cas": "89-81-6",
+   "bpC": 232,
+   "logP": 2.9,
+   "odorMgL": 0.05,
+   "tLayer": "base",
+   "facets": [
+    "spice",
+    "green"
+   ],
+   "from": [
+    "薄荷",
+    "胡椒"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-wdy-01",
+   "zh": "α-蒎烯",
+   "en": "α-Pinene",
+   "formula": "C10H16",
+   "cas": "80-56-8",
+   "bpC": 155,
+   "logP": 4.2,
+   "odorMgL": 0.14,
+   "tLayer": "top",
+   "facets": [
+    "woody",
+    "green"
+   ],
+   "from": [
+    "松木",
+    "杜松子",
+    "迷迭香"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-wdy-02",
+   "zh": "β-蒎烯",
+   "en": "β-Pinene",
+   "formula": "C10H16",
+   "cas": "127-91-3",
+   "bpC": 166,
+   "logP": 4.2,
+   "odorMgL": 0.14,
+   "tLayer": "heart",
+   "facets": [
+    "woody"
+   ],
+   "from": [
+    "松木",
+    "杜松子"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-wdy-03",
+   "zh": "樟脑",
+   "en": "Camphor",
+   "formula": "C10H16O",
+   "cas": "76-22-2",
+   "bpC": 204,
+   "logP": 2.2,
+   "odorMgL": 0.2,
+   "tLayer": "heart",
+   "facets": [
+    "woody",
+    "spice"
+   ],
+   "from": [
+    "樟木",
+    "迷迭香",
+    "艾草"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-wdy-04",
+   "zh": "1,8-桉叶素",
+   "en": "1,8-Cineole",
+   "formula": "C10H18O",
+   "cas": "470-82-6",
+   "bpC": 176,
+   "logP": 2.8,
+   "odorMgL": 0.35,
+   "tLayer": "top",
+   "facets": [
+    "woody",
+    "green"
+   ],
+   "from": [
+    "尤加利",
+    "罗勒",
+    "薄荷"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-wdy-05",
+   "zh": "雪松醇",
+   "en": "Cedrol",
+   "formula": "C15H26O",
+   "cas": "77-53-2",
+   "bpC": 273,
+   "logP": 4.5,
+   "odorMgL": 1,
+   "tLayer": "base",
+   "facets": [
+    "woody"
+   ],
+   "from": [
+    "雪松",
+    "橡木"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-wdy-06",
+   "zh": "薄荷醇",
+   "en": "Menthol",
+   "formula": "C10H20O",
+   "cas": "1490-04-6",
+   "bpC": 212,
+   "logP": 3,
+   "odorMgL": 0.7,
+   "tLayer": "heart",
+   "facets": [
+    "woody",
+    "green"
+   ],
+   "from": [
+    "薄荷"
+   ],
+   "conf": "lit",
+   "note": "同时激活 TRPM8 冷受体，是触觉不只是嗅觉"
+  },
+  {
+   "id": "cmp-wdy-07",
+   "zh": "薄荷酮",
+   "en": "Menthone",
+   "formula": "C10H18O",
+   "cas": "10458-14-7",
+   "bpC": 207,
+   "logP": 3,
+   "odorMgL": 0.17,
+   "tLayer": "heart",
+   "facets": [
+    "woody",
+    "green"
+   ],
+   "from": [
+    "薄荷"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-wdy-08",
+   "zh": "香芹酮",
+   "en": "Carvone",
+   "formula": "C10H14O",
+   "cas": "99-49-0",
+   "bpC": 230,
+   "logP": 3,
+   "odorMgL": 0.03,
+   "tLayer": "heart",
+   "facets": [
+    "woody",
+    "spice"
+   ],
+   "from": [
+    "留兰香",
+    "葛缕子",
+    "莳萝"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-wdy-09",
+   "zh": "乙酸松油酯",
+   "en": "α-Terpinyl acetate",
+   "formula": "C12H20O2",
+   "cas": "80-26-2",
+   "bpC": 220,
+   "logP": 3.4,
+   "odorMgL": 0.15,
+   "tLayer": "base",
+   "facets": [
+    "woody",
+    "floral"
+   ],
+   "from": [
+    "小豆蔻",
+    "松木"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-wdy-10",
+   "zh": "龙脑",
+   "en": "Borneol",
+   "formula": "C10H18O",
+   "cas": "507-70-0",
+   "bpC": 213,
+   "logP": 2.7,
+   "odorMgL": 0.4,
+   "tLayer": "base",
+   "facets": [
+    "woody",
+    "spice"
+   ],
+   "from": [
+    "龙脑香",
+    "迷迭香"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-smk-01",
+   "zh": "愈创木酚",
+   "en": "Guaiacol",
+   "formula": "C7H8O2",
+   "cas": "90-05-1",
+   "bpC": 205,
+   "logP": 1.3,
+   "odorMgL": 0.02,
+   "tLayer": "heart",
+   "facets": [
+    "smoke",
+    "spice"
+   ],
+   "from": [
+    "泥煤",
+    "烟熏橡木",
+    "烤肉"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-smk-02",
+   "zh": "4-甲基愈创木酚",
+   "en": "4-Methylguaiacol",
+   "formula": "C8H10O2",
+   "cas": "93-51-6",
+   "bpC": 221,
+   "logP": 1.5,
+   "odorMgL": 0.015,
+   "tLayer": "heart",
+   "facets": [
+    "smoke"
+   ],
+   "from": [
+    "烟熏橡木",
+    "烤龙舌兰"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-smk-03",
+   "zh": "4-乙基愈创木酚",
+   "en": "4-Ethylguaiacol",
+   "formula": "C9H12O2",
+   "cas": "2785-89-9",
+   "bpC": 235,
+   "logP": 1.9,
+   "odorMgL": 0.01,
+   "tLayer": "base",
+   "facets": [
+    "smoke",
+    "spice"
+   ],
+   "from": [
+    "烟熏橡木",
+    "陈酒"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-smk-04",
+   "zh": "4-乙烯基愈创木酚",
+   "en": "4-Vinylguaiacol",
+   "formula": "C9H10O2",
+   "cas": "7786-61-0",
+   "bpC": 235,
+   "logP": 1.9,
+   "odorMgL": 0.01,
+   "tLayer": "base",
+   "facets": [
+    "smoke",
+    "spice"
+   ],
+   "from": [
+    "威士忌",
+    "烤麦芽"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-smk-05",
+   "zh": "苯酚",
+   "en": "Phenol",
+   "formula": "C6H6O",
+   "cas": "108-95-2",
+   "bpC": 182,
+   "logP": 1.5,
+   "odorMgL": 1.4,
+   "tLayer": "heart",
+   "facets": [
+    "smoke"
+   ],
+   "from": [
+    "烟熏",
+    "泥煤"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-smk-06",
+   "zh": "丁香酚甲醚",
+   "en": "Methyleugenol",
+   "formula": "C11H14O2",
+   "cas": "93-15-2",
+   "bpC": 254,
+   "logP": 3,
+   "odorMgL": 0.09,
+   "tLayer": "base",
+   "facets": [
+    "smoke",
+    "spice"
+   ],
+   "from": [
+    "罗勒",
+    "肉桂",
+    "烟熏"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-smk-07",
+   "zh": "2,6-二甲氧基苯酚",
+   "en": "Syringol",
+   "formula": "C8H10O3",
+   "cas": "91-10-1",
+   "bpC": 261,
+   "logP": 1.2,
+   "odorMgL": 0.5,
+   "tLayer": "base",
+   "facets": [
+    "smoke"
+   ],
+   "from": [
+    "木烟",
+    "熏肉"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-dry-01",
+   "zh": "δ-辛内酯",
+   "en": "δ-Octanolactone",
+   "formula": "C8H14O2",
+   "cas": "698-76-0",
+   "bpC": 226,
+   "logP": 2.2,
+   "odorMgL": 0.3,
+   "tLayer": "heart",
+   "facets": [
+    "dairy",
+    "ripe"
+   ],
+   "from": [
+    "奶油",
+    "椰子"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-dry-02",
+   "zh": "γ-丁内酯",
+   "en": "γ-Butyrolactone",
+   "formula": "C4H6O2",
+   "cas": "96-48-0",
+   "bpC": 204,
+   "logP": -0.6,
+   "odorMgL": 20,
+   "tLayer": "heart",
+   "facets": [
+    "dairy"
+   ],
+   "from": [
+    "奶油",
+    "发酵"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-dry-03",
+   "zh": "2-壬酮",
+   "en": "2-Nonanone",
+   "formula": "C9H18O",
+   "cas": "821-55-6",
+   "bpC": 192,
+   "logP": 3.1,
+   "odorMgL": 0.005,
+   "tLayer": "heart",
+   "facets": [
+    "dairy",
+    "nut"
+   ],
+   "from": [
+    "蓝纹奶酪",
+    "牛奶"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-dry-04",
+   "zh": "丁酸",
+   "en": "Butyric acid",
+   "formula": "C4H8O2",
+   "cas": "107-92-6",
+   "bpC": 164,
+   "logP": 0.8,
+   "odorMgL": 0.24,
+   "tLayer": "top",
+   "facets": [
+    "dairy",
+    "sour"
+   ],
+   "from": [
+    "黄油",
+    "陈化奶酪"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-dry-05",
+   "zh": "异戊酸",
+   "en": "Isovaleric acid",
+   "formula": "C5H10O2",
+   "cas": "503-74-2",
+   "bpC": 176,
+   "logP": 1.2,
+   "odorMgL": 0.07,
+   "tLayer": "top",
+   "facets": [
+    "dairy",
+    "sour"
+   ],
+   "from": [
+    "奶酪",
+    "汗味"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-dry-06",
+   "zh": "乳酸乙酯",
+   "en": "Ethyl lactate",
+   "formula": "C5H10O3",
+   "cas": "97-64-3",
+   "bpC": 154,
+   "logP": 0.2,
+   "odorMgL": 8,
+   "tLayer": "top",
+   "facets": [
+    "dairy",
+    "ripe"
+   ],
+   "from": [
+    "朗姆",
+    "发酵乳"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-nut-01",
+   "zh": "2-乙酰基吡嗪",
+   "en": "2-Acetylpyrazine",
+   "formula": "C6H6N2O",
+   "cas": "1122-62-9",
+   "bpC": 187,
+   "logP": 0.6,
+   "odorMgL": 0.02,
+   "tLayer": "heart",
+   "facets": [
+    "nut",
+    "caramel"
+   ],
+   "from": [
+    "爆米花",
+    "烘焙坚果"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-nut-02",
+   "zh": "2,3,5-三甲基吡嗪",
+   "en": "2,3,5-Trimethylpyrazine",
+   "formula": "C7H10N2",
+   "cas": "14667-55-1",
+   "bpC": 172,
+   "logP": 1.3,
+   "odorMgL": 0.01,
+   "tLayer": "heart",
+   "facets": [
+    "nut",
+    "smoke"
+   ],
+   "from": [
+    "烤咖啡",
+    "可可",
+    "烤肉"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-nut-03",
+   "zh": "2,5-二甲基吡嗪",
+   "en": "2,5-Dimethylpyrazine",
+   "formula": "C6H8N2",
+   "cas": "123-32-0",
+   "bpC": 155,
+   "logP": 1,
+   "odorMgL": 0.8,
+   "tLayer": "top",
+   "facets": [
+    "nut"
+   ],
+   "from": [
+    "可可",
+    "烘焙"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-nut-04",
+   "zh": "苯甲醛",
+   "en": "Benzaldehyde",
+   "formula": "C7H6O",
+   "cas": "100-52-7",
+   "bpC": 179,
+   "logP": 1.5,
+   "odorMgL": 0.35,
+   "tLayer": "top",
+   "facets": [
+    "nut",
+    "spice"
+   ],
+   "from": [
+    "杏仁",
+    "樱桃核"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-nut-05",
+   "zh": "2-乙酰基-1-吡咯啉",
+   "en": "2-Acetyl-1-pyrroline",
+   "formula": "C6H9NO",
+   "cas": "85213-22-5",
+   "bpC": 172,
+   "logP": 0.6,
+   "odorMgL": 0.0001,
+   "tLayer": "top",
+   "facets": [
+    "nut",
+    "green"
+   ],
+   "from": [
+    "香米",
+    "烤面包"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-nut-06",
+   "zh": "糠硫醇",
+   "en": "Furfuryl mercaptan",
+   "formula": "C5H6OS",
+   "cas": "98-02-2",
+   "bpC": 155,
+   "logP": 1.7,
+   "odorMgL": 0.00001,
+   "tLayer": "top",
+   "facets": [
+    "nut",
+    "smoke",
+    "sulfur"
+   ],
+   "from": [
+    "咖啡",
+    "烤面包"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-nut-07",
+   "zh": "甲硫基丙醛",
+   "en": "Methional",
+   "formula": "C4H8OS",
+   "cas": "3268-49-3",
+   "bpC": 165,
+   "logP": 0.5,
+   "odorMgL": 0.0002,
+   "tLayer": "top",
+   "facets": [
+    "nut",
+    "earthy",
+    "sulfur"
+   ],
+   "from": [
+    "熟土豆",
+    "烤麦芽"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-ert-01",
+   "zh": "土臭素",
+   "en": "Geosmin",
+   "formula": "C12H22O",
+   "cas": "19700-21-1",
+   "bpC": 270,
+   "logP": 3.5,
+   "odorMgL": 0.00001,
+   "tLayer": "base",
+   "facets": [
+    "earthy"
+   ],
+   "from": [
+    "甜菜",
+    "雨季泥土",
+    "淡水鱼"
+   ],
+   "conf": "lit",
+   "note": "人类嗅觉最敏感的物质之一，0.01 μg/L 可辨"
+  },
+  {
+   "id": "cmp-ert-02",
+   "zh": "2-甲基异莰醇",
+   "en": "2-Methylisoborneol",
+   "formula": "C11H20O",
+   "cas": "2371-42-8",
+   "bpC": 197,
+   "logP": 3.1,
+   "odorMgL": 0.000015,
+   "tLayer": "heart",
+   "facets": [
+    "earthy"
+   ],
+   "from": [
+    "霉味",
+    "自来水异味"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-ert-03",
+   "zh": "二甲基硫醚",
+   "en": "Dimethyl sulfide",
+   "formula": "C2H6S",
+   "cas": "75-18-3",
+   "bpC": 37,
+   "logP": 1,
+   "odorMgL": 0.3,
+   "tLayer": "top",
+   "facets": [
+    "earthy",
+    "green",
+    "sulfur"
+   ],
+   "from": [
+    "松露",
+    "海藻",
+    "玉米"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sou-01",
+   "zh": "乙酸",
+   "en": "Acetic acid",
+   "formula": "C2H4O2",
+   "cas": "64-19-7",
+   "bpC": 118,
+   "logP": -0.2,
+   "odorMgL": 22,
+   "tLayer": "top",
+   "facets": [
+    "sour",
+    "spice"
+   ],
+   "from": [
+    "醋",
+    "发酵"
+   ],
+   "conf": "lit"
+  },
+  {
+   "id": "cmp-sou-02",
+   "zh": "丙酸",
+   "en": "Propionic acid",
+   "formula": "C3H6O2",
+   "cas": "79-09-4",
+   "bpC": 141,
+   "logP": 0.3,
+   "odorMgL": 4,
+   "tLayer": "top",
+   "facets": [
+    "sour",
+    "dairy"
+   ],
+   "from": [
+    "发酵",
+    "陈化奶酪"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sou-03",
+   "zh": "己酸",
+   "en": "Hexanoic acid",
+   "formula": "C6H12O2",
+   "cas": "142-62-1",
+   "bpC": 205,
+   "logP": 1.9,
+   "odorMgL": 3,
+   "tLayer": "heart",
+   "facets": [
+    "sour",
+    "dairy"
+   ],
+   "from": [
+    "山羊奶",
+    "发酵"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sou-04",
+   "zh": "辛酸",
+   "en": "Octanoic acid",
+   "formula": "C8H16O2",
+   "cas": "124-07-2",
+   "bpC": 239,
+   "logP": 3,
+   "odorMgL": 3,
+   "tLayer": "base",
+   "facets": [
+    "sour",
+    "dairy"
+   ],
+   "from": [
+    "发酵",
+    "椰油"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sou-05",
+   "zh": "癸酸",
+   "en": "Decanoic acid",
+   "formula": "C10H20O2",
+   "cas": "334-48-5",
+   "bpC": 270,
+   "logP": 4,
+   "odorMgL": 5,
+   "tLayer": "base",
+   "facets": [
+    "sour",
+    "dairy"
+   ],
+   "from": [
+    "发酵",
+    "陈化"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sou-06",
+   "zh": "乳酸",
+   "en": "Lactic acid",
+   "formula": "C3H6O3",
+   "cas": "50-21-5",
+   "bpC": null,
+   "logP": -0.7,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "sour",
+    "dairy"
+   ],
+   "from": [
+    "乳酸发酵",
+    "酸奶"
+   ],
+   "conf": "lit",
+   "note": "几乎无挥发；酸味主要靠味觉，不靠嗅觉"
+  },
+  {
+   "id": "cmp-ert-04",
+   "zh": "对甲酚",
+   "en": "p-Cresol",
+   "formula": "C7H8O",
+   "cas": "106-44-5",
+   "bpC": 202,
+   "logP": 1.9,
+   "odorMgL": 0.0001,
+   "tLayer": "base",
+   "facets": [
+    "earthy",
+    "smoke"
+   ],
+   "from": [
+    "马厩",
+    "陈化红酒",
+    "烟熏"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-ert-05",
+   "zh": "2,4,6-三氯苯甲醚",
+   "en": "TCA",
+   "formula": "C7H5Cl3O",
+   "cas": "87-40-1",
+   "bpC": 196,
+   "logP": 3.4,
+   "odorMgL": 0.00002,
+   "tLayer": "base",
+   "facets": [
+    "earthy"
+   ],
+   "from": [
+    "软木塞污染"
+   ],
+   "conf": "est",
+   "note": "软木塞味的元凶，低于 5 ng/L 就能毁掉一杯酒"
+  },
+  {
+   "id": "cmp-smk-08",
+   "zh": "4-乙基苯酚",
+   "en": "4-Ethylphenol",
+   "formula": "C8H10O",
+   "cas": "123-07-9",
+   "bpC": 218,
+   "logP": 2.4,
+   "odorMgL": 0.02,
+   "tLayer": "base",
+   "facets": [
+    "smoke",
+    "earthy"
+   ],
+   "from": [
+    "Brett 酵母",
+    "陈酒"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sul-01",
+   "zh": "硫化氢",
+   "en": "Hydrogen sulfide",
+   "formula": "H2S",
+   "cas": "7783-06-4",
+   "bpC": -60,
+   "logP": 0.45,
+   "odorMgL": 0.0005,
+   "tLayer": "top",
+   "facets": [
+    "sulfur"
+   ],
+   "from": [
+    "还原味",
+    "坏蛋",
+    "硫处理不当"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "臭鸡蛋。阈值极低但有习服性，闻久了就闻不到"
+  },
+  {
+   "id": "cmp-sul-02",
+   "zh": "甲硫醇",
+   "en": "Methanethiol",
+   "formula": "CH4S",
+   "cas": "74-93-1",
+   "bpC": 6,
+   "logP": 0.78,
+   "odorMgL": 0.0001,
+   "tLayer": "top",
+   "facets": [
+    "sulfur"
+   ],
+   "from": [
+    "烂白菜",
+    "葡萄酒还原"
+   ],
+   "conf": "lit",
+   "note": "瓶内还原味的头号分子，醒酒或换气可散"
+  },
+  {
+   "id": "cmp-sul-03",
+   "zh": "二甲基二硫醚",
+   "en": "Dimethyl disulfide",
+   "formula": "C2H6S2",
+   "cas": "624-92-0",
+   "bpC": 110,
+   "logP": 1.8,
+   "odorMgL": 0.00002,
+   "tLayer": "top",
+   "facets": [
+    "sulfur"
+   ],
+   "from": [
+    "洋葱",
+    "蒜",
+    "陈化啤酒"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sul-04",
+   "zh": "二甲基三硫醚",
+   "en": "Dimethyl trisulfide",
+   "formula": "C2H6S3",
+   "cas": "3658-80-8",
+   "bpC": 170,
+   "logP": 2.4,
+   "odorMgL": 0.00001,
+   "tLayer": "heart",
+   "facets": [
+    "sulfur"
+   ],
+   "from": [
+    "榴莲",
+    "煮卷心菜"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sul-05",
+   "zh": "甲硫基丙醇",
+   "en": "Methionol",
+   "formula": "C4H10OS",
+   "cas": "505-10-2",
+   "bpC": 195,
+   "logP": 0.3,
+   "odorMgL": 0.001,
+   "tLayer": "heart",
+   "facets": [
+    "sulfur"
+   ],
+   "from": [
+    "番茄",
+    "葡萄酒"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sul-06",
+   "zh": "3-甲硫基丙酸乙酯",
+   "en": "Ethyl 3-methylthiopropionate",
+   "formula": "C6H12O2S",
+   "cas": "13327-56-5",
+   "bpC": 196,
+   "logP": 1.5,
+   "odorMgL": 0.0004,
+   "tLayer": "top",
+   "facets": [
+    "sulfur"
+   ],
+   "from": [
+    "菠萝",
+    "热带水果"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sul-07",
+   "zh": "硫代薄荷酮",
+   "en": "p-Mentha-8-thiol-3-one",
+   "formula": "C10H18OS",
+   "cas": "38462-22-5",
+   "bpC": 245,
+   "logP": 2.6,
+   "odorMgL": 0.00002,
+   "tLayer": "heart",
+   "facets": [
+    "sulfur",
+    "green"
+   ],
+   "from": [
+    "西柚",
+    "黑加仑"
+   ],
+   "conf": "est"
+  },
+  {
+   "id": "cmp-sul-08",
+   "zh": "二氧化硫",
+   "en": "Sulfur dioxide",
+   "formula": "SO2",
+   "cas": "7446-09-5",
+   "bpC": -10,
+   "logP": 0.1,
+   "odorMgL": 0.0015,
+   "tLayer": "top",
+   "facets": [
+    "sulfur",
+    "sour"
+   ],
+   "from": [
+    "葡萄酒",
+    "果干防腐"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "既防氧化，过量就是刺鼻的「火柴味」"
+  },
+  {
+   "id": "cmp-min-01",
+   "zh": "二氧化碳",
+   "en": "Carbon dioxide",
+   "formula": "CO2",
+   "cas": "124-38-9",
+   "bpC": -78,
+   "logP": 0.8,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "气泡水",
+    "碳酸化"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "无气味；碳酸在口腔转成碳酸，把酸感抬高约一成"
+  },
+  {
+   "id": "cmp-min-02",
+   "zh": "氯化钠",
+   "en": "Sodium chloride",
+   "formula": "NaCl",
+   "cas": "7647-14-5",
+   "bpC": 1413,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "盐"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "0.05 g 是分水岭：抑制苦味、抬高甜感与前段香气"
+  },
+  {
+   "id": "cmp-min-03",
+   "zh": "氯化钾",
+   "en": "Potassium chloride",
+   "formula": "KCl",
+   "cas": "7447-40-7",
+   "bpC": 1420,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "低钠盐"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "咸中带明显苦，替代盐会破坏平衡"
+  },
+  {
+   "id": "cmp-min-04",
+   "zh": "氯化钙",
+   "en": "Calcium chloride",
+   "formula": "CaCl2",
+   "cas": "10043-52-4",
+   "bpC": 1935,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "硬水",
+    "钙水"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "钙硬度带来「干」和「涩」，也用于球化浴"
+  },
+  {
+   "id": "cmp-min-05",
+   "zh": "硫酸镁",
+   "en": "Magnesium sulfate",
+   "formula": "MgSO4",
+   "cas": "7487-88-9",
+   "bpC": null,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "苦盐",
+    "硬水"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "苦味与「矿物质感」的主要来源"
+  },
+  {
+   "id": "cmp-min-06",
+   "zh": "碳酸氢钠",
+   "en": "Sodium bicarbonate",
+   "formula": "NaHCO3",
+   "cas": "144-55-8",
+   "bpC": null,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "小苏打"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "碱性；中和过量酸，也会把花青素推向蓝绿"
+  },
+  {
+   "id": "cmp-min-07",
+   "zh": "氢氧化钙",
+   "en": "Calcium hydroxide",
+   "formula": "Ca(OH)2",
+   "cas": "1305-62-0",
+   "bpC": null,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "石灰水"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "强碱 pH 12.4；玉米碱法处理用，直接入口需极度谨慎"
+  },
+  {
+   "id": "cmp-min-08",
+   "zh": "磷酸",
+   "en": "Phosphoric acid",
+   "formula": "H3PO4",
+   "cas": "7664-38-2",
+   "bpC": null,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral",
+    "sour"
+   ],
+   "from": [
+    "可乐"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "无香气的酸，只降 pH 不给风味——调酸正需要这个"
+  },
+  {
+   "id": "cmp-min-09",
+   "zh": "铁离子 Fe³⁺",
+   "en": "Ferric ion",
+   "formula": "Fe3+",
+   "cas": "20074-52-6",
+   "bpC": null,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "铁器",
+    "氧化",
+    "深色水果"
+   ],
+   "conf": "est",
+   "kind": "inorganic",
+   "note": "与多酚络合变黑发涩；切水果别用铁刀"
+  },
+  {
+   "id": "cmp-min-10",
+   "zh": "铜离子 Cu²⁺",
+   "en": "Cupric ion",
+   "formula": "Cu2+",
+   "cas": "15158-11-9",
+   "bpC": null,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral",
+    "sulfur"
+   ],
+   "from": [
+    "铜器",
+    "蒸馏器"
+   ],
+   "conf": "est",
+   "kind": "inorganic",
+   "note": "催化硫化物生成，铜壶蒸馏会影响硫味走向"
+  },
+  {
+   "id": "cmp-min-11",
+   "zh": "氧气",
+   "en": "Oxygen",
+   "formula": "O2",
+   "cas": "7782-44-7",
+   "bpC": -183,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "空气",
+    "氧化"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "无味但决定一切：氧化萜烯、褐变多酚、毁掉青绿香"
+  },
+  {
+   "id": "cmp-min-12",
+   "zh": "氧化亚氮",
+   "en": "Nitrous oxide",
+   "formula": "N2O",
+   "cas": "10024-97-2",
+   "bpC": -88,
+   "logP": null,
+   "odorMgL": null,
+   "tLayer": "none",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "虹吸瓶",
+    "奶油枪"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "无味；只负责起泡与压力，本身不贡献风味"
+  },
+  {
+   "id": "cmp-min-13",
+   "zh": "氨",
+   "en": "Ammonia",
+   "formula": "NH3",
+   "cas": "7664-41-7",
+   "bpC": -33,
+   "logP": -0.1,
+   "odorMgL": 0.005,
+   "tLayer": "top",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "陈化",
+    "清洁剂残留"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "刺鼻；酒里出现通常意味着变质或污染"
+  },
+  {
+   "id": "cmp-min-14",
+   "zh": "氯 / 次氯酸",
+   "en": "Chlorine",
+   "formula": "Cl2",
+   "cas": "7782-50-5",
+   "bpC": -34,
+   "logP": 0.9,
+   "odorMgL": 0.001,
+   "tLayer": "top",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "自来水",
+    "消毒"
+   ],
+   "conf": "lit",
+   "kind": "inorganic",
+   "note": "自来水余氯会压住细腻香气；用冰块或静置可除去"
+  },
+  {
+   "id": "cmp-min-15",
+   "zh": "臭氧",
+   "en": "Ozone",
+   "formula": "O3",
+   "cas": "10028-15-6",
+   "bpC": -112,
+   "logP": null,
+   "odorMgL": 0.0002,
+   "tLayer": "top",
+   "facets": [
+    "mineral"
+   ],
+   "from": [
+    "消毒设备",
+    "空气净化"
+   ],
+   "conf": "est",
+   "kind": "inorganic",
+   "note": "「复印机味」；强氧化，会迅速毁掉新鲜果香"
+  }
+ ]
+}
